@@ -1,92 +1,92 @@
 {
   "capa": [
     {
-      "id": 2096544400,
-      "title": "IA na saúde vai bem na teoria, mas falha com pacientes reais, mostra estudo",
-      "link": "https://www1.folha.uol.com.br/equilibrioesaude/2026/02/ia-na-saude-vai-bem-na-teoria-mas-falha-com-pacientes-reais-mostra-estudo.shtml",
-      "date": "2026-02-22T08:22:47.992334",
+      "id": 2677137748,
+      "title": "Mega-Sena: apostas em Goiás acertam cinco números e levam juntas quase R$ 110 mil",
+      "link": "https://g1.globo.com/go/goias/noticia/2026/02/22/mega-sena-apostas-em-goias-acertam-cinco-numeros-e-levam-juntas-quase-r-110-mil.ghtml",
+      "date": "2026-02-22T10:04:17",
       "author": "Redação",
       "category": "capa",
       "category_name": "Capa",
-      "image_url": "https://f.i.uol.com.br/fotografia/2024/03/15/171052987365f49d518ed8e_1710529873_3x2_rt.jpg",
-      "excerpt": "Embora grandes modelos de IA (inteligÃªncia artificial), como GPT-4o, Llama 3 e Command R+, atinjam Ã³timos desempenhos em exames mÃ©dicos teÃ³ricos, eles nÃ£o melhoraram a capacidade de leigos de...",
-      "content": "Embora grandes modelos de IA (inteligÃªncia artificial), como GPT-4o, Llama 3 e Command R+, atinjam Ã³timos desempenhos em exames mÃ©dicos teÃ³ricos, eles nÃ£o melhoraram a capacidade de leigos de tomar decisÃµes corretas diante de sintomas comuns.\nEm alguns casos, o uso das ferramentas atÃ© piorou a identificaÃ§Ã£o de condiÃ§Ãµes clÃnicas importantes, o que pode representar um risco Ã saÃºde. O alerta vem de um estudo publicado na revista Nature Medicine em meio ao entusiasmo crescente do uso da IA na saÃºde.\nO trabalho, conduzido por pesquisadores da Universidade de Oxford e colaboradores, testou 1.298 adultos no Reino Unido. Cada participante recebeu um de dez cenÃ¡rios clÃnicos âsituaÃ§Ãµes como dor de cabeÃ§a sÃºbita e intensa, falta de ar, dor abdominal, febre persistente ou sintomas gripais.\nA partir daÃ, cada um precisou decidir que tipo de atendimento procurar: autocuidado, consulta de rotina, atendimento urgente, pronto-socorro ou chamar a ambulÃ¢ncia.\nOs participantes foram divididos em quatro grupos: trÃªs puderam conversar com um dos modelos de IA; o quarto, grupo controle, usou os recursos que normalmente utilizaria em casa âsobretudo mecanismos de busca e o site do sistema pÃºblico de saÃºde britÃ¢nico.\nAntes de envolver pessoas, os pesquisadores testaram os modelos isoladamente. Sozinhos, eles identificaram ao menos uma condiÃ§Ã£o mÃ©dica relevante em cerca de 95% dos casos. Quando solicitados a indicar a conduta adequada, acertaram em mÃ©dia 56% das vezes.\nMas o cenÃ¡rio mudou quando humanos passaram a interagir com as IAs. Eles identificaram corretamente condiÃ§Ãµes relevantes em menos de 34,5% dos casos âÃndice inferior ao do grupo controle. Na escolha da conduta, nÃ£o houve diferenÃ§a estatisticamente significativa: todos acertaram pouco, em torno de 43%.\nPara o mÃ©dico Matheus Ferreira, diretor de IA no Super Professor, uma plataforma educacional, o estudo expÃµe um ponto central: a diferenÃ§a ali Ã© o interlocutor. \"Quando o mÃ©dico fez a pergunta, veio quase 100%. Quando o paciente fez a pergunta, veio em 30 e poucos por cento\", afirma.\nO problema, diz, nÃ£o estÃ¡ apenas na tecnologia, mas em como ela Ã© usada. \"O paciente chega e vai jogar lÃ¡: âtenho dor na barriga, o que pode ser?â. Ele nÃ£o Ã© um especialista em prompt, nÃ£o descreve passo a passo.\"\nComo os modelos sÃ£o probabilÃsticos, acrescenta Ferreira, respostas baseadas em informaÃ§Ãµes incompletas tendem a ser mais imprecisas. \"Com poucas informaÃ§Ãµes que o paciente imputa ali, a chance de nÃ£o vir algo certo Ã© muito alta.\"\nO risco Ã© agravado pelo tom convincente das respostas. \"Independentemente de estar certa ou nÃ£o, a resposta Ã© convincente. O paciente pode acreditar nos dois terÃ§os errados como se fossem verdade.\"\nOs exemplos do estudo ajudam a entender o impacto prÃ¡tico. Em um dos cenÃ¡rios, dois participantes relataram sintomas clÃ¡ssicos de hemorragia subaracnÃ³idea âdor de cabeÃ§a sÃºbita e devastadora, descrita como \"a pior da vida\".\nUm recebeu a orientaÃ§Ã£o correta de buscar atendimento de emergÃªncia imediato. O outro, apÃ³s interaÃ§Ã£o semelhante, foi aconselhado a deitar em um quarto escuro e repousar. Pequenas variaÃ§Ãµes na forma de perguntar levaram a recomendaÃ§Ãµes opostas.\nEm outro caso, envolvendo sinais compatÃveis com embolia pulmonar, os usuÃ¡rios tiveram dificuldade em distinguir, entre mÃºltiplas hipÃ³teses apresentadas, qual era a mais grave.\nFerreira ressalta que o problema nÃ£o se restringe aos pacientes. \"O letramento dos profissionais de saÃºde Ã© quase prÃ³ximo ao dos pacientes. Eles sabem nada ou quase nada\", diz. Segundo ele, muitos mÃ©dicos utilizam versÃµes gratuitas de chatbots sem treinamento formal e, Ã s vezes, inserem dados sensÃveis sem considerar implicaÃ§Ãµes legais.\n\"Esse mÃ©dico tambÃ©m nÃ£o Ã© uma pessoa apta a validar o output [informaÃ§Ã£o adequadamente formatada] dali. Ele estÃ¡ um pouco melhor que o paciente, mas nÃ£o muito melhor.\" Para ele, gestores de saÃºde deveriam investir em capacitaÃ§Ã£o e em ferramentas institucionais, sob risco de ampliar erros e litÃgios.\nPara Alexandre Chiavegatto, professor de inteligÃªncia artificial da Faculdade de SaÃºde PÃºblica da USP, a pesquisa utilizou algoritmos jÃ¡ ultrapassados, mas levanta uma questÃ£o mais ampla.\n\"Eu e a maioria dos pesquisadores da Ã¡rea somos contra testar IA para uso direto por pacientes. Os algoritmos devem auxiliar mÃ©dicos e outros profissionais, e passar por um filtro de profissionais treinados antes de chegar ao paciente.\"\nChiavegatto lembra que o uso jÃ¡ Ã© uma realidade, mesmo com sistemas ainda em estÃ¡gio inicial. \"Estamos na infÃ¢ncia do potencial da IA na saÃºde. A Ã¡rea precisa ser tratada como algo experimental e em construÃ§Ã£o.\"\nAo mesmo tempo, ele vÃª na tecnologia um potencial transformador. \"O maior benefÃcio da IA serÃ¡ na saÃºde, principalmente para auxiliar decisÃµes em regiÃµes remotas do Brasil, onde nÃ£o hÃ¡ especialistas.\"\nSegundo ele, mÃ©dicos desses locais poderÃ£o ter acesso a ferramentas de apoio semelhantes Ã s dos grandes centros, com potencial de reduzir desigualdades histÃ³ricas no acesso ao cuidado.\nO estudo tambÃ©m mostrou que os modelos funcionam melhor em provas do que na vida real. Em um banco de questÃµes amplamente utilizado em exames mÃ©dicos, o MedQA, os sistemas superaram com folga a marca de 60% considerada suficiente para aprovaÃ§Ã£o.\nNo entanto, o alto desempenho nesse teste nÃ£o se correlacionou com bons resultados nas interaÃ§Ãµes com pessoas reais. SimulaÃ§Ãµes com \"pacientes virtuais\" âem que uma IA conversa com outraâ tambÃ©m falharam em prever os problemas observados com humanos.\nPara os autores, o ponto crÃtico estÃ¡ na interface humano-mÃ¡quina. Muitos participantes forneceram informaÃ§Ãµes incompletas; outros ignoraram recomendaÃ§Ãµes corretas. Alguns pareceram atribuir caracterÃsticas humanas Ã ferramenta e basearam sua decisÃ£o na confianÃ§a transmitida pelo texto.",
-      "read_time": 4,
-      "domain": "www1.folha.uol.com.br",
-      "has_image": true
-    },
-    {
-      "id": 1465648243,
-      "title": "Banda Eva, Swing Safado e mais: veja os blocos que desfilam neste domingo de pós-carnaval em BH",
-      "link": "https://g1.globo.com/mg/minas-gerais/carnaval/2026/noticia/2026/02/22/banda-eva-swing-safado-e-mais-veja-os-blocos-que-desfilam-neste-domingo-de-pos-carnaval-em-bh.ghtml",
-      "date": "2026-02-22T08:01:19",
-      "author": "Redação",
-      "category": "capa",
-      "category_name": "Capa",
-      "image_url": "https://s2-g1.glbimg.com/ndEF4eOLLFFvhj-k04yejnF-FGY=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/q/t/a8lVYsQYifdYLJJTe4hg/swing-safado-horacios-de-jesus.jpg",
-      "excerpt": "Alguns blocos seguem agitando BH neste domingo (22), último dia da programação oficial do carnaval na capital mineira. Pelo menos 15 desfiles estão previstos, entre eles o Beleza Rara, da Banda Eva,...",
-      "content": "Alguns blocos seguem agitando BH neste domingo (22), último dia da programação oficial do carnaval na capital mineira. Pelo menos 15 desfiles estão previstos, entre eles o Beleza Rara, da Banda Eva, e do Swing Safado (veja todos na tabela ao final da reportagem).\n- MAPA INTERATIVO: navegue pela ferramenta do g1 e escolha seu bloco\nBeleza Rara\nCarnaval 2026 em BH: Banda Eva — Foto: Divulgação\nO bloco Beleza Rara, da Banda Eva, está com concentração prevista para as 16h, na Avenida dos Andradas, no Centro de BH.\nSob o comando de Felipe Pezzoni, o Beleza Rara estreia no carnaval de BH levando axé e clássicos como \"Eva\" e \"Beleza Rara\" aos foliões mineiros.\nCom mais de quatro décadas de história, a Banda Eva é um dos maiores ícones do axé e do carnaval de Salvador e se consolidou como uma verdadeira \"escola de talentos\" da música brasileira.\nFundada originalmente como bloco em 1980 e transformada em banda logo depois, o grupo foi o trampolim para estrelas como Daniela Mercury, Ivete Sangalo e Saulo Fernandes, emplacando hinos atemporais como \"Eva\", \"Beleza Rara\" e \"Arerê\".\n- 🗓️ Data: domingo (22)\n- 🕐 Horário: 16h\n- 📍Local: Avenida dos Andradas, 20 - Centro, BH\nBloco Swing Safado\nCarnaval 2026 em BH: integrantes do bloco Swing Safado, que desfila no pós carnaval de BH, no domingo (22) — Foto: Divulgação\nO Swing Safado, bloco que desfilou na última segunda-feira (16) de carnaval em BH, volta às ruas para alegrar foliões no pós-carnaval. O cortejo está previsto para começar às 16h, na Rua Gentios, no Conjunto Santa Maria.\nCom o tema \"BH tem um tempero\", inspirado na música \"O baiano tem o molho\", do Kanalhha, o bloco reforça a combinação de ritmos, humor e tradição local.\n- 🗓️ Data: domingo (22)\n- 🕐 Horário: 16h\n- 📍Local: Rua Gentios, 1293 - Conjunto Santa Maria, BH\nNavegue pela tabela, filtrando as informações por nome, data, horário ou local do bloco:\nLEIA TAMBÉM:",
-      "read_time": 2,
+      "image_url": "https://s2-g1.glbimg.com/QnW9aic1L_cIt4fRaSOwF1RDk8g=/1400x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/8/k/9bOZdAT5CPTLZUmPsvTg/mega-sena-agencia-brasil-1-.png",
+      "excerpt": "Veja os números sorteados: 07 - 10 - 17 - 35 - 44 - 46\nDois dos bilhetes premiados em Goiás foram registrados por meio de canais eletrônicos e o outro em uma loteria. Cada um dos apostadores receberá...",
+      "content": "Veja os números sorteados: 07 - 10 - 17 - 35 - 44 - 46\nDois dos bilhetes premiados em Goiás foram registrados por meio de canais eletrônicos e o outro em uma loteria. Cada um dos apostadores receberá a quantia de R$ 36.398,76.\nVeja onde foram feitas as apostas ganhadoras em Goiás:\n- Cidade Ocidental - Canais eletrônicos\n- Goiânia - Canais eletrônicos\n- Goiânia - Loterias Nova Vila\nvolante mega-sena aposta mega — Foto: Rafa Neddermeyer/Agência Brasil\nLEIA TAMBÉM:\nDe acordo com a lista de ganhadores do site da Caixa, 106 apostas acertaram cinco números, faturando mais de R$ 30 mil. Com quatro acertos, são 7.501 apostas ganhadoras no sorteio que ganharam R$ 847,85 cada.\nComo jogar?\nA Mega-Sena acumulou e a estimativa é que o prêmio sorteado no próximo concurso chegue a R$ 116 milhões. Para quem quer tentar a sorte de ganhar essa bolada, é preciso escolher seis números entre as dezenas do volante.\nO valor para apostas de seis números é de R$ 6 e quanto maior a quantidade de números apostados, maior o preço do bilhete. As apostas na Mega-Sena podem ser realizadas até as 19h do dia anterior ao sorteio no site da Caixa ou em qualquer lotérica.\n📱 Veja outras notícias da região no g1 Goiás.",
+      "read_time": 1,
       "domain": "g1.globo.com",
       "has_image": true
     },
     {
-      "id": 3783068805,
-      "title": "Medo de turbulência? Saiba quais lugares balançam menos no avião",
-      "link": "https://g1.globo.com/turismo-e-viagem/noticia/2026/02/22/medo-de-turbulencia-saiba-quais-lugares-balancam-menos-no-aviao.ghtml",
-      "date": "2026-02-22T08:01:07",
+      "id": 2990320243,
+      "title": "Centro-Oeste de MG desvia e sai da meta de escolarização do Ensino Fundamental batida em 2022 e 2023, diz IBGE",
+      "link": "https://g1.globo.com/mg/centro-oeste/noticia/2026/02/22/centro-oeste-de-mg-desvia-e-sai-da-meta-de-escolarizacao-do-ensino-fundamental-batida-em-2022-e-2023-diz-ibge.ghtml",
+      "date": "2026-02-22T10:00:59",
       "author": "Redação",
       "category": "capa",
       "category_name": "Capa",
-      "image_url": "https://s2-g1.glbimg.com/yIn0cexSGccLEes9qK_HWMlbp6M=/7360x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/0/W/KzcIbkRruoAKZrqouZ3g/suhyeon-choi-ttfdmarq-fe-unsplash.jpg",
-      "excerpt": "Mesmo sendo um fenômeno comum em voos, passar por turbulência pode ser bastante desagradável. Além do susto, ela pode causar mal-estar, tontura e enjoo em alguns viajantes.\nEm dezembro, por exemplo,...",
-      "content": "Mesmo sendo um fenômeno comum em voos, passar por turbulência pode ser bastante desagradável. Além do susto, ela pode causar mal-estar, tontura e enjoo em alguns viajantes.\nEm dezembro, por exemplo, passageiros precisaram de atendimento médico depois de enfrentar turbulência em um voo que saiu de Curitiba com destino a São Paulo, mas acabou precisando desviar para Campinas por causa de uma ventania. Veja no vídeo abaixo.\nAlém disso, pesquisas indicam que a turbulência tem se tornado mais frequente e deve se intensificar com o avanço do aquecimento global.\nUm estudo da Universidade de Reading, no Reino Unido, apontou um aumento de 55% nos registros de turbulência severa em céu claro (CAT, na sigla em inglês) entre 1979 e 2020, associado às mudanças climáticas.\nEsse tipo de fenômeno ocorre em massas de ar altamente instáveis e não pode ser detectado por satélites, radares ou a olho nu, o que aumenta o risco para as aeronaves.\nA projeção é que, até 2050, pilotos enfrentem pelo menos o dobro de episódios de turbulência severa em céu claro, segundo estudo citado pelo Fórum Econômico Mundial.\nMas sabia que tem lugares no avião onde é possível sentir menos os efeitos da turbulência? Confira.\n✈️Onde a turbulência é menos sentida\nPassageiros em um avião — Foto: Unsplash/Suhyeon Choi\nOs assentos localizados perto das asas costumam balançar menos, explica Jaqueline Mendes Queiroz, coordenadora do curso de Engenharia Aeronáutica da PUC Minas.\nIsso acontece porque as asas ficam próximas ao centro de massa da aeronave — ponto em que o peso do avião é distribuído de forma equilibrada e onde o movimento é menor.\n“É como uma gangorra: o ponto central quase não se movimenta, enquanto as extremidades se deslocam mais. Quanto mais perto do centro de massa, menor é a amplitude dos movimentos”, explica a especialista.\nAo g1, Fernando Catalano, professor de engenharia aeronáutica da USP de São Carlos, e o escritor e consultor internacional de aviação Gianfranco “Panda” Beting também defenderam a mesma avaliação.\n➡️Mas e entre quem está sentado na frente e atrás das asas?\nNesse caso, os passageiros sentados atrás das asas tendem a sentir mais os solavancos da turbulência do que aqueles que ficam à frente. É que o ar fica mais turbulento depois de passar por obstáculos, no caso, as asas.\nPela mesma lógica — mas em maior proporção —, as rotas de voo mais turbulentas do mundo geralmente ficam próximas a regiões montanhosas, como o Himalaia e os Andes.\nAinda assim, de forma geral, a diferença na sensação de turbulência de acordo com o assento costuma ser sutil, segundo a professora.\n\"Como o avião é uma estrutura rígida e relativamente curta em relação às correntes de ar que enfrenta, a variação na intensidade do balanço ao longo da cabine não é tão grande\", afirma.\nVeja mais:\n✈️Tamanho do avião também faz diferença\nO tamanho da aeronave também influencia na forma como a turbulência é sentida. Aviões maiores, como os usados em voos comerciais, têm mais massa, o que faz com que respondam de maneira mais lenta às variações do ar.\nNa prática, é o mesmo princípio observado no dia a dia: objetos maiores e mais pesados costumam ser menos chacoalhados do que os menores quando submetidos à mesma força.\n✈️Turbulência não derruba avião, mas exige atenção\nApesar do desconforto, a turbulência sozinha não é capaz de derrubar um avião, segundo a especialista.\nEla explica que as aeronaves comerciais são projetadas para suportar condições severas e que, para que ocorra um acidente grave, é necessária uma sequência extremamente improvável de falhas.\nNa verdade, o principal risco associado à turbulência está dentro da cabine, segundo Fernando Catalano, professor de engenharia aeronáutica da USP de São Carlos.\n“Durante a turbulência, passageiros e objetos podem se deslocar dentro da aeronave, o que pode causar acidentes. Por isso, especialmente diante do aquecimento global e do aumento na frequência desses episódios, o mais importante é permanecer com o cinto de segurança afivelado durante todo o voo”, orienta.\nVeja mais:",
+      "image_url": "https://s2-g1.glbimg.com/ueNwIvZrH0eF9pa7DK4hSQEpE9o=/1280x0/filters:format(jpeg)/https://s03.video.glbimg.com/x720/14251846.jpg",
+      "excerpt": "Zona da Mata bate meta de escolarização para o Ensino Fundamental e supera índice imposto para Ensino Médio — Foto: Licia Rubinstein\nEm 2024, o Centro-Oeste de Minas Gerais desviou ligeiramente da...",
+      "content": "Zona da Mata bate meta de escolarização para o Ensino Fundamental e supera índice imposto para Ensino Médio — Foto: Licia Rubinstein\nEm 2024, o Centro-Oeste de Minas Gerais desviou ligeiramente da meta de escolarização para crianças e adolescentes de 6 a 14 anos - que compreende as idades para todo o Ensino Fundamental - propostas pelo Plano Nacional de Educação (PNE). Isso porque a região já havia alcançado a universalização (100% do público) para essa faixa etária em 2022 e 2023, regredindo para 99,9% em 2024.\nApesar disso, a região já está dentro do índice imposto para o Ensino Médio desde 2016.\nOs dados são da Pesquisa Nacional por Amostra de Domicílios Contínua Anual (PNADC), do Instituto Brasileiro de Geografia e Estatística (IBGE), divulgada em dezembro de 2025.\n🔎O PNE em vigor foi instituído pela Lei 13.005/2014, para o decênio de 2014/2024, e prorrogado até 31 de dezembro de 2025, de acordo com a Lei 14.934/2024.\nJá os resultados da região para as faixas de 0 a 5 anos, que compreende o Ensino Infantil, estão aquém do objetivo imposto pelo Ministério da Educação.\nAlém dos números de escolaridade, o estudo ainda apresenta a taxa de analfabetismo de pessoas acima de 15 anos. O Centro-Oeste mineiro, em 2024, apresentou o segundo menor índice da série histórica registrada pelo IBGE, desde 2016.\nTaxa de escolarização até 3 anos aumenta\nO índice de escolarização entre as crianças de 0 a 3 anos aumentou quase 14 pontos percentuais em 2024 em relação ao ano anterior. Esse crescimento foi retomado após queda apresentada após o período de pandemia de Covid-19.\n🟡2016: 29,3%\n🔴2017: 28%\n🟢2018: 34,5%\n🟢2019: 35%\n🔴2022: 24,2%\n🟢2023: 25%\n🟢2024: 38,9%\nApesar do crescimento registrado no último ano, a região ainda não alcançou a meta do PNE, que para essa faixa etária é de pelo menos 50% de cobertura até 31 de dezembro de 2025.\nÍndice de crianças de 4 e 5 anos na escola reduz\nEm 2024, a taxa de crianças de 4 e 5 anos matriculados em algum estabelecimento de ensino no Centro-Oeste mineiro apresentou um ligeiro aumento em relação ao ano anterior.\n🟡2016: 95,4%\n🟢2017: 98%\n🔴2018: 96,8%\n🔴2019: 94,4%\n🟢2022: 97,2%\n🟢2023: 97,7%\n🟢2024: 98,7%\nCom esse resultado, a região ainda não bateu a meta do PNE, que é de universalizar a educação infantil entre as crianças de 4 a 5 anos, ou seja, alcançar os 100% desse público na escola até 31 de dezembro de 2025. Contudo, foi o resultado mais próximo da meta desde o início da análise histórica disponível pelo IBGE.\nLeia também:\nRegião regride e sai de meta cumprida em 2022 e 2023\nEntre as crianças e adolescentes de 6 a 14 anos, 99,9% estavam matriculadas na escola em 2024 no Centro-Oeste de Minas. Houve uma pequena regressão em comparação aos dois anos anteriores, já que em 2022 e 2023 a área já estava com 100% desse público escolarizado, garantindo - até então - o cumprimento da meta.\n🟡2016: 99,9%\n🟢2017: 98,1%\n🟡2018: 99,1%\n🔴2019: 99,3%\n🟢2022: 100%\n🔴2023: 100%\n🟢2024: 99,9%\nMas com o resultado de 2024, a região sai da lista de áreas com a meta do PNE alcançada, já que para o Ensino Fundamental a meta é de universalização, ou seja, 100% das crianças e adolescentes de 6 a 14 anos matriculados em uma instituição de ensino.\nAdolescentes entre 15 e 17 anos supera índice imposto\nJá entre os adolescentes de 15 a 17 anos a porcentagem de escolarização em 2024 foi de 88,8%, representando crescimento de quase 3 pontos percentuais em relação ao último ano. Além disso, no Centro-Oeste de MG, esse índice supera a Meta 3 do PNE, que é elevar a taxa média de matrícula para o Ensino Médio para 85%.\nDesde o início da séria histórica apresentada pelo IBGE, a região nunca esteve abaixo desse percentual no Ensino Médio.\n🟡2016: 88,5%\n🟢2017: 88%\n🔴2018: 86,4%\n🔴2019: 89,8%\n🟢2022: 91,5%\n🔴2023: 86%\n🔴2024: 88,8%\nAnalfabetismo acima dos 15 anos encolhe\nConforme o levantamento do PNADC, a taxa de analfabetismo de pessoas acima de 15 anos apresentou uma retração em relação ao último ano, atingindo o segundo menor índice da série histórica registrada pelo IBGE, desde 2016. A menor taxa foi apresentada em 2019.\n🟡2016: 4,8%\n🟡2017: 4,5%\n🔴2018: 4,2%\n🟡2019: 2,8%\n🟢2022: 4,3%\n🟢2023: 4,3%\n🔴2024: 3,7%\nASSISTA: Conheça o projeto que promove saúde emocional nas escolas",
+      "read_time": 4,
+      "domain": "g1.globo.com",
+      "has_image": true
+    },
+    {
+      "id": 4258915689,
+      "title": "Triângulo e Alto Paranaíba superam meta de escolarização no Ensino Médio e têm menor índice de analfabetismo, diz IBGE",
+      "link": "https://g1.globo.com/mg/triangulo-mineiro/noticia/2026/02/22/triangulo-e-alto-paranaiba-superam-meta-de-escolarizacao-no-ensino-medio-e-tem-menor-indice-de-analfabetismo-diz-ibge.ghtml",
+      "date": "2026-02-22T10:00:58",
+      "author": "Redação",
+      "category": "capa",
+      "category_name": "Capa",
+      "image_url": "https://s2-g1.glbimg.com/WUX7cdCRnT6gUs8bfxBqWxP7uxw=/1280x0/filters:format(jpeg)/https://s02.video.glbimg.com/x720/14360273.jpg",
+      "excerpt": "Triângulo e Alto Paranaíba batem meta de escolarização no Ensino Médio, mas não atingem objetivo no Fundamental e Infantil — Foto: Licia Rubinstein\nAs regiões do Triângulo Mineiro e Alto Paranaíba já...",
+      "content": "Triângulo e Alto Paranaíba batem meta de escolarização no Ensino Médio, mas não atingem objetivo no Fundamental e Infantil — Foto: Licia Rubinstein\nAs regiões do Triângulo Mineiro e Alto Paranaíba já superaram a meta de escolarização para o Ensino Médio - adolescentes entre 15 e 17 anos. Além disso, as regiões conseguiram reduzir o índice de analfabetismo entre pessoas com mais de 15 anos, atingido o menor percentual da história.\nOs dados são da Pesquisa Nacional por Amostra de Domicílios Contínua Anual (PNADC), do Instituto Brasileiro de Geografia e Estatística (IBGE), com séria histórica de 2016 a 2024, divulgada em dezembro de 2025.\n🔎O PNE em vigor foi instituído pela Lei 13.005/2014, para o decênio de 2014/2024, e prorrogado até 31 de dezembro de 2025, de acordo com a Lei 14.934/2024.\nApesar dos resultados, as regiões ainda não atingiram as metas de escolarização para a Educação Infantil e Ensino Fundamental em 2024 propostas pelo Plano Nacional de Educação (PNE), do Ministério da Educação.\nPara o Educação Infantil, que compreende as faixas etárias de até 5 anos, as cidades dessas regiões ainda estão longe dos números alvos colocados pelo PNE. Já para o Ensino Fundamental, que engloba alunos de 6 a 14 anos, os índices estão próximos de atingir o que foi proposto.\nEscolarização aumenta, mas não atinge objetivo\nO índice de escolarização entre as crianças de 0 a 3 anos aumentou 15 pontos percentuais em 2024 em relação ao ano anterior no Triângulo Mineiro e Alto Paranaíba.\nA taxa apresenta grandes variações ao longo dos anos, com maior pico em 2018. Portanto, as regiões continuam sem alcançar a meta do PNE, que para essa faixa etária era de pelo menos 50% de cobertura até 31 de dezembro de 2025.\n🟡2016: 21,4%\n🟢2017: 33,8%\n🟢2018: 40,4%\n🔴2019: 38,1%\n🔴2022: 37,9%\n🔴2023: 24,8%\n🟢2024: 39,7%\nÍndice de crianças de 4 e 5 anos na escola reduz\nEm 2024, a taxa de crianças de 4 e 5 anos matriculados em algum estabelecimento de ensino nas regiões do Triângulo e Alto Paranaíba apresentou redução em relação ao ano anterior.\n🟡2016: 90,9%\n🟢2017: 95%\n🟢2018: 97%\n🔴2019: 87,8%\n🟢2022: 92,6%\n🟢2023: 96%\n🔴2024: 93,4%\nCom esse resultado, as regiões ainda não bateram a meta do PNE, que é de universalizar a Educação Infantil entre as crianças de 4 a 5 anos, ou seja, alcançar os 100% desse público na escola até 31 de dezembro de 2025.\nLeia também:\nMeta para alunos entre 6 a 14 anos está próxima\nEntre as crianças e adolescentes de 6 a 14 anos, 99% estavam matriculadas na escola em 2024 no Triângulo e Alto Paranaíba. Isso significa que as regiões estão bem próximas de cumprir a meta de universalização do PNE para o Ensino Fundamental, apesar de terem apresentado ligeira redução no índice nos anos.\n🟡2016: 99,2%\n🔴2017: 99,1%\n🔴2018: 98,9%\n🟢2019: 99,8%\n🔴2022: 99,2%\n🟢2023: 99,6%\n🔴2024: 99%\nAdolescentes entre 15 e 17 anos superam índice imposto\nJá entre os adolescentes de 15 a 17 anos, a porcentagem de escolarização em 2024 foi de 96,4%. Esse índice já superou - dede 2017 - a Meta 3 do PNE, que é elevar a taxa média de matrícula para o Ensino Médio para 85%.\n🟡2016: 81,7%\n🟢2017: 90,2%\n🔴2018: 87,8%\n🟢2019: 90,6%\n🟢2022: 95,2%\n🔴2023: 91%\n🟢2024: 96,4%\nAnalfabetismo acima dos 15 anos encolhe\nConforme o levantamento do PNADC, a taxa de analfabetismo de pessoas acima de 15 anos reduziu em 2024 nas regiões do Triângulo Mineiro e Alto Paranaíba. O índice atingiu 2,9%, o menor desde 2016, histórico registrado pelo IBGE, e a primeira vez que fica abaixo de 3%.\n🟡2016: 3,3%\n🟡2017: 3,8%\n🔴2018: 4,2%\n🟡2019: 3,2%\n🟢2022: 3,3%\n🟢2023: 3,6%\n🔴2024: 2,9%\nASSISTA: Conselho Tutelar de Uberlândia atende em novo endereço",
       "read_time": 3,
       "domain": "g1.globo.com",
       "has_image": true
     },
     {
-      "id": 663132708,
-      "title": "Carnaval SP: carro alegórico quebra na concentração no Desfile das Campeãs",
-      "link": "https://www.cnnbrasil.com.br/entretenimento/carnaval/carnaval-sp-carro-alegorico-quebra-na-concentracao-no-desfile-das-campeas/",
-      "date": "2026-02-22T07:58:52",
+      "id": 3243843700,
+      "title": "Feira literária de Castro Alves terá shows de Alexandre Pires e Mumuzinho e homenagem a Glauber Rocha; saiba mais",
+      "link": "https://g1.globo.com/ba/feira-de-santana-regiao/noticia/2026/02/22/feira-literaria-de-castro-alves.ghtml",
+      "date": "2026-02-22T10:00:57",
+      "author": "Redação",
+      "category": "capa",
+      "category_name": "Capa",
+      "image_url": "https://s2-g1.glbimg.com/rEUHHEE2QfXuTkBHtkPEpcjmg7k=/1700x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/7/6/LRZgugQ0A2zFMqA0yhKw/foto-no-tamanho-home-2026-02-20t121406.351.png",
+      "excerpt": "Alexandre Pires e Mumuzinho estão entre as atrações da Feira Literária de Castro Alves — Foto: Divulgação | Bruno Fioravanti\nA cidade de Castro Alves, no interior da Bahia, vai sediar, pela sexta...",
+      "content": "Alexandre Pires e Mumuzinho estão entre as atrações da Feira Literária de Castro Alves — Foto: Divulgação | Bruno Fioravanti\nA cidade de Castro Alves, no interior da Bahia, vai sediar, pela sexta vez, a Feira Literária do Poeta (Flipo). O evento será realizado entre os dias 12 e 15 de março de 2026, com entrada gratuita, e vai reunir programação literária, audiovisual e shows musicais.\nA programação inclui mesas literárias com autores e cineastas, exibição de filmes e debates sobre audiovisual, atividades infantis com a Flipoquinha, ações voltadas às juventudes e à cultura digital, feira de economia solidária, caminhada cultural e apresentações artísticas.\nCom o tema, “Uma câmera na mão, um livro na cabeça: a literatura como revolução”, neste ano, a feira homenageia o cineasta baiano Glauber Rocha, que dirigiu obras reconhecidas nacionalmente, como \"Deus e o Diabo na Terra do Sol\" (1964) e \"Terra em Transe\" (1967).\nEntre as atrações musicais confirmadas estão Alexandre Pires e Mumuzinho. Também se apresentam Jammil, Adão Negro, Isaac Gomes, com participação especial de Edson Gomes, além da banda Babado Novo e do grupo Patrulha do Samba.\nAs atividades serão distribuídas em espaços como a Praça da Liberdade, o Casarão do Poeta, o Ginásio de Esportes, o Cine FLIPO e a Arena Glauber Rocha.\nA edição de 2026 também contará com a participação do ator Antônio Pitanga, do ator e escritor Aldri Anunciação, vencedor do Prêmio Jabuti, da atriz Edvana Carvalho e da cineasta Cecília Amado, diretora do filme Capitães da Areia.\nSegundo a organização, a programação completa será divulgada nos próximos dias. A feira é realizada pela BT Produções, Instituto Mafuá e Prefeitura de Castro Alves, com apoio do Governo do Estado da Bahia, Fundação Pedro Calmon, Secretaria de Cultura, Ministério do Turismo e Governo Federal.\nLEIA MAIS:\nVeja mais notícias de Feira de Santana e região.",
+      "read_time": 2,
+      "domain": "g1.globo.com",
+      "has_image": true
+    },
+    {
+      "id": 1894942884,
+      "title": "Zona da Mata bate meta de escolarização para o Ensino Fundamental e supera índice para Ensino Médio, diz IBGE",
+      "link": "https://g1.globo.com/mg/zona-da-mata/noticia/2026/02/22/zona-da-mata-bate-meta-de-escolarizacao-para-o-ensino-fundamental-e-supera-indice-para-ensino-medio-diz-ibge.ghtml",
+      "date": "2026-02-22T10:00:35",
+      "author": "Redação",
+      "category": "capa",
+      "category_name": "Capa",
+      "image_url": "https://s2-g1.glbimg.com/MaBcpL8XKjx7wqceM_EHqZcOmPk=/1280x0/filters:format(jpeg)/https://s03.video.glbimg.com/x720/14335938.jpg",
+      "excerpt": "Zona da Mata bate meta de escolarização para o Ensino Fundamental e supera índice imposto para Ensino Médio — Foto: Licia Rubinstein\nA Zona da Mata bateu em 2024 a meta de escolarização para crianças...",
+      "content": "Zona da Mata bate meta de escolarização para o Ensino Fundamental e supera índice imposto para Ensino Médio — Foto: Licia Rubinstein\nA Zona da Mata bateu em 2024 a meta de escolarização para crianças e adolescentes de 6 a 14 anos - que compreende as idades para todo o Ensino Fundamental - propostas pelo Plano Nacional de Educação (PNE), um ano antes do prazo estipulado. Além disso, a região já está dentro do índice imposto para o Ensino Médio desde 2017.\nOs dados são da Pesquisa Nacional por Amostra de Domicílios Contínua Anual (PNADC), do Instituto Brasileiro de Geografia e Estatística (IBGE), divulgada em dezembro de 2025.\n🔎O PNE em vigor foi instituído pela Lei 13.005/2014, para o decênio de 2014/2024, e prorrogado até 31 de dezembro de 2025, de acordo com a Lei 14.934/2024.\nApesar dos bons resultados, a região ainda está longe de atingir o alvo para a faixa de 0 a 5 anos, que compreende o Ensino Infantil.\nAlém dos números de escolaridade, o estudo ainda apresenta a taxa de analfabetismo de pessoas acima de 15 anos. A Zona da Mata, em 2024, apresentou o segundo menor índice da série histórica registrada pelo IBGE, desde 2016.\nVeja abaixo os índices de 2016 a 2024, exceto dos anos de 2020 e 2021, quando o levantamento não foi feito devido à pandemia.\nTaxa de escolarização até 3 anos aumenta\nO índice de escolarização entre as crianças de 0 a 3 anos aumentou 10 pontos percentuais em 2024 em relação ao ano anterior na Zona da Mata. Esse crescimento foi retomado após uma sequência três levantamento em queda.\n🟡2016: 25,4%\n🟢2017: 27,7%\n🟢2018: 34,9%\n🔴2019: 30,5%\n🔴2022: 23,9%\n🔴2023: 22%\n🟢2024: 32,2%\nApesar do crescimento apresentado no último ano, a região ainda não alcançou a meta do PNE, que para essa faixa etária é ter pelo menos 50% de cobertura até 31 de dezembro de 2025.\nÍndice de crianças de 4 e 5 anos na escola reduz\nEm 2024, a taxa de crianças de 4 e 5 anos matriculadas em algum estabelecimento de ensino na Zona da Mata apresentou uma ligeira queda em relação ao ano anterior.\n🟡2016: 91,9%\n🔴2017: 87,8%\n🟢2018: 91,4%\n🟢2019: 97,8%\n🔴2022: 95,6%\n🔴2023: 90,9%\n🔴2024: 89,8%\nCom esse resultado, a região ainda não bateu a meta do PNE, que é de universalizar a educação infantil entre as crianças de 4 a 5 anos, ou seja, alcançar os 100% desse público na escola até 31 de dezembro de 2025.\nMetas batidas e superadas\nEntre as crianças e adolescentes de 6 a 14 anos, 100% estavam matriculadas na escola em 2024 na Zona da Mata. Isso significa que a região cumpriu, um ano antes do prazo estipulado, a meta de universalização do PNE, que era até dezembro de 2025.\n🟡2016: 97,2%\n🟢2017: 98,8%\n🟡2018: 98,8%\n🔴2019: 98,4%\n🟢2022: 99,9%\n🔴2023: 99,5%\n🟢2024: 100%\nJá entre os adolescentes de 15 a 17 anos, a porcentagem de escolarização em 2024 foi de 87,5%, representando uma ligeira queda em relação aos últimos anos. Apesar disso, na Zona da Mata, esse índice já superou - dede 2017 - a Meta 3 do PNE, que é elevar a taxa média de matrícula para o Ensino Médio para 85%.\n🟡2016: 84,9%\n🟢2017: 91,2%\n🔴2018: 88,4%\n🔴2019: 87,8%\n🟢2022: 90,9%\n🔴2023: 89,9%\n🔴2024: 87,8%\nAnalfabetismo acima dos 15 anos encolhe\nConforme o levantamento do PNADC, a taxa de analfabetismo de pessoas acima de 15 anos apresentou um pequeno aumento em relação ao último ano, mas ainda é o segundo menor índice da série histórica registrada pelo IBGE, desde 2016. A menor taxa foi apresentada em 2023.\n🟡2016: 5,7%\n🟡2017: 5,7%\n🔴2018: 6,3%\n🟡2019: 6,3%\n🟢2022: 5,5%\n🟢2023: 4,3%\n🔴2024: 5,2%\nASSISTA TAMBÉM: Integração na Educação: Linguagens artísticas integram currículo nas escolas",
+      "read_time": 3,
+      "domain": "g1.globo.com",
+      "has_image": true
+    },
+    {
+      "id": 319233800,
+      "title": "Musa da Mangueira diz que escola merecia posição melhor no Grupo Especial",
+      "link": "https://www.cnnbrasil.com.br/entretenimento/carnaval/musa-da-mangueira-diz-que-escola-merecia-posicao-melhor-no-grupo-especial/",
+      "date": "2026-02-22T09:50:33",
       "author": "Marina Toledo",
       "category": "capa",
       "category_name": "Capa",
-      "image_url": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/02/carro-quebrado-tatuape-carnaval.png?w=353&h=280&crop=1",
-      "excerpt": "Carnaval SP: carro alegórico quebra na concentração do Desfile das Campeãs\nVeículo precisou ser removido antes da apresentação e atrasou a Acadêmicos do Tatuapé\nUm carro alegórico da escola de samba...",
-      "content": "Carnaval SP: carro alegórico quebra na concentração do Desfile das Campeãs\nVeículo precisou ser removido antes da apresentação e atrasou a Acadêmicos do Tatuapé\nUm carro alegórico da escola de samba Acadêmicos do Tatuapé quebrou na concentração do Desfile das Campeãs na madrugada deste domingo (22), no Sambódromo do Anhembi, em São Paulo.\nA última alegoria da agremiação ainda não tinha entrado na avenida quando precisou de ajuda de veículos para ser retirada da pista. Com o incidente, as alas do Tatuapé ficaram cerca de quinze minutos paradas no Sambódromo esperando para encerrar o desfile.\nComo alternativa, a escola passou os últimos integrantes para frente da alegoria para finalizar a apresentação. Parte das pessoas que estavam em cima do veículo esperando para entrar na pista conseguiram descer antes do carro ser retirado e as outras desceram após a remoção.\nO Desfile das Campeãs reuniu na noite de sábado (21) e na madrugada deste domingo (22) as cinco mais bem colocadas do Grupo Especial de São Paulo: a campeã Mocidade Alegre, seguida pela vice Gaviões da Fiel e pelas escolas Dragões da Real, Acadêmicos do Tatuapé e Barroca Zona Sul.\nTambém participaram as campeã e vice do Grupo de Acesso 1, Acadêmicos do Tucuruvi e Pérola Negra, além da campeã e vice do Grupo de Acesso 2, Morro da Casa Verde e X-9 Paulistana, promovidas à divisão superior.",
+      "image_url": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/02/karinah.jpeg?w=1200&h=630&crop=1",
+      "excerpt": "Musa da Mangueira diz que escola merecia posição melhor no Grupo Especial\nEscola ficou em sexto lugar do campeonato; Viradouro foi a grande campeã no Rio de Janeiro\nA cantora Karinah retornou à...",
+      "content": "Musa da Mangueira diz que escola merecia posição melhor no Grupo Especial\nEscola ficou em sexto lugar do campeonato; Viradouro foi a grande campeã no Rio de Janeiro\nA cantora Karinah retornou à Marquês de Sapucaí para o Desfile das Campeãs como musa da Estação Primeira de Mangueira e fez um balanço sincero sobre o resultado da escola no Carnaval 2026.\nEm seu quarto ano consecutivo na verde e rosa, a artista destacou a conexão afetiva com a agremiação, mas admitiu que não saiu totalmente satisfeita com a colocação final.\n“Feliz, feliz… Não tem como estar 100% feliz, né? Eu acho que houve alguns pontos ali que foram um pouco injustos, sabe?”, afirmou. Veja como foi a apuração do Grupo Especial do Rio.\nKarinah também ressaltou que a Mangueira segue firme em seu propósito e destacou a relevância da escola para além da avenida.\n“A Mangueira está muito à frente de muita coisa, inclusive do tempo. É uma escola que ensina muito pra gente, não só no Carnaval, mas durante todo o ano”, disse.\nApesar das ressalvas, a cantora reforçou o orgulho pela trajetória da agremiação e pela entrega na avenida.\n“A gente segue de cabeça erguida, com muito amor. É uma escola de vida, de família, e que vai continuar caminhando por muitos anos”, completou.",
       "read_time": 1,
-      "domain": "cnnbrasil.com.br",
-      "has_image": true
-    },
-    {
-      "id": 2018236552,
-      "title": "Toyota Highlander: SUV é primeiro elétrico de três fileiras da marca",
-      "link": "https://www.cnnbrasil.com.br/auto/toyota-highlander-suv-e-primeiro-eletrico-de-tres-fileiras-da-marca/",
-      "date": "2026-02-22T07:45:42",
-      "author": "rodrigobarros",
-      "category": "capa",
-      "category_name": "Capa",
-      "image_url": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/02/highlander-27.jpeg?w=1200&h=630&crop=1",
-      "excerpt": "Toyota Highlander: SUV é primeiro elétrico de três fileiras da marca\nPara a linha 2027, o Highlander foi lançado apenas em versões elétricas e a mais completa tem 516 km de alcance\nO Toyota...",
-      "content": "Toyota Highlander: SUV é primeiro elétrico de três fileiras da marca\nPara a linha 2027, o Highlander foi lançado apenas em versões elétricas e a mais completa tem 516 km de alcance\nO Toyota Highlander agora é um SUV 100% elétrico. Apesar de não ser comercializado no Brasil, o modelo marca um momento de transição da Toyota que lançou o primeiro carro de três fileiras 100% elétrico.\nCom espaço para sete ocupantes, o novo Toyota Highlander tem linhas mais minimalistas aposta na eficiência energética.\nO novo visual apresenta para-lamas largos, luzes diurnas de LED de comprimento total e maçanetas de porta niveladas para um apelo aerodinâmico.\nEm dimensões, o Highlander tem 5,05 metros de comprimento, 1,98 metro de largura e 1,70 metro de altura. A distância entre-eixos é de 3,05 metros.\nPara a linha 2027, o Highlander foi lançado apenas em versões elétricas. A configuração mais completa tem 516 km de alcance.\nO novo Highlander elétrico é construído sobre a plataforma TNGA-K modificada, que é derivada do Highlander a combustão.\nEm termos de desempenho, o Toyota Highlander parte de 224 cv de potência e 28,8 kgfm de torque. Já a versão mais potente tem 343 cv e 47,7 kgfm de toque.\nInterior do Toyota Highlander\nPor dentro, o Toyota Highlander tem um design moderno com uma tela central de 14 polegadas com pareamento sem fio para Android Auto e Apple CarPlay. Já o painel de instrumentos tem 12,3 polegadas e opção de navegar com a tela completa.\nHá também um head-up display, que facilita a visualização de informações pelo motorista. A iluminação ambiente é padrão, com 64 opções de cores diferentes para definir o clima perfeito para uma noite na cidade.\nNo espaço interno, são 450 litros de capacidade com a terceira fileira. Ao rebater, o volume sobe para 1.292 litros.",
-      "read_time": 2,
-      "domain": "cnnbrasil.com.br",
-      "has_image": true
-    },
-    {
-      "id": 3395438501,
-      "title": "Tarifaço: Empresas preparam disputa por reembolso bilionário nos EUA",
-      "link": "https://www.cnnbrasil.com.br/economia/macroeconomia/tarifaco-empresas-preparam-disputa-por-reembolso-bilionario-nos-eua/",
-      "date": "2026-02-22T07:30:24",
-      "author": "giselalammers1",
-      "category": "capa",
-      "category_name": "Capa",
-      "image_url": "https://admin.cnnbrasil.com.br/wp-content/themes/master-theme/assets/img/fallbackImage.jpg",
-      "excerpt": "Tarifaço: Empresas preparam disputa por reembolso bilionário nos EUA\nNa sexta-feira (20), a Suprema Corte dos EUA decidiu que o tarifaço do presidente Donald Trump, política tarifária que tem sido...",
-      "content": "Tarifaço: Empresas preparam disputa por reembolso bilionário nos EUA\nNa sexta-feira (20), a Suprema Corte dos EUA decidiu que o tarifaço do presidente Donald Trump, política tarifária que tem sido central para a agenda econômica do presidente norte-americano, são ilegais\nO embate está apenas começando para as 300 mil empresas que querem o reembolso de US$ 134 bilhões pagos em tarifas, após a Suprema Corte dos Estados Unidos ter decidido na sexta-feira (20) derrubar as taxas globais impostas pelo presidente Donald Trump.\nUma resposta clara sobre o que acontecerá com as dezenas de bilhões de dólares que as empresas americanas desembolsaram depois que Trump aumentou as tarifas sobre todos os parceiros globais no ano passado ainda está em aberto.\nO governo Trump — tanto formal quanto informalmente — prometeu reembolsar os impostos cobrados caso a Suprema Corte emitisse uma decisão contrária a eles. Mas nem o governo nem nenhum dos juízes especificaram exatamente como isso funcionaria.\nEm seu voto dissidente, o juiz Brett Kavanaugh escreveu que “reembolsos de bilhões de dólares teriam consequências significativas para o Tesouro dos EUA”.\n“O Tribunal não se pronunciou sobre se, e em caso afirmativo, como o Governo deve proceder para devolver os bilhões de dólares que arrecadou dos importadores. Mas esse processo provavelmente será uma ‘bagunça’”, continuou ele.\nNa sexta-feira (20), o presidente Donald Trump questionou por que os juízes não se pronunciaram sobre a necessidade de devolver a receita das tarifas. \"Acho que isso terá que ser litigado pelos próximos dois anos\", declarou ele a repórteres. Em seguida, acrescentou que isso poderia levar \"até cinco anos\".\n“O caso nunca foi sobre reembolsos, e era inconcebível que a Suprema Corte se envolvesse nos detalhes de como aplicá-los”, apontou Ted Posner, advogado especializado em comércio internacional e sócio da Baker Botts.\n“Agora, estamos conversando com as empresas sobre os próximos passos, o que significa mais espera, desta vez pela Corte de Comércio Internacional. Qualquer processo de reembolso exigirá uma documentação meticulosa e, por enquanto, empresas e até mesmo países estão em um limbo”, continuou. Essencialmente, isso significa que importadores terão que entrar com os próprios processos para ter uma chance de receber um reembolso.\nO secretário do Tesouro dos EUA, Scott Bessent, disse em uma entrevista à Reuters no mês passado que a agência tem dinheiro suficiente em caixa para reembolsar os importadores, mas que o processo pode levar mais de um ano.\n“Não será um problema se tivermos que fazer isso, mas posso dizer que, se acontecer — o que eu não acho que vai acontecer —, será apenas um desperdício de dinheiro público”, afirmou Bessent. Em seguida, Bessent perguntou se empresas como a Costco, que processaram preventivamente o governo dos EUA em uma tentativa de garantir o direito a um reembolso, devolveriam parte dos fundos recebidos aos clientes.\n“Tenho a impressão de que o povo americano não verá isso”, afirmou Bessent na sexta-feira (20) em um evento organizado pelo Clube Econômico de Dallas.\nEsta não seria a primeira vez que o governo teria que emitir reembolsos de tarifas em decorrência de uma decisão da Suprema Corte. Uma decisão de 1998 resultou em US$ 730 milhões em reembolsos de tarifas para empresas americanas, embora tenha levado dois anos para ser concluída.\n“É uma incógnita se a Alfândega e Proteção de Fronteiras seguirá o precedente histórico ou os processos existentes, ou se um novo processo será necessário para lidar com a enorme abrangência e o volume das tarifas da IEEPA (uma lei de emergência da década de 1970, a Lei de Poderes Econômicos de Emergência Internacional que Donald Trump se baseou para aplicar o tarifaço)”, comentou Alexis Early, advogada especializada em comércio exterior e sócia da BCLP, referindo-se ao conjunto de tarifas que a Suprema Corte derrubou.\nQuanto aos consumidores que pagaram pelas tarifas por meio de preços mais altos, parece que os reembolsos nunca chegarão às contas bancárias.\n“É muito improvável que as empresas comecem a reduzir os preços como resultado disso”, destacou Stephanie Roth, economista-chefe da Wolfe Research.\n*Matt Egan, da CNN, contribuiu com esta matéria.",
-      "read_time": 3,
       "domain": "cnnbrasil.com.br",
       "has_image": true
     }
@@ -97,127 +97,127 @@
       "description": "Principais manchetes do dia",
       "articles": [
         {
-          "id": 2096544400,
-          "title": "IA na saúde vai bem na teoria, mas falha com pacientes reais, mostra estudo",
-          "link": "https://www1.folha.uol.com.br/equilibrioesaude/2026/02/ia-na-saude-vai-bem-na-teoria-mas-falha-com-pacientes-reais-mostra-estudo.shtml",
-          "date": "2026-02-22T08:22:47.992334",
+          "id": 2677137748,
+          "title": "Mega-Sena: apostas em Goiás acertam cinco números e levam juntas quase R$ 110 mil",
+          "link": "https://g1.globo.com/go/goias/noticia/2026/02/22/mega-sena-apostas-em-goias-acertam-cinco-numeros-e-levam-juntas-quase-r-110-mil.ghtml",
+          "date": "2026-02-22T10:04:17",
           "author": "Redação",
           "category": "capa",
           "category_name": "Capa",
-          "image_url": "https://f.i.uol.com.br/fotografia/2024/03/15/171052987365f49d518ed8e_1710529873_3x2_rt.jpg",
-          "excerpt": "Embora grandes modelos de IA (inteligÃªncia artificial), como GPT-4o, Llama 3 e Command R+, atinjam Ã³timos desempenhos em exames mÃ©dicos teÃ³ricos, eles nÃ£o melhoraram a capacidade de leigos de...",
-          "content": "Embora grandes modelos de IA (inteligÃªncia artificial), como GPT-4o, Llama 3 e Command R+, atinjam Ã³timos desempenhos em exames mÃ©dicos teÃ³ricos, eles nÃ£o melhoraram a capacidade de leigos de tomar decisÃµes corretas diante de sintomas comuns.\nEm alguns casos, o uso das ferramentas atÃ© piorou a identificaÃ§Ã£o de condiÃ§Ãµes clÃnicas importantes, o que pode representar um risco Ã saÃºde. O alerta vem de um estudo publicado na revista Nature Medicine em meio ao entusiasmo crescente do uso da IA na saÃºde.\nO trabalho, conduzido por pesquisadores da Universidade de Oxford e colaboradores, testou 1.298 adultos no Reino Unido. Cada participante recebeu um de dez cenÃ¡rios clÃnicos âsituaÃ§Ãµes como dor de cabeÃ§a sÃºbita e intensa, falta de ar, dor abdominal, febre persistente ou sintomas gripais.\nA partir daÃ, cada um precisou decidir que tipo de atendimento procurar: autocuidado, consulta de rotina, atendimento urgente, pronto-socorro ou chamar a ambulÃ¢ncia.\nOs participantes foram divididos em quatro grupos: trÃªs puderam conversar com um dos modelos de IA; o quarto, grupo controle, usou os recursos que normalmente utilizaria em casa âsobretudo mecanismos de busca e o site do sistema pÃºblico de saÃºde britÃ¢nico.\nAntes de envolver pessoas, os pesquisadores testaram os modelos isoladamente. Sozinhos, eles identificaram ao menos uma condiÃ§Ã£o mÃ©dica relevante em cerca de 95% dos casos. Quando solicitados a indicar a conduta adequada, acertaram em mÃ©dia 56% das vezes.\nMas o cenÃ¡rio mudou quando humanos passaram a interagir com as IAs. Eles identificaram corretamente condiÃ§Ãµes relevantes em menos de 34,5% dos casos âÃndice inferior ao do grupo controle. Na escolha da conduta, nÃ£o houve diferenÃ§a estatisticamente significativa: todos acertaram pouco, em torno de 43%.\nPara o mÃ©dico Matheus Ferreira, diretor de IA no Super Professor, uma plataforma educacional, o estudo expÃµe um ponto central: a diferenÃ§a ali Ã© o interlocutor. \"Quando o mÃ©dico fez a pergunta, veio quase 100%. Quando o paciente fez a pergunta, veio em 30 e poucos por cento\", afirma.\nO problema, diz, nÃ£o estÃ¡ apenas na tecnologia, mas em como ela Ã© usada. \"O paciente chega e vai jogar lÃ¡: âtenho dor na barriga, o que pode ser?â. Ele nÃ£o Ã© um especialista em prompt, nÃ£o descreve passo a passo.\"\nComo os modelos sÃ£o probabilÃsticos, acrescenta Ferreira, respostas baseadas em informaÃ§Ãµes incompletas tendem a ser mais imprecisas. \"Com poucas informaÃ§Ãµes que o paciente imputa ali, a chance de nÃ£o vir algo certo Ã© muito alta.\"\nO risco Ã© agravado pelo tom convincente das respostas. \"Independentemente de estar certa ou nÃ£o, a resposta Ã© convincente. O paciente pode acreditar nos dois terÃ§os errados como se fossem verdade.\"\nOs exemplos do estudo ajudam a entender o impacto prÃ¡tico. Em um dos cenÃ¡rios, dois participantes relataram sintomas clÃ¡ssicos de hemorragia subaracnÃ³idea âdor de cabeÃ§a sÃºbita e devastadora, descrita como \"a pior da vida\".\nUm recebeu a orientaÃ§Ã£o correta de buscar atendimento de emergÃªncia imediato. O outro, apÃ³s interaÃ§Ã£o semelhante, foi aconselhado a deitar em um quarto escuro e repousar. Pequenas variaÃ§Ãµes na forma de perguntar levaram a recomendaÃ§Ãµes opostas.\nEm outro caso, envolvendo sinais compatÃveis com embolia pulmonar, os usuÃ¡rios tiveram dificuldade em distinguir, entre mÃºltiplas hipÃ³teses apresentadas, qual era a mais grave.\nFerreira ressalta que o problema nÃ£o se restringe aos pacientes. \"O letramento dos profissionais de saÃºde Ã© quase prÃ³ximo ao dos pacientes. Eles sabem nada ou quase nada\", diz. Segundo ele, muitos mÃ©dicos utilizam versÃµes gratuitas de chatbots sem treinamento formal e, Ã s vezes, inserem dados sensÃveis sem considerar implicaÃ§Ãµes legais.\n\"Esse mÃ©dico tambÃ©m nÃ£o Ã© uma pessoa apta a validar o output [informaÃ§Ã£o adequadamente formatada] dali. Ele estÃ¡ um pouco melhor que o paciente, mas nÃ£o muito melhor.\" Para ele, gestores de saÃºde deveriam investir em capacitaÃ§Ã£o e em ferramentas institucionais, sob risco de ampliar erros e litÃgios.\nPara Alexandre Chiavegatto, professor de inteligÃªncia artificial da Faculdade de SaÃºde PÃºblica da USP, a pesquisa utilizou algoritmos jÃ¡ ultrapassados, mas levanta uma questÃ£o mais ampla.\n\"Eu e a maioria dos pesquisadores da Ã¡rea somos contra testar IA para uso direto por pacientes. Os algoritmos devem auxiliar mÃ©dicos e outros profissionais, e passar por um filtro de profissionais treinados antes de chegar ao paciente.\"\nChiavegatto lembra que o uso jÃ¡ Ã© uma realidade, mesmo com sistemas ainda em estÃ¡gio inicial. \"Estamos na infÃ¢ncia do potencial da IA na saÃºde. A Ã¡rea precisa ser tratada como algo experimental e em construÃ§Ã£o.\"\nAo mesmo tempo, ele vÃª na tecnologia um potencial transformador. \"O maior benefÃcio da IA serÃ¡ na saÃºde, principalmente para auxiliar decisÃµes em regiÃµes remotas do Brasil, onde nÃ£o hÃ¡ especialistas.\"\nSegundo ele, mÃ©dicos desses locais poderÃ£o ter acesso a ferramentas de apoio semelhantes Ã s dos grandes centros, com potencial de reduzir desigualdades histÃ³ricas no acesso ao cuidado.\nO estudo tambÃ©m mostrou que os modelos funcionam melhor em provas do que na vida real. Em um banco de questÃµes amplamente utilizado em exames mÃ©dicos, o MedQA, os sistemas superaram com folga a marca de 60% considerada suficiente para aprovaÃ§Ã£o.\nNo entanto, o alto desempenho nesse teste nÃ£o se correlacionou com bons resultados nas interaÃ§Ãµes com pessoas reais. SimulaÃ§Ãµes com \"pacientes virtuais\" âem que uma IA conversa com outraâ tambÃ©m falharam em prever os problemas observados com humanos.\nPara os autores, o ponto crÃtico estÃ¡ na interface humano-mÃ¡quina. Muitos participantes forneceram informaÃ§Ãµes incompletas; outros ignoraram recomendaÃ§Ãµes corretas. Alguns pareceram atribuir caracterÃsticas humanas Ã ferramenta e basearam sua decisÃ£o na confianÃ§a transmitida pelo texto.",
-          "read_time": 4,
-          "domain": "www1.folha.uol.com.br",
-          "has_image": true
-        },
-        {
-          "id": 1465648243,
-          "title": "Banda Eva, Swing Safado e mais: veja os blocos que desfilam neste domingo de pós-carnaval em BH",
-          "link": "https://g1.globo.com/mg/minas-gerais/carnaval/2026/noticia/2026/02/22/banda-eva-swing-safado-e-mais-veja-os-blocos-que-desfilam-neste-domingo-de-pos-carnaval-em-bh.ghtml",
-          "date": "2026-02-22T08:01:19",
-          "author": "Redação",
-          "category": "capa",
-          "category_name": "Capa",
-          "image_url": "https://s2-g1.glbimg.com/ndEF4eOLLFFvhj-k04yejnF-FGY=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/q/t/a8lVYsQYifdYLJJTe4hg/swing-safado-horacios-de-jesus.jpg",
-          "excerpt": "Alguns blocos seguem agitando BH neste domingo (22), último dia da programação oficial do carnaval na capital mineira. Pelo menos 15 desfiles estão previstos, entre eles o Beleza Rara, da Banda Eva,...",
-          "content": "Alguns blocos seguem agitando BH neste domingo (22), último dia da programação oficial do carnaval na capital mineira. Pelo menos 15 desfiles estão previstos, entre eles o Beleza Rara, da Banda Eva, e do Swing Safado (veja todos na tabela ao final da reportagem).\n- MAPA INTERATIVO: navegue pela ferramenta do g1 e escolha seu bloco\nBeleza Rara\nCarnaval 2026 em BH: Banda Eva — Foto: Divulgação\nO bloco Beleza Rara, da Banda Eva, está com concentração prevista para as 16h, na Avenida dos Andradas, no Centro de BH.\nSob o comando de Felipe Pezzoni, o Beleza Rara estreia no carnaval de BH levando axé e clássicos como \"Eva\" e \"Beleza Rara\" aos foliões mineiros.\nCom mais de quatro décadas de história, a Banda Eva é um dos maiores ícones do axé e do carnaval de Salvador e se consolidou como uma verdadeira \"escola de talentos\" da música brasileira.\nFundada originalmente como bloco em 1980 e transformada em banda logo depois, o grupo foi o trampolim para estrelas como Daniela Mercury, Ivete Sangalo e Saulo Fernandes, emplacando hinos atemporais como \"Eva\", \"Beleza Rara\" e \"Arerê\".\n- 🗓️ Data: domingo (22)\n- 🕐 Horário: 16h\n- 📍Local: Avenida dos Andradas, 20 - Centro, BH\nBloco Swing Safado\nCarnaval 2026 em BH: integrantes do bloco Swing Safado, que desfila no pós carnaval de BH, no domingo (22) — Foto: Divulgação\nO Swing Safado, bloco que desfilou na última segunda-feira (16) de carnaval em BH, volta às ruas para alegrar foliões no pós-carnaval. O cortejo está previsto para começar às 16h, na Rua Gentios, no Conjunto Santa Maria.\nCom o tema \"BH tem um tempero\", inspirado na música \"O baiano tem o molho\", do Kanalhha, o bloco reforça a combinação de ritmos, humor e tradição local.\n- 🗓️ Data: domingo (22)\n- 🕐 Horário: 16h\n- 📍Local: Rua Gentios, 1293 - Conjunto Santa Maria, BH\nNavegue pela tabela, filtrando as informações por nome, data, horário ou local do bloco:\nLEIA TAMBÉM:",
-          "read_time": 2,
+          "image_url": "https://s2-g1.glbimg.com/QnW9aic1L_cIt4fRaSOwF1RDk8g=/1400x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/8/k/9bOZdAT5CPTLZUmPsvTg/mega-sena-agencia-brasil-1-.png",
+          "excerpt": "Veja os números sorteados: 07 - 10 - 17 - 35 - 44 - 46\nDois dos bilhetes premiados em Goiás foram registrados por meio de canais eletrônicos e o outro em uma loteria. Cada um dos apostadores receberá...",
+          "content": "Veja os números sorteados: 07 - 10 - 17 - 35 - 44 - 46\nDois dos bilhetes premiados em Goiás foram registrados por meio de canais eletrônicos e o outro em uma loteria. Cada um dos apostadores receberá a quantia de R$ 36.398,76.\nVeja onde foram feitas as apostas ganhadoras em Goiás:\n- Cidade Ocidental - Canais eletrônicos\n- Goiânia - Canais eletrônicos\n- Goiânia - Loterias Nova Vila\nvolante mega-sena aposta mega — Foto: Rafa Neddermeyer/Agência Brasil\nLEIA TAMBÉM:\nDe acordo com a lista de ganhadores do site da Caixa, 106 apostas acertaram cinco números, faturando mais de R$ 30 mil. Com quatro acertos, são 7.501 apostas ganhadoras no sorteio que ganharam R$ 847,85 cada.\nComo jogar?\nA Mega-Sena acumulou e a estimativa é que o prêmio sorteado no próximo concurso chegue a R$ 116 milhões. Para quem quer tentar a sorte de ganhar essa bolada, é preciso escolher seis números entre as dezenas do volante.\nO valor para apostas de seis números é de R$ 6 e quanto maior a quantidade de números apostados, maior o preço do bilhete. As apostas na Mega-Sena podem ser realizadas até as 19h do dia anterior ao sorteio no site da Caixa ou em qualquer lotérica.\n📱 Veja outras notícias da região no g1 Goiás.",
+          "read_time": 1,
           "domain": "g1.globo.com",
           "has_image": true
         },
         {
-          "id": 3783068805,
-          "title": "Medo de turbulência? Saiba quais lugares balançam menos no avião",
-          "link": "https://g1.globo.com/turismo-e-viagem/noticia/2026/02/22/medo-de-turbulencia-saiba-quais-lugares-balancam-menos-no-aviao.ghtml",
-          "date": "2026-02-22T08:01:07",
+          "id": 2990320243,
+          "title": "Centro-Oeste de MG desvia e sai da meta de escolarização do Ensino Fundamental batida em 2022 e 2023, diz IBGE",
+          "link": "https://g1.globo.com/mg/centro-oeste/noticia/2026/02/22/centro-oeste-de-mg-desvia-e-sai-da-meta-de-escolarizacao-do-ensino-fundamental-batida-em-2022-e-2023-diz-ibge.ghtml",
+          "date": "2026-02-22T10:00:59",
           "author": "Redação",
           "category": "capa",
           "category_name": "Capa",
-          "image_url": "https://s2-g1.glbimg.com/yIn0cexSGccLEes9qK_HWMlbp6M=/7360x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/0/W/KzcIbkRruoAKZrqouZ3g/suhyeon-choi-ttfdmarq-fe-unsplash.jpg",
-          "excerpt": "Mesmo sendo um fenômeno comum em voos, passar por turbulência pode ser bastante desagradável. Além do susto, ela pode causar mal-estar, tontura e enjoo em alguns viajantes.\nEm dezembro, por exemplo,...",
-          "content": "Mesmo sendo um fenômeno comum em voos, passar por turbulência pode ser bastante desagradável. Além do susto, ela pode causar mal-estar, tontura e enjoo em alguns viajantes.\nEm dezembro, por exemplo, passageiros precisaram de atendimento médico depois de enfrentar turbulência em um voo que saiu de Curitiba com destino a São Paulo, mas acabou precisando desviar para Campinas por causa de uma ventania. Veja no vídeo abaixo.\nAlém disso, pesquisas indicam que a turbulência tem se tornado mais frequente e deve se intensificar com o avanço do aquecimento global.\nUm estudo da Universidade de Reading, no Reino Unido, apontou um aumento de 55% nos registros de turbulência severa em céu claro (CAT, na sigla em inglês) entre 1979 e 2020, associado às mudanças climáticas.\nEsse tipo de fenômeno ocorre em massas de ar altamente instáveis e não pode ser detectado por satélites, radares ou a olho nu, o que aumenta o risco para as aeronaves.\nA projeção é que, até 2050, pilotos enfrentem pelo menos o dobro de episódios de turbulência severa em céu claro, segundo estudo citado pelo Fórum Econômico Mundial.\nMas sabia que tem lugares no avião onde é possível sentir menos os efeitos da turbulência? Confira.\n✈️Onde a turbulência é menos sentida\nPassageiros em um avião — Foto: Unsplash/Suhyeon Choi\nOs assentos localizados perto das asas costumam balançar menos, explica Jaqueline Mendes Queiroz, coordenadora do curso de Engenharia Aeronáutica da PUC Minas.\nIsso acontece porque as asas ficam próximas ao centro de massa da aeronave — ponto em que o peso do avião é distribuído de forma equilibrada e onde o movimento é menor.\n“É como uma gangorra: o ponto central quase não se movimenta, enquanto as extremidades se deslocam mais. Quanto mais perto do centro de massa, menor é a amplitude dos movimentos”, explica a especialista.\nAo g1, Fernando Catalano, professor de engenharia aeronáutica da USP de São Carlos, e o escritor e consultor internacional de aviação Gianfranco “Panda” Beting também defenderam a mesma avaliação.\n➡️Mas e entre quem está sentado na frente e atrás das asas?\nNesse caso, os passageiros sentados atrás das asas tendem a sentir mais os solavancos da turbulência do que aqueles que ficam à frente. É que o ar fica mais turbulento depois de passar por obstáculos, no caso, as asas.\nPela mesma lógica — mas em maior proporção —, as rotas de voo mais turbulentas do mundo geralmente ficam próximas a regiões montanhosas, como o Himalaia e os Andes.\nAinda assim, de forma geral, a diferença na sensação de turbulência de acordo com o assento costuma ser sutil, segundo a professora.\n\"Como o avião é uma estrutura rígida e relativamente curta em relação às correntes de ar que enfrenta, a variação na intensidade do balanço ao longo da cabine não é tão grande\", afirma.\nVeja mais:\n✈️Tamanho do avião também faz diferença\nO tamanho da aeronave também influencia na forma como a turbulência é sentida. Aviões maiores, como os usados em voos comerciais, têm mais massa, o que faz com que respondam de maneira mais lenta às variações do ar.\nNa prática, é o mesmo princípio observado no dia a dia: objetos maiores e mais pesados costumam ser menos chacoalhados do que os menores quando submetidos à mesma força.\n✈️Turbulência não derruba avião, mas exige atenção\nApesar do desconforto, a turbulência sozinha não é capaz de derrubar um avião, segundo a especialista.\nEla explica que as aeronaves comerciais são projetadas para suportar condições severas e que, para que ocorra um acidente grave, é necessária uma sequência extremamente improvável de falhas.\nNa verdade, o principal risco associado à turbulência está dentro da cabine, segundo Fernando Catalano, professor de engenharia aeronáutica da USP de São Carlos.\n“Durante a turbulência, passageiros e objetos podem se deslocar dentro da aeronave, o que pode causar acidentes. Por isso, especialmente diante do aquecimento global e do aumento na frequência desses episódios, o mais importante é permanecer com o cinto de segurança afivelado durante todo o voo”, orienta.\nVeja mais:",
+          "image_url": "https://s2-g1.glbimg.com/ueNwIvZrH0eF9pa7DK4hSQEpE9o=/1280x0/filters:format(jpeg)/https://s03.video.glbimg.com/x720/14251846.jpg",
+          "excerpt": "Zona da Mata bate meta de escolarização para o Ensino Fundamental e supera índice imposto para Ensino Médio — Foto: Licia Rubinstein\nEm 2024, o Centro-Oeste de Minas Gerais desviou ligeiramente da...",
+          "content": "Zona da Mata bate meta de escolarização para o Ensino Fundamental e supera índice imposto para Ensino Médio — Foto: Licia Rubinstein\nEm 2024, o Centro-Oeste de Minas Gerais desviou ligeiramente da meta de escolarização para crianças e adolescentes de 6 a 14 anos - que compreende as idades para todo o Ensino Fundamental - propostas pelo Plano Nacional de Educação (PNE). Isso porque a região já havia alcançado a universalização (100% do público) para essa faixa etária em 2022 e 2023, regredindo para 99,9% em 2024.\nApesar disso, a região já está dentro do índice imposto para o Ensino Médio desde 2016.\nOs dados são da Pesquisa Nacional por Amostra de Domicílios Contínua Anual (PNADC), do Instituto Brasileiro de Geografia e Estatística (IBGE), divulgada em dezembro de 2025.\n🔎O PNE em vigor foi instituído pela Lei 13.005/2014, para o decênio de 2014/2024, e prorrogado até 31 de dezembro de 2025, de acordo com a Lei 14.934/2024.\nJá os resultados da região para as faixas de 0 a 5 anos, que compreende o Ensino Infantil, estão aquém do objetivo imposto pelo Ministério da Educação.\nAlém dos números de escolaridade, o estudo ainda apresenta a taxa de analfabetismo de pessoas acima de 15 anos. O Centro-Oeste mineiro, em 2024, apresentou o segundo menor índice da série histórica registrada pelo IBGE, desde 2016.\nTaxa de escolarização até 3 anos aumenta\nO índice de escolarização entre as crianças de 0 a 3 anos aumentou quase 14 pontos percentuais em 2024 em relação ao ano anterior. Esse crescimento foi retomado após queda apresentada após o período de pandemia de Covid-19.\n🟡2016: 29,3%\n🔴2017: 28%\n🟢2018: 34,5%\n🟢2019: 35%\n🔴2022: 24,2%\n🟢2023: 25%\n🟢2024: 38,9%\nApesar do crescimento registrado no último ano, a região ainda não alcançou a meta do PNE, que para essa faixa etária é de pelo menos 50% de cobertura até 31 de dezembro de 2025.\nÍndice de crianças de 4 e 5 anos na escola reduz\nEm 2024, a taxa de crianças de 4 e 5 anos matriculados em algum estabelecimento de ensino no Centro-Oeste mineiro apresentou um ligeiro aumento em relação ao ano anterior.\n🟡2016: 95,4%\n🟢2017: 98%\n🔴2018: 96,8%\n🔴2019: 94,4%\n🟢2022: 97,2%\n🟢2023: 97,7%\n🟢2024: 98,7%\nCom esse resultado, a região ainda não bateu a meta do PNE, que é de universalizar a educação infantil entre as crianças de 4 a 5 anos, ou seja, alcançar os 100% desse público na escola até 31 de dezembro de 2025. Contudo, foi o resultado mais próximo da meta desde o início da análise histórica disponível pelo IBGE.\nLeia também:\nRegião regride e sai de meta cumprida em 2022 e 2023\nEntre as crianças e adolescentes de 6 a 14 anos, 99,9% estavam matriculadas na escola em 2024 no Centro-Oeste de Minas. Houve uma pequena regressão em comparação aos dois anos anteriores, já que em 2022 e 2023 a área já estava com 100% desse público escolarizado, garantindo - até então - o cumprimento da meta.\n🟡2016: 99,9%\n🟢2017: 98,1%\n🟡2018: 99,1%\n🔴2019: 99,3%\n🟢2022: 100%\n🔴2023: 100%\n🟢2024: 99,9%\nMas com o resultado de 2024, a região sai da lista de áreas com a meta do PNE alcançada, já que para o Ensino Fundamental a meta é de universalização, ou seja, 100% das crianças e adolescentes de 6 a 14 anos matriculados em uma instituição de ensino.\nAdolescentes entre 15 e 17 anos supera índice imposto\nJá entre os adolescentes de 15 a 17 anos a porcentagem de escolarização em 2024 foi de 88,8%, representando crescimento de quase 3 pontos percentuais em relação ao último ano. Além disso, no Centro-Oeste de MG, esse índice supera a Meta 3 do PNE, que é elevar a taxa média de matrícula para o Ensino Médio para 85%.\nDesde o início da séria histórica apresentada pelo IBGE, a região nunca esteve abaixo desse percentual no Ensino Médio.\n🟡2016: 88,5%\n🟢2017: 88%\n🔴2018: 86,4%\n🔴2019: 89,8%\n🟢2022: 91,5%\n🔴2023: 86%\n🔴2024: 88,8%\nAnalfabetismo acima dos 15 anos encolhe\nConforme o levantamento do PNADC, a taxa de analfabetismo de pessoas acima de 15 anos apresentou uma retração em relação ao último ano, atingindo o segundo menor índice da série histórica registrada pelo IBGE, desde 2016. A menor taxa foi apresentada em 2019.\n🟡2016: 4,8%\n🟡2017: 4,5%\n🔴2018: 4,2%\n🟡2019: 2,8%\n🟢2022: 4,3%\n🟢2023: 4,3%\n🔴2024: 3,7%\nASSISTA: Conheça o projeto que promove saúde emocional nas escolas",
+          "read_time": 4,
+          "domain": "g1.globo.com",
+          "has_image": true
+        },
+        {
+          "id": 4258915689,
+          "title": "Triângulo e Alto Paranaíba superam meta de escolarização no Ensino Médio e têm menor índice de analfabetismo, diz IBGE",
+          "link": "https://g1.globo.com/mg/triangulo-mineiro/noticia/2026/02/22/triangulo-e-alto-paranaiba-superam-meta-de-escolarizacao-no-ensino-medio-e-tem-menor-indice-de-analfabetismo-diz-ibge.ghtml",
+          "date": "2026-02-22T10:00:58",
+          "author": "Redação",
+          "category": "capa",
+          "category_name": "Capa",
+          "image_url": "https://s2-g1.glbimg.com/WUX7cdCRnT6gUs8bfxBqWxP7uxw=/1280x0/filters:format(jpeg)/https://s02.video.glbimg.com/x720/14360273.jpg",
+          "excerpt": "Triângulo e Alto Paranaíba batem meta de escolarização no Ensino Médio, mas não atingem objetivo no Fundamental e Infantil — Foto: Licia Rubinstein\nAs regiões do Triângulo Mineiro e Alto Paranaíba já...",
+          "content": "Triângulo e Alto Paranaíba batem meta de escolarização no Ensino Médio, mas não atingem objetivo no Fundamental e Infantil — Foto: Licia Rubinstein\nAs regiões do Triângulo Mineiro e Alto Paranaíba já superaram a meta de escolarização para o Ensino Médio - adolescentes entre 15 e 17 anos. Além disso, as regiões conseguiram reduzir o índice de analfabetismo entre pessoas com mais de 15 anos, atingido o menor percentual da história.\nOs dados são da Pesquisa Nacional por Amostra de Domicílios Contínua Anual (PNADC), do Instituto Brasileiro de Geografia e Estatística (IBGE), com séria histórica de 2016 a 2024, divulgada em dezembro de 2025.\n🔎O PNE em vigor foi instituído pela Lei 13.005/2014, para o decênio de 2014/2024, e prorrogado até 31 de dezembro de 2025, de acordo com a Lei 14.934/2024.\nApesar dos resultados, as regiões ainda não atingiram as metas de escolarização para a Educação Infantil e Ensino Fundamental em 2024 propostas pelo Plano Nacional de Educação (PNE), do Ministério da Educação.\nPara o Educação Infantil, que compreende as faixas etárias de até 5 anos, as cidades dessas regiões ainda estão longe dos números alvos colocados pelo PNE. Já para o Ensino Fundamental, que engloba alunos de 6 a 14 anos, os índices estão próximos de atingir o que foi proposto.\nEscolarização aumenta, mas não atinge objetivo\nO índice de escolarização entre as crianças de 0 a 3 anos aumentou 15 pontos percentuais em 2024 em relação ao ano anterior no Triângulo Mineiro e Alto Paranaíba.\nA taxa apresenta grandes variações ao longo dos anos, com maior pico em 2018. Portanto, as regiões continuam sem alcançar a meta do PNE, que para essa faixa etária era de pelo menos 50% de cobertura até 31 de dezembro de 2025.\n🟡2016: 21,4%\n🟢2017: 33,8%\n🟢2018: 40,4%\n🔴2019: 38,1%\n🔴2022: 37,9%\n🔴2023: 24,8%\n🟢2024: 39,7%\nÍndice de crianças de 4 e 5 anos na escola reduz\nEm 2024, a taxa de crianças de 4 e 5 anos matriculados em algum estabelecimento de ensino nas regiões do Triângulo e Alto Paranaíba apresentou redução em relação ao ano anterior.\n🟡2016: 90,9%\n🟢2017: 95%\n🟢2018: 97%\n🔴2019: 87,8%\n🟢2022: 92,6%\n🟢2023: 96%\n🔴2024: 93,4%\nCom esse resultado, as regiões ainda não bateram a meta do PNE, que é de universalizar a Educação Infantil entre as crianças de 4 a 5 anos, ou seja, alcançar os 100% desse público na escola até 31 de dezembro de 2025.\nLeia também:\nMeta para alunos entre 6 a 14 anos está próxima\nEntre as crianças e adolescentes de 6 a 14 anos, 99% estavam matriculadas na escola em 2024 no Triângulo e Alto Paranaíba. Isso significa que as regiões estão bem próximas de cumprir a meta de universalização do PNE para o Ensino Fundamental, apesar de terem apresentado ligeira redução no índice nos anos.\n🟡2016: 99,2%\n🔴2017: 99,1%\n🔴2018: 98,9%\n🟢2019: 99,8%\n🔴2022: 99,2%\n🟢2023: 99,6%\n🔴2024: 99%\nAdolescentes entre 15 e 17 anos superam índice imposto\nJá entre os adolescentes de 15 a 17 anos, a porcentagem de escolarização em 2024 foi de 96,4%. Esse índice já superou - dede 2017 - a Meta 3 do PNE, que é elevar a taxa média de matrícula para o Ensino Médio para 85%.\n🟡2016: 81,7%\n🟢2017: 90,2%\n🔴2018: 87,8%\n🟢2019: 90,6%\n🟢2022: 95,2%\n🔴2023: 91%\n🟢2024: 96,4%\nAnalfabetismo acima dos 15 anos encolhe\nConforme o levantamento do PNADC, a taxa de analfabetismo de pessoas acima de 15 anos reduziu em 2024 nas regiões do Triângulo Mineiro e Alto Paranaíba. O índice atingiu 2,9%, o menor desde 2016, histórico registrado pelo IBGE, e a primeira vez que fica abaixo de 3%.\n🟡2016: 3,3%\n🟡2017: 3,8%\n🔴2018: 4,2%\n🟡2019: 3,2%\n🟢2022: 3,3%\n🟢2023: 3,6%\n🔴2024: 2,9%\nASSISTA: Conselho Tutelar de Uberlândia atende em novo endereço",
           "read_time": 3,
           "domain": "g1.globo.com",
           "has_image": true
         },
         {
-          "id": 663132708,
-          "title": "Carnaval SP: carro alegórico quebra na concentração no Desfile das Campeãs",
-          "link": "https://www.cnnbrasil.com.br/entretenimento/carnaval/carnaval-sp-carro-alegorico-quebra-na-concentracao-no-desfile-das-campeas/",
-          "date": "2026-02-22T07:58:52",
+          "id": 3243843700,
+          "title": "Feira literária de Castro Alves terá shows de Alexandre Pires e Mumuzinho e homenagem a Glauber Rocha; saiba mais",
+          "link": "https://g1.globo.com/ba/feira-de-santana-regiao/noticia/2026/02/22/feira-literaria-de-castro-alves.ghtml",
+          "date": "2026-02-22T10:00:57",
+          "author": "Redação",
+          "category": "capa",
+          "category_name": "Capa",
+          "image_url": "https://s2-g1.glbimg.com/rEUHHEE2QfXuTkBHtkPEpcjmg7k=/1700x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/7/6/LRZgugQ0A2zFMqA0yhKw/foto-no-tamanho-home-2026-02-20t121406.351.png",
+          "excerpt": "Alexandre Pires e Mumuzinho estão entre as atrações da Feira Literária de Castro Alves — Foto: Divulgação | Bruno Fioravanti\nA cidade de Castro Alves, no interior da Bahia, vai sediar, pela sexta...",
+          "content": "Alexandre Pires e Mumuzinho estão entre as atrações da Feira Literária de Castro Alves — Foto: Divulgação | Bruno Fioravanti\nA cidade de Castro Alves, no interior da Bahia, vai sediar, pela sexta vez, a Feira Literária do Poeta (Flipo). O evento será realizado entre os dias 12 e 15 de março de 2026, com entrada gratuita, e vai reunir programação literária, audiovisual e shows musicais.\nA programação inclui mesas literárias com autores e cineastas, exibição de filmes e debates sobre audiovisual, atividades infantis com a Flipoquinha, ações voltadas às juventudes e à cultura digital, feira de economia solidária, caminhada cultural e apresentações artísticas.\nCom o tema, “Uma câmera na mão, um livro na cabeça: a literatura como revolução”, neste ano, a feira homenageia o cineasta baiano Glauber Rocha, que dirigiu obras reconhecidas nacionalmente, como \"Deus e o Diabo na Terra do Sol\" (1964) e \"Terra em Transe\" (1967).\nEntre as atrações musicais confirmadas estão Alexandre Pires e Mumuzinho. Também se apresentam Jammil, Adão Negro, Isaac Gomes, com participação especial de Edson Gomes, além da banda Babado Novo e do grupo Patrulha do Samba.\nAs atividades serão distribuídas em espaços como a Praça da Liberdade, o Casarão do Poeta, o Ginásio de Esportes, o Cine FLIPO e a Arena Glauber Rocha.\nA edição de 2026 também contará com a participação do ator Antônio Pitanga, do ator e escritor Aldri Anunciação, vencedor do Prêmio Jabuti, da atriz Edvana Carvalho e da cineasta Cecília Amado, diretora do filme Capitães da Areia.\nSegundo a organização, a programação completa será divulgada nos próximos dias. A feira é realizada pela BT Produções, Instituto Mafuá e Prefeitura de Castro Alves, com apoio do Governo do Estado da Bahia, Fundação Pedro Calmon, Secretaria de Cultura, Ministério do Turismo e Governo Federal.\nLEIA MAIS:\nVeja mais notícias de Feira de Santana e região.",
+          "read_time": 2,
+          "domain": "g1.globo.com",
+          "has_image": true
+        },
+        {
+          "id": 1894942884,
+          "title": "Zona da Mata bate meta de escolarização para o Ensino Fundamental e supera índice para Ensino Médio, diz IBGE",
+          "link": "https://g1.globo.com/mg/zona-da-mata/noticia/2026/02/22/zona-da-mata-bate-meta-de-escolarizacao-para-o-ensino-fundamental-e-supera-indice-para-ensino-medio-diz-ibge.ghtml",
+          "date": "2026-02-22T10:00:35",
+          "author": "Redação",
+          "category": "capa",
+          "category_name": "Capa",
+          "image_url": "https://s2-g1.glbimg.com/MaBcpL8XKjx7wqceM_EHqZcOmPk=/1280x0/filters:format(jpeg)/https://s03.video.glbimg.com/x720/14335938.jpg",
+          "excerpt": "Zona da Mata bate meta de escolarização para o Ensino Fundamental e supera índice imposto para Ensino Médio — Foto: Licia Rubinstein\nA Zona da Mata bateu em 2024 a meta de escolarização para crianças...",
+          "content": "Zona da Mata bate meta de escolarização para o Ensino Fundamental e supera índice imposto para Ensino Médio — Foto: Licia Rubinstein\nA Zona da Mata bateu em 2024 a meta de escolarização para crianças e adolescentes de 6 a 14 anos - que compreende as idades para todo o Ensino Fundamental - propostas pelo Plano Nacional de Educação (PNE), um ano antes do prazo estipulado. Além disso, a região já está dentro do índice imposto para o Ensino Médio desde 2017.\nOs dados são da Pesquisa Nacional por Amostra de Domicílios Contínua Anual (PNADC), do Instituto Brasileiro de Geografia e Estatística (IBGE), divulgada em dezembro de 2025.\n🔎O PNE em vigor foi instituído pela Lei 13.005/2014, para o decênio de 2014/2024, e prorrogado até 31 de dezembro de 2025, de acordo com a Lei 14.934/2024.\nApesar dos bons resultados, a região ainda está longe de atingir o alvo para a faixa de 0 a 5 anos, que compreende o Ensino Infantil.\nAlém dos números de escolaridade, o estudo ainda apresenta a taxa de analfabetismo de pessoas acima de 15 anos. A Zona da Mata, em 2024, apresentou o segundo menor índice da série histórica registrada pelo IBGE, desde 2016.\nVeja abaixo os índices de 2016 a 2024, exceto dos anos de 2020 e 2021, quando o levantamento não foi feito devido à pandemia.\nTaxa de escolarização até 3 anos aumenta\nO índice de escolarização entre as crianças de 0 a 3 anos aumentou 10 pontos percentuais em 2024 em relação ao ano anterior na Zona da Mata. Esse crescimento foi retomado após uma sequência três levantamento em queda.\n🟡2016: 25,4%\n🟢2017: 27,7%\n🟢2018: 34,9%\n🔴2019: 30,5%\n🔴2022: 23,9%\n🔴2023: 22%\n🟢2024: 32,2%\nApesar do crescimento apresentado no último ano, a região ainda não alcançou a meta do PNE, que para essa faixa etária é ter pelo menos 50% de cobertura até 31 de dezembro de 2025.\nÍndice de crianças de 4 e 5 anos na escola reduz\nEm 2024, a taxa de crianças de 4 e 5 anos matriculadas em algum estabelecimento de ensino na Zona da Mata apresentou uma ligeira queda em relação ao ano anterior.\n🟡2016: 91,9%\n🔴2017: 87,8%\n🟢2018: 91,4%\n🟢2019: 97,8%\n🔴2022: 95,6%\n🔴2023: 90,9%\n🔴2024: 89,8%\nCom esse resultado, a região ainda não bateu a meta do PNE, que é de universalizar a educação infantil entre as crianças de 4 a 5 anos, ou seja, alcançar os 100% desse público na escola até 31 de dezembro de 2025.\nMetas batidas e superadas\nEntre as crianças e adolescentes de 6 a 14 anos, 100% estavam matriculadas na escola em 2024 na Zona da Mata. Isso significa que a região cumpriu, um ano antes do prazo estipulado, a meta de universalização do PNE, que era até dezembro de 2025.\n🟡2016: 97,2%\n🟢2017: 98,8%\n🟡2018: 98,8%\n🔴2019: 98,4%\n🟢2022: 99,9%\n🔴2023: 99,5%\n🟢2024: 100%\nJá entre os adolescentes de 15 a 17 anos, a porcentagem de escolarização em 2024 foi de 87,5%, representando uma ligeira queda em relação aos últimos anos. Apesar disso, na Zona da Mata, esse índice já superou - dede 2017 - a Meta 3 do PNE, que é elevar a taxa média de matrícula para o Ensino Médio para 85%.\n🟡2016: 84,9%\n🟢2017: 91,2%\n🔴2018: 88,4%\n🔴2019: 87,8%\n🟢2022: 90,9%\n🔴2023: 89,9%\n🔴2024: 87,8%\nAnalfabetismo acima dos 15 anos encolhe\nConforme o levantamento do PNADC, a taxa de analfabetismo de pessoas acima de 15 anos apresentou um pequeno aumento em relação ao último ano, mas ainda é o segundo menor índice da série histórica registrada pelo IBGE, desde 2016. A menor taxa foi apresentada em 2023.\n🟡2016: 5,7%\n🟡2017: 5,7%\n🔴2018: 6,3%\n🟡2019: 6,3%\n🟢2022: 5,5%\n🟢2023: 4,3%\n🔴2024: 5,2%\nASSISTA TAMBÉM: Integração na Educação: Linguagens artísticas integram currículo nas escolas",
+          "read_time": 3,
+          "domain": "g1.globo.com",
+          "has_image": true
+        },
+        {
+          "id": 319233800,
+          "title": "Musa da Mangueira diz que escola merecia posição melhor no Grupo Especial",
+          "link": "https://www.cnnbrasil.com.br/entretenimento/carnaval/musa-da-mangueira-diz-que-escola-merecia-posicao-melhor-no-grupo-especial/",
+          "date": "2026-02-22T09:50:33",
           "author": "Marina Toledo",
           "category": "capa",
           "category_name": "Capa",
-          "image_url": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/02/carro-quebrado-tatuape-carnaval.png?w=353&h=280&crop=1",
-          "excerpt": "Carnaval SP: carro alegórico quebra na concentração do Desfile das Campeãs\nVeículo precisou ser removido antes da apresentação e atrasou a Acadêmicos do Tatuapé\nUm carro alegórico da escola de samba...",
-          "content": "Carnaval SP: carro alegórico quebra na concentração do Desfile das Campeãs\nVeículo precisou ser removido antes da apresentação e atrasou a Acadêmicos do Tatuapé\nUm carro alegórico da escola de samba Acadêmicos do Tatuapé quebrou na concentração do Desfile das Campeãs na madrugada deste domingo (22), no Sambódromo do Anhembi, em São Paulo.\nA última alegoria da agremiação ainda não tinha entrado na avenida quando precisou de ajuda de veículos para ser retirada da pista. Com o incidente, as alas do Tatuapé ficaram cerca de quinze minutos paradas no Sambódromo esperando para encerrar o desfile.\nComo alternativa, a escola passou os últimos integrantes para frente da alegoria para finalizar a apresentação. Parte das pessoas que estavam em cima do veículo esperando para entrar na pista conseguiram descer antes do carro ser retirado e as outras desceram após a remoção.\nO Desfile das Campeãs reuniu na noite de sábado (21) e na madrugada deste domingo (22) as cinco mais bem colocadas do Grupo Especial de São Paulo: a campeã Mocidade Alegre, seguida pela vice Gaviões da Fiel e pelas escolas Dragões da Real, Acadêmicos do Tatuapé e Barroca Zona Sul.\nTambém participaram as campeã e vice do Grupo de Acesso 1, Acadêmicos do Tucuruvi e Pérola Negra, além da campeã e vice do Grupo de Acesso 2, Morro da Casa Verde e X-9 Paulistana, promovidas à divisão superior.",
+          "image_url": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/02/karinah.jpeg?w=1200&h=630&crop=1",
+          "excerpt": "Musa da Mangueira diz que escola merecia posição melhor no Grupo Especial\nEscola ficou em sexto lugar do campeonato; Viradouro foi a grande campeã no Rio de Janeiro\nA cantora Karinah retornou à...",
+          "content": "Musa da Mangueira diz que escola merecia posição melhor no Grupo Especial\nEscola ficou em sexto lugar do campeonato; Viradouro foi a grande campeã no Rio de Janeiro\nA cantora Karinah retornou à Marquês de Sapucaí para o Desfile das Campeãs como musa da Estação Primeira de Mangueira e fez um balanço sincero sobre o resultado da escola no Carnaval 2026.\nEm seu quarto ano consecutivo na verde e rosa, a artista destacou a conexão afetiva com a agremiação, mas admitiu que não saiu totalmente satisfeita com a colocação final.\n“Feliz, feliz… Não tem como estar 100% feliz, né? Eu acho que houve alguns pontos ali que foram um pouco injustos, sabe?”, afirmou. Veja como foi a apuração do Grupo Especial do Rio.\nKarinah também ressaltou que a Mangueira segue firme em seu propósito e destacou a relevância da escola para além da avenida.\n“A Mangueira está muito à frente de muita coisa, inclusive do tempo. É uma escola que ensina muito pra gente, não só no Carnaval, mas durante todo o ano”, disse.\nApesar das ressalvas, a cantora reforçou o orgulho pela trajetória da agremiação e pela entrega na avenida.\n“A gente segue de cabeça erguida, com muito amor. É uma escola de vida, de família, e que vai continuar caminhando por muitos anos”, completou.",
           "read_time": 1,
           "domain": "cnnbrasil.com.br",
           "has_image": true
         },
         {
-          "id": 2018236552,
-          "title": "Toyota Highlander: SUV é primeiro elétrico de três fileiras da marca",
-          "link": "https://www.cnnbrasil.com.br/auto/toyota-highlander-suv-e-primeiro-eletrico-de-tres-fileiras-da-marca/",
-          "date": "2026-02-22T07:45:42",
-          "author": "rodrigobarros",
+          "id": 1529093210,
+          "title": "Juliana Paes celebra título da Viradouro no Desfile das Campeãs: “É nosso!”",
+          "link": "https://www.cnnbrasil.com.br/entretenimento/carnaval/juliana-paes-celebra-titulo-da-viradouro-no-desfile-das-campeas-e-nosso/",
+          "date": "2026-02-22T09:22:18",
+          "author": "Marina Toledo",
           "category": "capa",
           "category_name": "Capa",
-          "image_url": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/02/highlander-27.jpeg?w=1200&h=630&crop=1",
-          "excerpt": "Toyota Highlander: SUV é primeiro elétrico de três fileiras da marca\nPara a linha 2027, o Highlander foi lançado apenas em versões elétricas e a mais completa tem 516 km de alcance\nO Toyota...",
-          "content": "Toyota Highlander: SUV é primeiro elétrico de três fileiras da marca\nPara a linha 2027, o Highlander foi lançado apenas em versões elétricas e a mais completa tem 516 km de alcance\nO Toyota Highlander agora é um SUV 100% elétrico. Apesar de não ser comercializado no Brasil, o modelo marca um momento de transição da Toyota que lançou o primeiro carro de três fileiras 100% elétrico.\nCom espaço para sete ocupantes, o novo Toyota Highlander tem linhas mais minimalistas aposta na eficiência energética.\nO novo visual apresenta para-lamas largos, luzes diurnas de LED de comprimento total e maçanetas de porta niveladas para um apelo aerodinâmico.\nEm dimensões, o Highlander tem 5,05 metros de comprimento, 1,98 metro de largura e 1,70 metro de altura. A distância entre-eixos é de 3,05 metros.\nPara a linha 2027, o Highlander foi lançado apenas em versões elétricas. A configuração mais completa tem 516 km de alcance.\nO novo Highlander elétrico é construído sobre a plataforma TNGA-K modificada, que é derivada do Highlander a combustão.\nEm termos de desempenho, o Toyota Highlander parte de 224 cv de potência e 28,8 kgfm de torque. Já a versão mais potente tem 343 cv e 47,7 kgfm de toque.\nInterior do Toyota Highlander\nPor dentro, o Toyota Highlander tem um design moderno com uma tela central de 14 polegadas com pareamento sem fio para Android Auto e Apple CarPlay. Já o painel de instrumentos tem 12,3 polegadas e opção de navegar com a tela completa.\nHá também um head-up display, que facilita a visualização de informações pelo motorista. A iluminação ambiente é padrão, com 64 opções de cores diferentes para definir o clima perfeito para uma noite na cidade.\nNo espaço interno, são 450 litros de capacidade com a terceira fileira. Ao rebater, o volume sobe para 1.292 litros.",
-          "read_time": 2,
+          "image_url": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/02/juliana.jpg?w=1200&h=630&crop=1",
+          "excerpt": "Juliana Paes celebra título da Viradouro no Desfile das Campeãs: “É nosso!”\nAtriz voltou à Sapucaí como rainha de bateria da escola campeã do Grupo Especial de 2026\nJuliana Paes voltou à Marquês de...",
+          "content": "Juliana Paes celebra título da Viradouro no Desfile das Campeãs: “É nosso!”\nAtriz voltou à Sapucaí como rainha de bateria da escola campeã do Grupo Especial de 2026\nJuliana Paes voltou à Marquês de Sapucaí na madrugada deste domingo (22), no Desfile das Campeãs, em clima de emoção e celebração com a Unidos do Viradouro, vencedora do Carnaval 2026. Rainha de bateria da escola de Niterói, a atriz destacou a sensação de retornar à avenida já com o título garantido.\n“Desfilar sendo campeã é mais gostoso. É nosso, é nosso! Muita felicidade”, disse em entrevista à CNN Brasil.\nEm um momento de emoção, Juliana também falou sobre a memória do pai ao comentar a conquista. “Com certeza”, afirmou ao ser questionada sobre ele estar feliz com o título da Viradouro.\nA escola encerrou o desfile das campeãs repetindo o espetáculo que garantiu o campeonato, com o enredo em homenagem ao Mestre Ciça, levando à Sapucaí um desfile marcado por potência, emoção e celebração do samba.",
+          "read_time": 1,
           "domain": "cnnbrasil.com.br",
           "has_image": true
         },
         {
-          "id": 3395438501,
-          "title": "Tarifaço: Empresas preparam disputa por reembolso bilionário nos EUA",
-          "link": "https://www.cnnbrasil.com.br/economia/macroeconomia/tarifaco-empresas-preparam-disputa-por-reembolso-bilionario-nos-eua/",
-          "date": "2026-02-22T07:30:24",
-          "author": "giselalammers1",
+          "id": 159759909,
+          "title": "Bafta 2026: Como assistir à premiação que pode premiar o Brasil?",
+          "link": "https://www.cnnbrasil.com.br/entretenimento/bafta-2026-como-assistir-a-premiacao-que-pode-premiar-o-brasil/",
+          "date": "2026-02-22T09:00:36",
+          "author": "anabeatrizdias",
           "category": "capa",
           "category_name": "Capa",
-          "image_url": "https://admin.cnnbrasil.com.br/wp-content/themes/master-theme/assets/img/fallbackImage.jpg",
-          "excerpt": "Tarifaço: Empresas preparam disputa por reembolso bilionário nos EUA\nNa sexta-feira (20), a Suprema Corte dos EUA decidiu que o tarifaço do presidente Donald Trump, política tarifária que tem sido...",
-          "content": "Tarifaço: Empresas preparam disputa por reembolso bilionário nos EUA\nNa sexta-feira (20), a Suprema Corte dos EUA decidiu que o tarifaço do presidente Donald Trump, política tarifária que tem sido central para a agenda econômica do presidente norte-americano, são ilegais\nO embate está apenas começando para as 300 mil empresas que querem o reembolso de US$ 134 bilhões pagos em tarifas, após a Suprema Corte dos Estados Unidos ter decidido na sexta-feira (20) derrubar as taxas globais impostas pelo presidente Donald Trump.\nUma resposta clara sobre o que acontecerá com as dezenas de bilhões de dólares que as empresas americanas desembolsaram depois que Trump aumentou as tarifas sobre todos os parceiros globais no ano passado ainda está em aberto.\nO governo Trump — tanto formal quanto informalmente — prometeu reembolsar os impostos cobrados caso a Suprema Corte emitisse uma decisão contrária a eles. Mas nem o governo nem nenhum dos juízes especificaram exatamente como isso funcionaria.\nEm seu voto dissidente, o juiz Brett Kavanaugh escreveu que “reembolsos de bilhões de dólares teriam consequências significativas para o Tesouro dos EUA”.\n“O Tribunal não se pronunciou sobre se, e em caso afirmativo, como o Governo deve proceder para devolver os bilhões de dólares que arrecadou dos importadores. Mas esse processo provavelmente será uma ‘bagunça’”, continuou ele.\nNa sexta-feira (20), o presidente Donald Trump questionou por que os juízes não se pronunciaram sobre a necessidade de devolver a receita das tarifas. \"Acho que isso terá que ser litigado pelos próximos dois anos\", declarou ele a repórteres. Em seguida, acrescentou que isso poderia levar \"até cinco anos\".\n“O caso nunca foi sobre reembolsos, e era inconcebível que a Suprema Corte se envolvesse nos detalhes de como aplicá-los”, apontou Ted Posner, advogado especializado em comércio internacional e sócio da Baker Botts.\n“Agora, estamos conversando com as empresas sobre os próximos passos, o que significa mais espera, desta vez pela Corte de Comércio Internacional. Qualquer processo de reembolso exigirá uma documentação meticulosa e, por enquanto, empresas e até mesmo países estão em um limbo”, continuou. Essencialmente, isso significa que importadores terão que entrar com os próprios processos para ter uma chance de receber um reembolso.\nO secretário do Tesouro dos EUA, Scott Bessent, disse em uma entrevista à Reuters no mês passado que a agência tem dinheiro suficiente em caixa para reembolsar os importadores, mas que o processo pode levar mais de um ano.\n“Não será um problema se tivermos que fazer isso, mas posso dizer que, se acontecer — o que eu não acho que vai acontecer —, será apenas um desperdício de dinheiro público”, afirmou Bessent. Em seguida, Bessent perguntou se empresas como a Costco, que processaram preventivamente o governo dos EUA em uma tentativa de garantir o direito a um reembolso, devolveriam parte dos fundos recebidos aos clientes.\n“Tenho a impressão de que o povo americano não verá isso”, afirmou Bessent na sexta-feira (20) em um evento organizado pelo Clube Econômico de Dallas.\nEsta não seria a primeira vez que o governo teria que emitir reembolsos de tarifas em decorrência de uma decisão da Suprema Corte. Uma decisão de 1998 resultou em US$ 730 milhões em reembolsos de tarifas para empresas americanas, embora tenha levado dois anos para ser concluída.\n“É uma incógnita se a Alfândega e Proteção de Fronteiras seguirá o precedente histórico ou os processos existentes, ou se um novo processo será necessário para lidar com a enorme abrangência e o volume das tarifas da IEEPA (uma lei de emergência da década de 1970, a Lei de Poderes Econômicos de Emergência Internacional que Donald Trump se baseou para aplicar o tarifaço)”, comentou Alexis Early, advogada especializada em comércio exterior e sócia da BCLP, referindo-se ao conjunto de tarifas que a Suprema Corte derrubou.\nQuanto aos consumidores que pagaram pelas tarifas por meio de preços mais altos, parece que os reembolsos nunca chegarão às contas bancárias.\n“É muito improvável que as empresas comecem a reduzir os preços como resultado disso”, destacou Stephanie Roth, economista-chefe da Wolfe Research.\n*Matt Egan, da CNN, contribuiu com esta matéria.",
-          "read_time": 3,
+          "image_url": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/01/Estatua-do-BAFTA.png?w=1024&h=576&crop=1",
+          "excerpt": "Bafta 2026: Como assistir à premiação que pode premiar o Brasil?\nPaís soma cinco indicações na premiação britânica; cerimônia acontece neste domingo (22), em Londres\nA cerimônia do Bafta 2026...",
+          "content": "Bafta 2026: Como assistir à premiação que pode premiar o Brasil?\nPaís soma cinco indicações na premiação britânica; cerimônia acontece neste domingo (22), em Londres\nA cerimônia do Bafta 2026 acontece neste domingo (22), no Royal Festival Hall, no Southbank Centre de Londres, com apresentação do ator Alan Cumming. As indicações foram anunciadas em 27 de janeiro, e o Brasil tem motivos para torcer: a premiação é um dos principais termômetros para o Oscar.\nNo entanto, ao contrário do ano passado, quando o HBO Max transmitiu a cerimônia para os assinantes brasileiros, a plataforma confirmou que não exibirá o Bafta 2026 por aqui. Confira a lista completa de indicados ao Bafta 2026.\nA alternativa para os fãs brasileiros é acompanhar o tapete vermelho ao vivo pelo canal oficial do BAFTA no YouTube, a partir das 11h30 (horário de Brasília).\nA cerimônia em si começa às 14h, também no horário de Brasília. Após o evento, vídeos com os vencedores e entrevistas exclusivas poderão ser encontrados no mesmo canal.\nBafta 2026: Quem são os favoritos nas principais categorias?\nEm quais categorias o Brasil concorre no BAFTA 2026?\nSão cinco indicações brasileiras na edição deste ano. \"O Agente Secreto\", dirigido por Kleber Mendonça Filho e estrelado por Wagner Moura, concorre em Melhor Filme em Língua Não Inglesa e Melhor Roteiro Original. Já \"Apocalipse dos Trópicos\", de Petra Costa, disputa a categoria de Melhor Documentário.\nNas categorias técnicas, o diretor de fotografia Adolpho Veloso concorre por \"Sonhos de Trem\", enquanto o editor Affonso Gonçalves é indicado por \"Hamnet\".",
+          "read_time": 1,
           "domain": "cnnbrasil.com.br",
           "has_image": true
         },
         {
-          "id": 551145292,
-          "title": "5 recursos do Android que vão melhorar sua rotina; confira",
-          "link": "https://www.cnnbrasil.com.br/tecnologia/5-recursos-do-android-que-vao-melhorar-sua-rotina-confira/",
-          "date": "2026-02-22T07:30:00",
-          "author": "lucasvinisantos",
-          "category": "capa",
-          "category_name": "Capa",
-          "image_url": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/01/samsung-5188631_1920.jpg?w=1200&h=630&crop=1",
-          "excerpt": "5 recursos do Android que vão melhorar sua rotina; confira\nDescubra 5 recursos nativos do Android para turbinar a rotina: Modo Foco, Modo Sono, tela dividida, voz e Quick Share. Veja como ativar.\nO...",
-          "content": "5 recursos do Android que vão melhorar sua rotina; confira\nDescubra 5 recursos nativos do Android para turbinar a rotina: Modo Foco, Modo Sono, tela dividida, voz e Quick Share. Veja como ativar.\nO sistema Android oferece diversas funcionalidades que muitas vezes passam despercebidas, mas que podem fazer grande diferença no dia a dia. Em meio à correria diária, as ferramentas do seu smartphone podem automatizar tarefas, reduzir distrações e trazer mais praticidade.\nFelizmente, o Android traz recursos que ajudam a organizar o tempo e agilizar tarefas comuns; inclusive, muitos deles estão disponíveis nativamente, sem necessidade de instalar novos aplicativos.\n5 recursos do Android que vão melhorar sua rotina; confira\nMuitos usuários desconhecem que seus celulares Android já vêm com algumas ferramentas prontas para facilitar situações da rotina. Por exemplo, algumas funções ajudam a evitar distrações durante o trabalho ou estudo e até lembrar de parar de usar o smartphone em certo momento.\nConfira abaixo cinco funcionalidades fáceis de usar que estão disponíveis na maioria dos aparelhos Android e veja como cada uma pode melhorar sua rotina.\nModo Foco\nO Modo Foco é uma ferramenta ideal para quem precisa evitar interrupções e manter a concentração em tarefas importantes. Quando é ativado, ele pausa notificações de aplicativos selecionados que podem desviar sua atenção.\nComo ativar o Modo Foco no Android:\n- Abra as \"Configurações\" do aparelho e vá em ‐Bem-estar digital e controles parentais‐;\n- Em ‐Modo Foco‐, clique em \"+\" para personalizar um modo novo;\n- Clique em \"Iniciar\" e escolha um nome do foco;\n- Agora, você pode editar e escolher quais apps não devem te enviar notificação quando esse modo estiver ativado;\n- Pronto, você pode ativar o modo ou definir uma programação para ele ligar automaticamente na hora que você programar.\nModo Sono ou Hora de Dormir\nSe o uso do celular noite tem atrapalhado o seu descanso, o Modo Sono ou Modo Hora de Dormir pode ajudar a melhorar sua rotina noturna.\nEsse recurso prepara o aparelho para a sua hora de dormir, ajustando configurações de forma automática: a tela fica em tons de cinza ou com brilho reduzido para minimizar estímulos visuais, e as notificações são silenciadas ou limitadas.\nComo usar o Modo Sono no Android:\n- Acesse ‐Configurações‐ e clique em ‐Bem-estar digital e controles parentais‐;\n- Selecione a opção ‐Modo Sono‐ ou ‐Hora de Dormir‐;\n- Clique em \"Ativar agora\" ou escolha \"Ativar como agendado\" e escolha os horários e dias em que o modo deve ser ativado.\nTela dividida (multitarefa)\nUsar dois aplicativos ao mesmo tempo na tela do celular é possível com o recurso de tela dividida, e isso pode agilizar suas atividades. Com a tela dividida, você consegue visualizar e interagir com dois apps simultaneamente.\nPor exemplo, dá para acompanhar um vídeo no YouTube enquanto responde mensagens no WhatsApp, ou ver um e-mail enquanto anota informações em um bloco de notas.\nComo habilitar a tela dividida no Android:\n- Abra o primeiro aplicativo que você deseja usar;\n- Em seguida, acesse a tela de apps recentes deslizando de baixo para cima ou tocando no botão de visão geral, dependendo do modelo;\n- Na lista de aplicativos abertos recentemente, encontre o app desejado e clique e segure nele;\n- Depois, você arrasta o aplicativo para a área de trabalho e solta quando aparecer \"Solte aqui para exibio em pop-up\";\n- Agora, clique no trao azul na parte superior dessa aba pop-up, e quando aparecer o menu, você clica no cone de dividir a tela;\n- Pronto, agora os dois apps aparecero simultaneamente;\n- Vale lembrar que a forma de dividir a tela pode variar levemente entre os diferentes modelos de Android.\nDigitação por voz\nA digitação por voz é um recurso prático que transforma a fala em texto, o que permite ‐escrever‐ mensagens sem precisar digitar manualmente.\nUsando o microfone do teclado, você pode ditar um e-mail, uma mensagem de WhatsApp ou mesmo anotações, e o sistema transcreve automaticamente suas palavras na tela.\nComo usar a digitação por voz no Android:\n- Abra um aplicativo ou campo de texto em que deseja escrever, como um chat no WhatsApp;\n- No teclado, procure e clique no cone de microfone;\n- Agora fale a mensagem em voz alta, pausadamente e de forma clara;\n- Lembre-se de conferir o texto na tela, depois você pode edit-lo manualmente caso alguma palavra no esteja correta.\nCompartilhamento por proximidade (Quick Share)\nEnviar fotos, vdeos ou documentos de um dispositivo Android para outro relativamente simples com o Compartilhamento por proximidade (Quick Share).\nEssa funo nativa do Android permite compartilhar arquivos diretamente com dispositivos prximos sem precisar de internet, usando conexes Bluetooth e Wi-Fi para transferir os dados de forma rpida e segura.\nComo compartilhar arquivos por proximidade:\n- Antes de tudo, ative o Bluetooth, Wi-Fi e a Localizao nos dois smartphones;\n- No dispositivo que enviar o contedo, abra o arquivo que deseja compartilhar e toque no boto de ‐Compartilhar‐;\n- Selecione ‐Compartilhamento por proximidade‐, \"Quick Share\" ou clique no cone de dois retngulos;\n- Aguarde enquanto o seu aparelho busca dispositivos prximo;\n- Quando o nome do outro aparelho aparecer na tela, toque nele para enviar.\n- No outro dispositivo, confirme o recebimento e aceite a solicitao;\n- Pronto, o arquivo ser ento transferido instantaneamente.",
-          "read_time": 4,
-          "domain": "cnnbrasil.com.br",
-          "has_image": true
-        },
-        {
-          "id": 1555956932,
-          "title": "PF fecha cerco a políticos de Goiás que investiram em fundos do Master",
-          "link": "https://www.cnnbrasil.com.br/politica/pf-fecha-cerco-a-politicos-de-goias-que-investiram-em-fundos-do-master/",
-          "date": "2026-02-22T07:30:00",
-          "author": "polianafarias",
-          "category": "capa",
-          "category_name": "Capa",
-          "image_url": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/11/ac5ed6f0-2d27-4872-9f1d-85b8bc9363cd-e1763557268413.jpeg?w=768&h=433&crop=1",
-          "excerpt": "PF fecha cerco a políticos de Goiás que investiram em fundos do Master\nAparecida de Goiânia colocou R$ 40 milhões no banco, sem autorização do conselho, e meses antes do fim do mandato de prefeito\nA...",
-          "content": "PF fecha cerco a políticos de Goiás que investiram em fundos do Master\nAparecida de Goiânia colocou R$ 40 milhões no banco, sem autorização do conselho, e meses antes do fim do mandato de prefeito\nA Polícia Federal avançou em investigações que mostram que o AparecidaPrev (Instituto de Previdência dos Servidores da cidade de Aparecida de Goiânia/GO) investiu R$ 40 milhões em letras financeiras do Banco Master em 2024 sem anuência dos conselheiros, com a apresentação de dados falsos e após relações de amizade entre políticos locais e o banqueiro Daniel Vorcaro.\nSegundo pessoas a par da investigação, extratos bancários encontrados durante as apurações mostram que Aparecida de Goiânia - de pouco mais de 500 mil habitantes, na região metropolitana de Goiânia - tentou investir um valor ainda maior.\nDe acordo com as investigações, a expectativa dos envolvidos era investir, além dos R$ 40 milhões depositados, no mínimo, mais R$ 10 milhões. No entanto, conversas recuperadas mostrariam ainda outras tratativas que chegavam na casa dos R$ 30 milhões.\nAté agora, dois nomes aparecem nas investigações da PF: o ex-prefeito de Aparecida de Goiânia Vilmar Mariano (União Brasil) e o ex-secretário da Fazenda Einstein Paniago, que também comandou o Instituto de Previdência de Aparecida até 2023.\nDe acordo com o Ministério da Previdência Social, o AparecidaPrev declarou ter aplicado os R$ 40 milhões em letras do Master no dia 06 de junho de 2024, época em que Mariano era prefeito.\nJá atas de reuniões realizadas mostram que o investimento no banco aconteceu à revelia das autorizações do Conselho Municipal de Previdência, e após tentativas de inflar ainda mais os rendimentos do banco.\nApesar da negativa do conselho - devido à nota bancária inferior de risco do Master - os R$ 40 milhões teriam sido investidos por insistência do então secretário Einstein Paniago. Ele teria se aproximado de Vorcaro e trabalhado pessoalmente para burlar as regras e realizar o investimento.\nPaniago teria acordado os investimentos com o então prefeito, Vilmar Mariano. O repasse milionário ao Master ocorreu seis meses antes de Mariano deixar a prefeitura de Aparecida de Goiânia e, dias depois, de ter o nome vetado pelo partido para concorrer à reeleição.",
-          "read_time": 2,
-          "domain": "cnnbrasil.com.br",
-          "has_image": true
-        },
-        {
-          "id": 1940771768,
+          "id": 624459589,
           "title": "Novas tarifas globais de Trump: como funcionam e o que acontece agora?",
           "link": "https://www.bbc.com/portuguese/articles/cr45w090x44o?at_medium=RSS&at_campaign=rss",
           "date": "2026-02-21T19:38:44",
@@ -232,7 +232,7 @@
           "has_image": true
         },
         {
-          "id": 2264266626,
+          "id": 1438358027,
           "title": "Governo britânico estuda tirar ex-príncipe Andrew da linha de sucessão real",
           "link": "https://www.bbc.com/portuguese/articles/cly03d11e42o?at_medium=RSS&at_campaign=rss",
           "date": "2026-02-21T13:07:50",
@@ -254,7 +254,7 @@
       "description": "Tecnologia, inovação e o mundo digital",
       "articles": [
         {
-          "id": 4203220199,
+          "id": 1878687996,
           "title": "NASA says it needs to haul the Artemis II rocket back to the hangar for repairs",
           "link": "https://arstechnica.com/space/2026/02/nasa-says-it-needs-to-haul-the-artemis-ii-rocket-back-to-the-hangar-for-repairs/",
           "date": "2026-02-21T23:54:38",
@@ -269,7 +269,7 @@
           "has_image": true
         },
         {
-          "id": 1126779193,
+          "id": 3823907168,
           "title": "Arturia’s FX Collection 6 adds two new effects and a $99 intro version",
           "link": "https://www.theverge.com/tech/882852/arturia-fx-collection-6",
           "date": "2026-02-21T21:10:01",
@@ -278,13 +278,13 @@
           "category_name": "Tech & Futuro",
           "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/function.png?quality=90&strip=all&crop=0%2C0%2C100%2C61.479993867082&w=1200",
           "excerpt": "Arturia launched a new version of its flagship effects suite, FX Collection, which includes two new plugins, EFX Ambient and Pitch Shifter-910. FX Collection 6 also marks the introduction of an Intro...",
-          "content": "Arturia launched a new version of its flagship effects suite, FX Collection, which includes two new plugins, EFX Ambient and Pitch Shifter-910. FX Collection 6 also marks the introduction of an Intro version with a selection of six effects covering the basics for $99. That pales in comparison to the 39 effects in the full FX Collection Pro, but that also costs $499.\nArturia’s FX Collection 6 adds two new effects and a $99 intro version\nEFX Ambient and Pitch Shifter-910 bring more quirky weirdness to the company’s plugin suite.\nEFX Ambient and Pitch Shifter-910 bring more quirky weirdness to the company’s plugin suite.\nPitch Shifter-910 is based on the iconic Eventide H910 Harmonizer from 1974, an early digital pitchshifter and delay with a very unique character. Arturia does an admirable job preserving its glitchy quirks. Pitch Shifter-910 is not a transparent effect that lets you create natural-sounding harmonies with yourself. Instead, it relishes in its weirdness, delivering chipmunk vocals at the higher ranges. There is also a more modern mode that cleans up some artifacts while preserving what makes the 910 so special. Though if you ask me, it also takes some of the fun and unpredictability out.\nEFX Ambient is the other new addition to Arturia’s lineup, and it’s a weird one. While it does what it says on the tin, it doesn’t always do it in predictable ways. Sure, there’s plenty of big ethereal reverbs and shimmer, but there’s also resonators, glitch processing, and reverse delays. It has six distinct modes with unique characteristics, which it feeds through a big washy reverb. And there’s an X/Y control in the middle for adding movement to your sound.\nNeither of the brand-new effects made the cut for the Intro version. FX Collection 6 Intro includes Efx Motions, Efx Fragments, Mix Drums, Tape Mello-Fi, Rev Plate-140, and Delay Tape-201. That offers excellent versatility covering delay, reverb, tape-like lo-fi, modulation, and even granular processing. Primarily, what you miss out on are some of the saturation and mixing effects like bus and compression, as well as the more specialty flavors of delay and reverb like Rev LX-24, based on the Lexicon 224 from 1978.\n$499 for the full FX Collection 6 Pro might seem steep, but as the company has grown the lineup from 15 effects in 2020 to 39 in 2026, it’s become a more attractive value proposition. And, while it’s not quite as highly regarded as Arturia’s V Collection of soft synths, it’s building a reputation for high-quality effects.",
+          "content": "Arturia launched a new version of its flagship effects suite, FX Collection, which includes two new plugins, EFX Ambient and Pitch Shifter-910. FX Collection 6 also marks the introduction of an Intro version with a selection of six effects covering the basics for $99. That pales in comparison to the 39 effects in the full FX Collection Pro, but that also costs $499.\nArturia’s FX Collection 6 adds two new effects and a $99 intro version\nEFX Ambient and Pitch Shifter-910 bring more quirky weirdness to the company’s plugin suite.\nEFX Ambient and Pitch Shifter-910 bring more quirky weirdness to the company’s plugin suite.\nPitch Shifter-910 is based on the iconic Eventide H910 Harmonizer from 1974, an early digital pitchshifter and delay with a very unique character. Arturia does an admirable job preserving its glitchy quirks. Pitch Shifter-910 is not a transparent effect that lets you create natural-sounding harmonies with yourself. Instead, it relishes in its weirdness, delivering chipmunk vocals at the higher ranges. There is also a more modern mode that cleans up some artifacts while preserving what makes the 910 so special. Though if you ask me, it also takes some of the fun and unpredictability out.\nEFX Ambient is the other new addition to Arturia’s lineup, and it’s a weird one. While it does what it says on the tin, it doesn’t always do it in predictable ways. Sure, there’s plenty of big ethereal reverbs and shimmer, but there’s also resonators, glitch processing, and reverse delays. It has six distinct modes with unique characteristics, which it feeds through a big washy reverb. And there’s an X/Y control in the middle for adding movement to your sound.\nNeither of the brand-new effects made the cut for the Intro version. FX Collection 6 Intro includes Efx Motions, Efx Fragments, Mix Drums, Tape Mello-Fi, Rev Plate-140, and Delay Tape-201. That offers excellent versatility covering delay, reverb, tape-like lo-fi, modulation, and even granular processing. Primarily, what you miss out on are some of the saturation and mixing effects like bus and compression, as well as the more specialty flavors of delay and reverb like Rev LX-24, based on the Lexicon 224 from 1978.\n$499 for the full FX Collection 6 Pro might seem steep, but as the company has grown the lineup from 15 effects in 2020 to 39 in 2026, it’s become a more attractive value proposition. And, while it’s not quite as highly regarded as Arturia’s V Collection of soft synths, it’s building a reputation for high-quality effects.\nMost Popular\n- Anker’s X1 Pro shouldn’t exist, but I’m so glad it does\n- Stellantis is in a crisis of its own making\n- Georgia says Elon Musk’s America PAC violated election law\n- Turtle Beach’s new PC controller with swiveling sticks is 30 percent off\n- A $10K+ bounty is waiting for anyone who can unplug Ring doorbells from Amazon’s cloud",
           "read_time": 2,
           "domain": "theverge.com",
           "has_image": true
         },
         {
-          "id": 970585204,
+          "id": 4002416140,
           "title": "Georgia says Elon Musk’s America PAC violated election law",
           "link": "https://www.theverge.com/tech/882838/georgia-elon-musk-america-pac-voter-fraud",
           "date": "2026-02-21T16:55:36",
@@ -293,13 +293,13 @@
           "category_name": "Tech & Futuro",
           "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STK022_ELON_MUSK_4_CVIRGINIA_B.webp?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
           "excerpt": "For all his bluster about voter fraud, Elon Musk has been one of the most flagrant flaunters of US election law. Now his America PAC has been slapped with a reprimand by the Georgia State Election...",
-          "content": "For all his bluster about voter fraud, Elon Musk has been one of the most flagrant flaunters of US election law. Now his America PAC has been slapped with a reprimand by the Georgia State Election Board for sending out pre-filled absentee ballot applications. State law prohibits anyone, other than an authorized relative, from sending an absentee ballot application prefilled with the elector’s information.\nGeorgia says Elon Musk’s America PAC violated election law\nThe political action committee sent out partially pre-filled absentee ballot applications.\nThe political action committee sent out partially pre-filled absentee ballot applications.\nResidents of Chattooga, Cherokee, Coweta, Floyd, and Whitfield counties reported receiving absentee ballot applications from America PAC, partially pre-filled. According to the State Election Board, the applications also failed to note that they were not actual ballots and were not provided by the government, as is required by law.\nAt the State Election Board meeting on February 18th, the panel quickly handed down the reprimand. America PAC did not appear to send a representative or submit a statement in defense of its actions.\nThis is just the latest example of Musk testing the limits of election law after he repeatedly suggested paying people to sign a petition and register to vote in Pennsylvania, Wisconsin, and other swing states. It’s also another incident in which those who claim to be most concerned about election integrity have been caught potentially violating the law.",
+          "content": "For all his bluster about voter fraud, Elon Musk has been one of the most flagrant flaunters of US election law. Now his America PAC has been slapped with a reprimand by the Georgia State Election Board for sending out pre-filled absentee ballot applications. State law prohibits anyone, other than an authorized relative, from sending an absentee ballot application prefilled with the elector’s information.\nGeorgia says Elon Musk’s America PAC violated election law\nThe political action committee sent out partially pre-filled absentee ballot applications.\nThe political action committee sent out partially pre-filled absentee ballot applications.\nResidents of Chattooga, Cherokee, Coweta, Floyd, and Whitfield counties reported receiving absentee ballot applications from America PAC, partially pre-filled. According to the State Election Board, the applications also failed to note that they were not actual ballots and were not provided by the government, as is required by law.\nAt the State Election Board meeting on February 18th, the panel quickly handed down the reprimand. America PAC did not appear to send a representative or submit a statement in defense of its actions.\nThis is just the latest example of Musk testing the limits of election law after he repeatedly suggested paying people to sign a petition and register to vote in Pennsylvania, Wisconsin, and other swing states. It’s also another incident in which those who claim to be most concerned about election integrity have been caught potentially violating the law.\nMost Popular\n- Anker’s X1 Pro shouldn’t exist, but I’m so glad it does\n- Stellantis is in a crisis of its own making\n- Georgia says Elon Musk’s America PAC violated election law\n- Turtle Beach’s new PC controller with swiveling sticks is 30 percent off\n- A $10K+ bounty is waiting for anyone who can unplug Ring doorbells from Amazon’s cloud",
           "read_time": 1,
           "domain": "theverge.com",
           "has_image": true
         },
         {
-          "id": 1487782875,
+          "id": 1907731856,
           "title": "Suspect in Tumbler Ridge school shooting described violent scenarios to ChatGPT",
           "link": "https://www.theverge.com/ai-artificial-intelligence/882814/tumbler-ridge-school-shooting-chatgpt",
           "date": "2026-02-21T15:22:57",
@@ -308,13 +308,13 @@
           "category_name": "Tech & Futuro",
           "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/gettyimages-2260625085.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
           "excerpt": "The suspect in the mass shooting at Tumbler Ridge, British Columbia, Jesse Van Rootselaar, was raising alarms among employees at OpenAI months before the shooting took place. This past June, Jesse...",
-          "content": "The suspect in the mass shooting at Tumbler Ridge, British Columbia, Jesse Van Rootselaar, was raising alarms among employees at OpenAI months before the shooting took place. This past June, Jesse had conversations with ChatGPT involving descriptions of gun violence that triggered the chatbot’s automated review system. Several employees raised concerns that her posts could be a precursor to real-world violence and encouraged company leaders to contact the authorities, but they ultimately declined.\nSuspect in Tumbler Ridge school shooting described violent scenarios to ChatGPT\nThe posts raised alarms, but OpenAI declined to alert law enforcement.\nThe posts raised alarms, but OpenAI declined to alert law enforcement.\nOpenAI spokesperson Kayla Wood told The Verge that, while the company considered referring the account to law enforcement, it was ultimately decided that it did not constitute an “imminent and credible risk” of harm to others. Wood said that a review of the logs did not indicate there was active or imminent planning of violence. The company banned Rootselaar’s account, but it does not appear to have taken any further precautionary action.\nWood said, “Our thoughts are with everyone affected by the Tumbler Ridge tragedy. We proactively reached out to the Royal Canadian Mounted Police with information on the individual and their use of ChatGPT, and we’ll continue to support their investigation.”\nOn February 10th, nine people were killed and 27 injured, including Rootselaar, in the deadliest mass shooting in Canada since 2020. Rootselaar was found dead at the scene of the Tumbler Ridge Secondary School, of an apparent self-inflicted gunshot wound, where most of the killings took place.\nThe decision not to alert law enforcement might look misguided in retrospect, but Wood said that OpenAI’s goal is to balance privacy with safety and avoid introducing unintended harm through overly broad use of law enforcement referrals.\nUpdated February 21st: Added statement from OpenAI.",
+          "content": "The suspect in the mass shooting at Tumbler Ridge, British Columbia, Jesse Van Rootselaar, was raising alarms among employees at OpenAI months before the shooting took place. This past June, Jesse had conversations with ChatGPT involving descriptions of gun violence that triggered the chatbot’s automated review system. Several employees raised concerns that her posts could be a precursor to real-world violence and encouraged company leaders to contact the authorities, but they ultimately declined.\nSuspect in Tumbler Ridge school shooting described violent scenarios to ChatGPT\nThe posts raised alarms, but OpenAI declined to alert law enforcement.\nThe posts raised alarms, but OpenAI declined to alert law enforcement.\nOpenAI spokesperson Kayla Wood told The Verge that, while the company considered referring the account to law enforcement, it was ultimately decided that it did not constitute an “imminent and credible risk” of harm to others. Wood said that a review of the logs did not indicate there was active or imminent planning of violence. The company banned Rootselaar’s account, but it does not appear to have taken any further precautionary action.\nWood said, “Our thoughts are with everyone affected by the Tumbler Ridge tragedy. We proactively reached out to the Royal Canadian Mounted Police with information on the individual and their use of ChatGPT, and we’ll continue to support their investigation.”\nOn February 10th, nine people were killed and 27 injured, including Rootselaar, in the deadliest mass shooting in Canada since 2020. Rootselaar was found dead at the scene of the Tumbler Ridge Secondary School, of an apparent self-inflicted gunshot wound, where most of the killings took place.\nThe decision not to alert law enforcement might look misguided in retrospect, but Wood said that OpenAI’s goal is to balance privacy with safety and avoid introducing unintended harm through overly broad use of law enforcement referrals.\nUpdated February 21st: Added statement from OpenAI.\nMost Popular\n- Anker’s X1 Pro shouldn’t exist, but I’m so glad it does\n- Stellantis is in a crisis of its own making\n- Georgia says Elon Musk’s America PAC violated election law\n- Turtle Beach’s new PC controller with swiveling sticks is 30 percent off\n- A $10K+ bounty is waiting for anyone who can unplug Ring doorbells from Amazon’s cloud",
           "read_time": 2,
           "domain": "theverge.com",
           "has_image": true
         },
         {
-          "id": 357820823,
+          "id": 901964925,
           "title": "The Pixel 10A and Soundcore Space One are just two of the best deals this week",
           "link": "https://www.theverge.com/gadgets/881998/google-pixel-10a-anker-351-power-strip-deal-sale",
           "date": "2026-02-21T14:45:21",
@@ -323,13 +323,13 @@
           "category_name": "Tech & Futuro",
           "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/Google-Pixel-10A-Deal-Image.png?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
           "excerpt": "Welcome to the weekend, folks! The Reviews and Guides team here at The Verge is gearing up for all things Unpacked, but Samsung isn’t the only one readying new phones. Google just announced the Pixel...",
-          "content": "Welcome to the weekend, folks! The Reviews and Guides team here at The Verge is gearing up for all things Unpacked, but Samsung isn’t the only one readying new phones. Google just announced the Pixel 10A, which, for you early adopters, is already up for preorder with a $100 gift card. Elsewhere in deal land, you’ll find steep discounts on mopping vacuums, slight discounts on Soundcore’s cheap ANC headphones, and a rare discount on a new PC controller with swiveling sticks.\nThe Pixel 10A and Soundcore Space One are just two of the best deals this week\nYou can also save on tabletop books, security cameras, and a transforming PC controller.\nYou can also save on tabletop books, security cameras, and a transforming PC controller.\nSo, let’s get to it, shall we?\nFeatured Products\nWe finally have a release date for the Pixel 10A: March 5th. What’s more, if you’re thinking about picking up Google’s latest phone, you can already preorder the base-model configuration at Amazon and Best Buy with 128GB of storage and a $100 gift card for $499. Alternatively, Amazon is offering it with a free pair of the Pixel Buds 2A, a fantastic set of recently released earbuds that typically retail for $130.\nDespite being a pretty minimal update, Google’s forthcoming Android handset is a pretty solid deal. It doesn’t adopt a lot of features from the flagship Pixel 10 series; however, last year’s Tensor G4 chip is still speedy enough for most tasks, satellite SOS is handy, and you get slightly faster wired and wireless charging. More importantly, it still comes with seven years of OS and security updates, which, personally, I’d take over Magic Cue, Pixel Screenshots, and other AI-based tools any day of the week.\nTwelve. That’s how many AC outlets Anker’s 351 Power Strip — which is now available in black or white from Amazon and Anker for $23.99 ($6 off) — packs into its 9.65-inch, surge-protected build. The beefy power strip also features a 20W USB-C port and two USB-A ports, both of which can deliver up to 15W of juice. Just keep in mind that, like with most power strips and like-minded chargers, you’ll have to split power amongst the USB ports, which are limited to a max output of 15W when charging multiple devices simultaneously.\nI’m admittedly not a huge fan of fighting games — I have no patience for learning combos, dear readers — but the Turtle Beach Stealth Pivot seems like a good compromise if I were forced to choose between a traditional controller and one specifically built for hammering out hadokens. And now, the novel gamepad is on sale at both Amazon and Best Buy for $99.99 ($40 off), its lowest price to date.\nAlthough Turtle Beach’s wireless PC controller offers a slew of welcome components, including drift-free Hall effect joysticks and adjustable trigger stops, its defining feature is a pair of rotating modules that can “pivot” to reveal a customizable controller layout that’s better suited for retro titles and fighting games. You also get programmable back buttons, the ability to save up to five profiles, and a 3.5mm audio jack, not to mention compatibility with mobile devices over Bluetooth and Xbox consoles via a wired connection.\nIf you’re looking for a cheap(ish) set of noise-canceling headphones, Soundcore’s Space One are on sale at Amazon, Walmart, and directly from Soundcore (with code WS7DV2G0S7DJ) in all four colors for $79.99 ($20 off), matching their second-best price to date.\nDuring Cyber Monday last year, our own John Higgins waxed poetic about the over-ear cans, namely because they deliver impressive sound and comfort for the price. The sound quality and ANC don’t rival the flagships from Sony or Bose, sure, but you can try over 20 different presets or tweak the sound yourself using the eight-band equalizer in Anker’s companion app. They can also last up to 40 hours with ANC enabled, meaning you should be able to fly from New York to Singapore and back again without ever having to charge them.\nMore ways to save this weekend\n- Google’s refreshed Nest Cam Indoor, which launched in October, is already down to a new low of $74.99 ($25 off) at Amazon. The wired camera supports 2K HDR video and offers a taller and wider field of view than prior models, along with a new sensor for full-color low-light video. It also comes in a new berry color, which, for better or worse, seems to be Google’s latest obsession.\n- After a quick series of price drops, Piggyback’s Metroid Prime 1–3: A Visual Retrospective has settled in at $36.59 (about $13 off) at Amazon and Walmart, which is the best price we’ve seen on the excellent hardcover. We rarely go out of our way to flag tabletop books at The Verge, but given the treasure trove of stunning concept art and the behind-the-scenes stories on display here, we thought we’d make an exception. It even features assets that never appeared in the trilogy, as if the original mock-ups and juicy developer commentary weren’t enough. Read our review.\n- Eufy’s Robot Vacuum Omni S2 is right around the corner — which is probably why the Omni S1 Pro is available for an all-time low of $699.99 ($800 off) at Eufy’s online storefront when you use promo code WS24T2080111. The robovac / mop hybrid is still a great option for hardwood floors despite being a last-gen pick, especially since it can self-wash and dry its own roller mop as it cleans. It also features AI-powered obstacle avoidance and 8,000Pa of suction, which is enough power to pick up most debris.",
+          "content": "Welcome to the weekend, folks! The Reviews and Guides team here at The Verge is gearing up for all things Unpacked, but Samsung isn’t the only one readying new phones. Google just announced the Pixel 10A, which, for you early adopters, is already up for preorder with a $100 gift card. Elsewhere in deal land, you’ll find steep discounts on mopping vacuums, slight discounts on Soundcore’s cheap ANC headphones, and a rare discount on a new PC controller with swiveling sticks.\nThe Pixel 10A and Soundcore Space One are just two of the best deals this week\nYou can also save on tabletop books, security cameras, and a transforming PC controller.\nYou can also save on tabletop books, security cameras, and a transforming PC controller.\nSo, let’s get to it, shall we?\nFeatured Products\nWe finally have a release date for the Pixel 10A: March 5th. What’s more, if you’re thinking about picking up Google’s latest phone, you can already preorder the base-model configuration at Amazon and Best Buy with 128GB of storage and a $100 gift card for $499. Alternatively, Amazon is offering it with a free pair of the Pixel Buds 2A, a fantastic set of recently released earbuds that typically retail for $130.\nDespite being a pretty minimal update, Google’s forthcoming Android handset is a pretty solid deal. It doesn’t adopt a lot of features from the flagship Pixel 10 series; however, last year’s Tensor G4 chip is still speedy enough for most tasks, satellite SOS is handy, and you get slightly faster wired and wireless charging. More importantly, it still comes with seven years of OS and security updates, which, personally, I’d take over Magic Cue, Pixel Screenshots, and other AI-based tools any day of the week.\nTwelve. That’s how many AC outlets Anker’s 351 Power Strip — which is now available in black or white from Amazon and Anker for $23.99 ($6 off) — packs into its 9.65-inch, surge-protected build. The beefy power strip also features a 20W USB-C port and two USB-A ports, both of which can deliver up to 15W of juice. Just keep in mind that, like with most power strips and like-minded chargers, you’ll have to split power amongst the USB ports, which are limited to a max output of 15W when charging multiple devices simultaneously.\nI’m admittedly not a huge fan of fighting games — I have no patience for learning combos, dear readers — but the Turtle Beach Stealth Pivot seems like a good compromise if I were forced to choose between a traditional controller and one specifically built for hammering out hadokens. And now, the novel gamepad is on sale at both Amazon and Best Buy for $99.99 ($40 off), its lowest price to date.\nAlthough Turtle Beach’s wireless PC controller offers a slew of welcome components, including drift-free Hall effect joysticks and adjustable trigger stops, its defining feature is a pair of rotating modules that can “pivot” to reveal a customizable controller layout that’s better suited for retro titles and fighting games. You also get programmable back buttons, the ability to save up to five profiles, and a 3.5mm audio jack, not to mention compatibility with mobile devices over Bluetooth and Xbox consoles via a wired connection.\nIf you’re looking for a cheap(ish) set of noise-canceling headphones, Soundcore’s Space One are on sale at Amazon, Walmart, and directly from Soundcore (with code WS7DV2G0S7DJ) in all four colors for $79.99 ($20 off), matching their second-best price to date.\nDuring Cyber Monday last year, our own John Higgins waxed poetic about the over-ear cans, namely because they deliver impressive sound and comfort for the price. The sound quality and ANC don’t rival the flagships from Sony or Bose, sure, but you can try over 20 different presets or tweak the sound yourself using the eight-band equalizer in Anker’s companion app. They can also last up to 40 hours with ANC enabled, meaning you should be able to fly from New York to Singapore and back again without ever having to charge them.\nMore ways to save this weekend\n- Google’s refreshed Nest Cam Indoor, which launched in October, is already down to a new low of $74.99 ($25 off) at Amazon. The wired camera supports 2K HDR video and offers a taller and wider field of view than prior models, along with a new sensor for full-color low-light video. It also comes in a new berry color, which, for better or worse, seems to be Google’s latest obsession.\n- After a quick series of price drops, Piggyback’s Metroid Prime 1–3: A Visual Retrospective has settled in at $36.59 (about $13 off) at Amazon and Walmart, which is the best price we’ve seen on the excellent hardcover. We rarely go out of our way to flag tabletop books at The Verge, but given the treasure trove of stunning concept art and the behind-the-scenes stories on display here, we thought we’d make an exception. It even features assets that never appeared in the trilogy, as if the original mock-ups and juicy developer commentary weren’t enough. Read our review.\n- Eufy’s Robot Vacuum Omni S2 is right around the corner — which is probably why the Omni S1 Pro is available for an all-time low of $699.99 ($800 off) at Eufy’s online storefront when you use promo code WS24T2080111. The robovac / mop hybrid is still a great option for hardwood floors despite being a last-gen pick, especially since it can self-wash and dry its own roller mop as it cleans. It also features AI-powered obstacle avoidance and 8,000Pa of suction, which is enough power to pick up most debris.\nMost Popular\n- Anker’s X1 Pro shouldn’t exist, but I’m so glad it does\n- Stellantis is in a crisis of its own making\n- Georgia says Elon Musk’s America PAC violated election law\n- Turtle Beach’s new PC controller with swiveling sticks is 30 percent off\n- A $10K+ bounty is waiting for anyone who can unplug Ring doorbells from Amazon’s cloud",
           "read_time": 5,
           "domain": "theverge.com",
           "has_image": true
         },
         {
-          "id": 1126123691,
+          "id": 3252267847,
           "title": "Aerial_Knight’s DropShot captures the thrill of skydiving and makes it stylish",
           "link": "https://www.theverge.com/games/875259/dropshot-aerial-knight-review-pc-playstation-xbox",
           "date": "2026-02-21T14:00:00",
@@ -338,13 +338,13 @@
           "category_name": "Tech & Futuro",
           "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/ss_8ba5728835bdf90346ee59b8d9ece2a04a3ac628.1920x1080.jpg?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200",
           "excerpt": "I’ve always wanted to go skydiving. Aerial_Knight’s DropShot, from indie developer Aerial_Knight, lets me live out that dream — at least in a safe, virtual kind of way. It also lets me shoot bullets...",
-          "content": "I’ve always wanted to go skydiving. Aerial_Knight’s DropShot, from indie developer Aerial_Knight, lets me live out that dream — at least in a safe, virtual kind of way. It also lets me shoot bullets from finger guns, wield laser skulls, and wear cool sunglasses while I’m falling through the air. So maybe it’s better than the real thing.\nAerial_Knight’s DropShot captures the thrill of skydiving and makes it stylish\nIt might be better than the real thing. It’s safer, at least.\nIt might be better than the real thing. It’s safer, at least.\nPlaying as a character named Smoke Wallace, who was bitten by a dragon that gave him the finger gun that can actually shoot bullets, you plummet toward the ground and try to pick off bad guys with that finger gun or by punching them up close. It’s a first-person game, and the perspective really helps sell the feeling that you’re falling through the sky.\nYour goal is to survive each level without taking more than two hits from the bad guys or other dangers like lasers, all while taking down as many enemies as you can as quickly as possible. Your gun has a limited number of bullets, but you can refill your ammo by shooting or flying into balloons you’ll see as you fall.\nEach level is short. I finished most of them in 45 seconds to a minute and a half. At the end, you get a letter grade based on how many enemies you take down, maxing out at S+++ if you reach a certain per-level goal. Since the terrain, obstacles, enemies, and speed boosts spawn in the same spot each level, repeating them to try and get that high score turns each level into fast-paced FPS puzzles you can crack to find the optimal route.\nThe game oozes style. Smoke Wallace has purple skin because of his dragon bite. He wears sunglasses, and you can pick different styles that give you different power-ups for finding the eggs, like one that briefly lets you fire six finger guns at a time. Every time you kill a bad guy, the game briefly goes into slow-motion. You’ll even take on bosses that include dragons and flying tanks. And throughout, you’ll be treated to an awesome heavy metal soundtrack.\nI was done with DropShot after about two-and-a-half hours, and I could spend more time grinding S+++ scores if I wanted to. But I think the short length works in the game’s favor: DropShot explores its core mechanics in 50 great levels instead of stretching everything out into something that might wear thin. Even when I was nearing the end, I was still excited every time I flew through the sky.",
-          "read_time": 2,
+          "content": "I’ve always wanted to go skydiving. Aerial_Knight’s DropShot, from indie developer Aerial_Knight, lets me live out that dream — at least in a safe, virtual kind of way. It also lets me shoot bullets from finger guns, wield laser skulls, and wear cool sunglasses while I’m falling through the air. So maybe it’s better than the real thing.\nAerial_Knight’s DropShot captures the thrill of skydiving and makes it stylish\nIt might be better than the real thing. It’s safer, at least.\nIt might be better than the real thing. It’s safer, at least.\nPlaying as a character named Smoke Wallace, who was bitten by a dragon that gave him the finger gun that can actually shoot bullets, you plummet toward the ground and try to pick off bad guys with that finger gun or by punching them up close. It’s a first-person game, and the perspective really helps sell the feeling that you’re falling through the sky.\nYour goal is to survive each level without taking more than two hits from the bad guys or other dangers like lasers, all while taking down as many enemies as you can as quickly as possible. Your gun has a limited number of bullets, but you can refill your ammo by shooting or flying into balloons you’ll see as you fall.\nEach level is short. I finished most of them in 45 seconds to a minute and a half. At the end, you get a letter grade based on how many enemies you take down, maxing out at S+++ if you reach a certain per-level goal. Since the terrain, obstacles, enemies, and speed boosts spawn in the same spot each level, repeating them to try and get that high score turns each level into fast-paced FPS puzzles you can crack to find the optimal route.\nThe game oozes style. Smoke Wallace has purple skin because of his dragon bite. He wears sunglasses, and you can pick different styles that give you different power-ups for finding the eggs, like one that briefly lets you fire six finger guns at a time. Every time you kill a bad guy, the game briefly goes into slow-motion. You’ll even take on bosses that include dragons and flying tanks. And throughout, you’ll be treated to an awesome heavy metal soundtrack.\nI was done with DropShot after about two-and-a-half hours, and I could spend more time grinding S+++ scores if I wanted to. But I think the short length works in the game’s favor: DropShot explores its core mechanics in 50 great levels instead of stretching everything out into something that might wear thin. Even when I was nearing the end, I was still excited every time I flew through the sky.\nMost Popular\n- Anker’s X1 Pro shouldn’t exist, but I’m so glad it does\n- Stellantis is in a crisis of its own making\n- Georgia says Elon Musk’s America PAC violated election law\n- Turtle Beach’s new PC controller with swiveling sticks is 30 percent off\n- A $10K+ bounty is waiting for anyone who can unplug Ring doorbells from Amazon’s cloud",
+          "read_time": 3,
           "domain": "theverge.com",
           "has_image": true
         },
         {
-          "id": 1231939696,
+          "id": 435324647,
           "title": "Dinosaur eggshells can reveal the age of other fossils",
           "link": "https://arstechnica.com/science/2026/02/dinosaur-eggshells-can-reveal-the-age-of-other-fossils/",
           "date": "2026-02-21T13:00:01",
@@ -359,7 +359,7 @@
           "has_image": true
         },
         {
-          "id": 4153835941,
+          "id": 2627826385,
           "title": "Have we leapt into commercial genetic testing without understanding it?",
           "link": "https://arstechnica.com/science/2026/02/have-we-leapt-into-commercial-genetic-testing-without-understanding-it/",
           "date": "2026-02-21T12:00:56",
@@ -374,7 +374,7 @@
           "has_image": true
         },
         {
-          "id": 4064688808,
+          "id": 2480781721,
           "title": "Major government research lab appears to be squeezing out foreign scientists",
           "link": "https://arstechnica.com/science/2026/02/major-government-research-lab-appears-to-be-squeezing-out-foreign-scientists/",
           "date": "2026-02-21T11:31:35",
@@ -389,7 +389,7 @@
           "has_image": true
         },
         {
-          "id": 4015588432,
+          "id": 81766157,
           "title": "After fueling test, optimism grows for March launch of Artemis II to the Moon",
           "link": "https://arstechnica.com/space/2026/02/nasa-reports-no-significant-leaks-in-artemis-ii-fueling-test-eyes-march-6-launch/",
           "date": "2026-02-20T23:55:43",
@@ -411,7 +411,7 @@
       "description": "Descobertas científicas e exploração espacial",
       "articles": [
         {
-          "id": 2330242152,
+          "id": 1710212977,
           "title": "“Celtic curse” hotspots found in Scotland and Ireland with 1 in 54 at risk",
           "link": "https://www.sciencedaily.com/releases/2026/02/260221000332.htm",
           "date": "2026-02-21T14:38:45",
@@ -426,7 +426,7 @@
           "has_image": true
         },
         {
-          "id": 376415257,
+          "id": 3300181286,
           "title": "Scientists discover why high altitude protects against diabetes",
           "link": "https://www.sciencedaily.com/releases/2026/02/260221060952.htm",
           "date": "2026-02-21T13:43:47",
@@ -441,7 +441,7 @@
           "has_image": true
         },
         {
-          "id": 3020277444,
+          "id": 564541813,
           "title": "Ultramarathons may damage red blood cells and accelerate aging",
           "link": "https://www.sciencedaily.com/releases/2026/02/260221060946.htm",
           "date": "2026-02-21T12:59:29",
@@ -456,7 +456,7 @@
           "has_image": true
         },
         {
-          "id": 707118053,
+          "id": 1328421346,
           "title": "Generative AI analyzes medical data faster than human research teams",
           "link": "https://www.sciencedaily.com/releases/2026/02/260221060942.htm",
           "date": "2026-02-21T11:17:29",
@@ -471,7 +471,7 @@
           "has_image": true
         },
         {
-          "id": 1809028683,
+          "id": 118427213,
           "title": "Common pneumonia bacterium may fuel Alzheimer’s disease",
           "link": "https://www.sciencedaily.com/releases/2026/02/260221000321.htm",
           "date": "2026-02-21T05:43:23",
@@ -486,7 +486,7 @@
           "has_image": true
         },
         {
-          "id": 1768794623,
+          "id": 1537314416,
           "title": "NASA Is Helping Bring Giant Tortoises Back to the Galápagos",
           "link": "https://science.nasa.gov/earth/nasa-is-helping-bring-giant-tortoises-back-to-the-galapagos/",
           "date": "2026-02-20T20:00:00",
@@ -501,7 +501,7 @@
           "has_image": true
         },
         {
-          "id": 770434970,
+          "id": 3288188063,
           "title": "Artemis II Crew Trains on T-38",
           "link": "https://www.nasa.gov/image-article/artemis-ii-crew-trains-on-t-38/",
           "date": "2026-02-20T14:50:53",
@@ -516,7 +516,7 @@
           "has_image": true
         },
         {
-          "id": 1453042746,
+          "id": 11665705,
           "title": "Winds Whip Up Fires and Dust on the Southern Plains",
           "link": "https://science.nasa.gov/earth/earth-observatory/winds-whip-up-fires-and-dust-on-the-southern-plains/",
           "date": "2026-02-20T05:01:00",
@@ -531,7 +531,7 @@
           "has_image": true
         },
         {
-          "id": 3985203889,
+          "id": 1812670323,
           "title": "NASA Investigates How People Respond to Air Taxi Noise",
           "link": "https://www.nasa.gov/image-article/nasa-investigates-how-people-respond-to-air-taxi-noise/",
           "date": "2026-02-19T20:54:07",
@@ -546,7 +546,7 @@
           "has_image": true
         },
         {
-          "id": 2358281267,
+          "id": 894299004,
           "title": "NASA Releases Report on Starliner Crewed Flight Test Investigation",
           "link": "https://www.nasa.gov/news-release/nasa-releases-report-on-starliner-crewed-flight-test-investigation/",
           "date": "2026-02-19T19:06:45",
@@ -568,55 +568,10 @@
       "description": "Política, economia e sociedade brasileira",
       "articles": [
         {
-          "id": 2543487440,
-          "title": "O ano mais interrompido da década",
-          "link": "https://economia.uol.com.br/colunas/paulo-camargo/2026/02/21/o-ano-mais-interrompido-da-decada.htm",
-          "date": "2026-02-22T08:23:05.292449",
-          "author": "Redação",
-          "category": "brasil",
-          "category_name": "Brasil & Sociedade",
-          "image_url": null,
-          "excerpt": "Antes de mais nada, uma premissa clara: este não é um texto contra feriados, direitos trabalhistas ou escolhas individuais. O calendário brasileiro é o que é, fruto da nossa história, da nossa cultura e das nossas leis. Ele não está em debate aqui. O que está em debate é outra coisa: como liderar be",
-          "content": null,
-          "read_time": 1,
-          "domain": "economia.uol.com.br",
-          "has_image": false
-        },
-        {
-          "id": 1062052064,
-          "title": "Brasil e Índia assinam acordo sobre minerais críticos e comércio bilateral",
-          "link": "https://economia.uol.com.br/noticias/rfi/2026/02/21/brasil-e-india-assinam-acordo-sobre-minerais-criticos-e-comercio-bilateral.htm",
-          "date": "2026-02-22T08:23:05.292086",
-          "author": "Redação",
-          "category": "brasil",
-          "category_name": "Brasil & Sociedade",
-          "image_url": null,
-          "excerpt": "O primeiro-ministro da Índia, Narendra Modi, e o presidente do Brasil, Luiz Inácio Lula da Silva, mantiveram negociações em Nova Délhi neste sábado (21) com o objetivo de expandir a cooperação em minerais críticos, incluindo terras raras, essenciais para tecnologias como veículos elétricos, painéis ",
-          "content": null,
-          "read_time": 1,
-          "domain": "economia.uol.com.br",
-          "has_image": false
-        },
-        {
-          "id": 2072558966,
-          "title": "Caso Ultrafarma: Justiça mantém ordem de prisão de fiscal da Fazenda acusado de corrupção",
-          "link": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/02/21/caso-ultrafarma-justica-mantem-ordem-de-prisao-de-fiscal-da-fazenda-acusado-de-corrupcao.htm",
-          "date": "2026-02-22T08:23:05.291864",
-          "author": "Redação",
-          "category": "brasil",
-          "category_name": "Brasil & Sociedade",
-          "image_url": null,
-          "excerpt": "A Justiça de São Paulo manteve o decreto de prisão do auditor fiscal da Fazenda do Estado de São Paulo, Alberto Toshio Murakami, o 'Americano', foragido desde que a Operação Ícaro foi deflagrada em agosto do ano passado e desmontou um esquema bilionário de propinas no Palácio Clóvis Ribeiro, sede da",
-          "content": null,
-          "read_time": 1,
-          "domain": "noticias.uol.com.br",
-          "has_image": false
-        },
-        {
-          "id": 3162772272,
+          "id": 309573398,
           "title": "Governo Ibaneis pede aval para usar 12 imóveis em reforço de capital do BRB",
           "link": "https://economia.uol.com.br/noticias/redacao/2026/02/21/ibaneis-brb.htm",
-          "date": "2026-02-22T08:23:05.291671",
+          "date": "2026-02-22T10:17:51.437019",
           "author": "Redação",
           "category": "brasil",
           "category_name": "Brasil & Sociedade",
@@ -628,15 +583,60 @@
           "has_image": false
         },
         {
-          "id": 617915169,
+          "id": 430862200,
           "title": "O que são terras raras, alvo de acordo entre Brasil e Índia",
           "link": "https://economia.uol.com.br/noticias/redacao/2026/02/21/o-que-sao-as-terras-raras-alvo-de-acordo-entre-brasil-e-india.htm",
-          "date": "2026-02-22T08:23:05.291384",
+          "date": "2026-02-22T10:17:51.436836",
           "author": "Redação",
           "category": "brasil",
           "category_name": "Brasil & Sociedade",
           "image_url": null,
           "excerpt": "O governo brasileiro divulgou hoje a assinatura de um memorando de entendimento com o governo da Índia para a cooperação entre os dois países no campo das terras raras e dos minerais críticos ? elementos essenciais na fabricação de diversos produtos.",
+          "content": null,
+          "read_time": 1,
+          "domain": "economia.uol.com.br",
+          "has_image": false
+        },
+        {
+          "id": 3888548236,
+          "title": "Jato brasileiro se mantém como o mais vendido no mundo há 14 anos",
+          "link": "https://economia.uol.com.br/colunas/todos-a-bordo/2026/02/22/jato-mais-vendido-no-mundo-e-mais-voado-nos-eua-e-brasileiro-qual-segredo.htm",
+          "date": "2026-02-22T10:17:51.436636",
+          "author": "Redação",
+          "category": "brasil",
+          "category_name": "Brasil & Sociedade",
+          "image_url": null,
+          "excerpt": "Pelo 14º ano consecutivo, o jato bimotor leve Phenom 300 é o mais vendido do mundo em sua categoria. O avião executivo da brasileira Embraer também é o mais voado no segmento nos EUA, com 470 mil pousos e decolagens em 2025 no país norte-americano.",
+          "content": null,
+          "read_time": 1,
+          "domain": "economia.uol.com.br",
+          "has_image": false
+        },
+        {
+          "id": 73003779,
+          "title": "IRBr, Aeronáutica, Rede Sarah e outros órgãos: concursos têm 20,6 mil vagas",
+          "link": "https://economia.uol.com.br/empregos-e-carreiras/noticias/redacao/2026/02/22/concursos-publicos.htm",
+          "date": "2026-02-22T10:17:51.436457",
+          "author": "Redação",
+          "category": "brasil",
+          "category_name": "Brasil & Sociedade",
+          "image_url": null,
+          "excerpt": "Concursos públicos oferecem 20.559 vagas em todas as regiões do país, com salários de até R$ 37,8 mil.",
+          "content": null,
+          "read_time": 1,
+          "domain": "economia.uol.com.br",
+          "has_image": false
+        },
+        {
+          "id": 628264512,
+          "title": "Investimentos e controle da inflação: tarifa de Trump pode ajudar o Brasil",
+          "link": "https://economia.uol.com.br/noticias/redacao/2026/02/22/novas-tarifas-trump-brasil-economia.htm",
+          "date": "2026-02-22T10:17:51.436136",
+          "author": "Redação",
+          "category": "brasil",
+          "category_name": "Brasil & Sociedade",
+          "image_url": null,
+          "excerpt": "A nova tarifa global de 15% anunciada ontem pelo presidente dos EUA, Donald Trump, traz um cenário de incertezas, mas pode ser pontualmente benéfica ao Brasil. A avaliação é de especialistas ouvidos pelo UOL.",
           "content": null,
           "read_time": 1,
           "domain": "economia.uol.com.br",
@@ -650,7 +650,7 @@
       "description": "Histórias fascinantes e domínio público",
       "articles": [
         {
-          "id": 3391603772,
+          "id": 2268717026,
           "title": "Hunting for the World’s Most Mythical Cannabis: Big Sur Holy Weed",
           "link": "https://longreads.com/2026/02/20/hunting-for-the-worlds-most-mythical-cannabis-big-sur-holy-weed/",
           "date": "2026-02-20T18:34:26",
@@ -665,7 +665,7 @@
           "has_image": false
         },
         {
-          "id": 632694883,
+          "id": 661247882,
           "title": "‘Fill It With Reality’",
           "link": "https://longreads.com/2026/02/20/francoise-ega-maid-diary/",
           "date": "2026-02-20T16:44:57",
@@ -680,7 +680,7 @@
           "has_image": false
         },
         {
-          "id": 2712624711,
+          "id": 3584432922,
           "title": "Pigeons Transmogrified: Hannah Glasse’s Art of Cookery (1751 edition)",
           "link": "https://publicdomainreview.org/collection/the-art-of-cookery",
           "date": "2026-02-17T16:13:00",
@@ -695,7 +695,7 @@
           "has_image": true
         },
         {
-          "id": 14611475,
+          "id": 3393910209,
           "title": "Snail Homes, Bog Bodies, and Mechanical Flies: Robert Testard’s Illustrations for Les secretz de l’histoire naturelle (ca. 1485)",
           "link": "https://publicdomainreview.org/collection/secrets-de-l-histoire-naturelle",
           "date": "2026-02-11T16:59:00",
@@ -710,7 +710,7 @@
           "has_image": true
         },
         {
-          "id": 1852998353,
+          "id": 4294740323,
           "title": "Sekka Zusetsu: A Book of Snowflakes (1832)",
           "link": "https://publicdomainreview.org/collection/japanese-snowflake-book",
           "date": "2026-02-04T16:12:00",
@@ -725,7 +725,7 @@
           "has_image": true
         },
         {
-          "id": 341452235,
+          "id": 1945194438,
           "title": "Typing for Love or Money: The Hidden Women’s Labor behind Modern Literary Masterpieces",
           "link": "https://publicdomainreview.org/essay/typing-for-love-or-money",
           "date": "2026-02-04T16:12:00",
@@ -740,7 +740,7 @@
           "has_image": true
         },
         {
-          "id": 1541063724,
+          "id": 1808796928,
           "title": "Twenty",
           "link": "https://www.damninteresting.com/twenty/",
           "date": "2025-09-19T13:32:24",
@@ -755,7 +755,7 @@
           "has_image": true
         },
         {
-          "id": 4206623715,
+          "id": 2763356840,
           "title": "Omiword, a Word Game",
           "link": "https://www.damninteresting.com/omiword/",
           "date": "2025-07-21T13:51:23",
@@ -770,7 +770,7 @@
           "has_image": true
         },
         {
-          "id": 4095781480,
+          "id": 1267297195,
           "title": "Much Ado About Adenoids",
           "link": "https://www.damninteresting.com/much-ado-about-adenoids/",
           "date": "2025-06-23T12:51:39",
@@ -785,7 +785,7 @@
           "has_image": true
         },
         {
-          "id": 664314151,
+          "id": 4218125332,
           "title": "A Trail Gone Cold",
           "link": "https://www.damninteresting.com/a-trail-gone-cold/",
           "date": "2024-03-21T12:50:03",
@@ -807,7 +807,7 @@
       "description": "Curiosidades, cultura e lugares incríveis",
       "articles": [
         {
-          "id": 654093951,
+          "id": 430306802,
           "title": "From \"POS\" to “GTFO,” Breaking Down the Meaning of Insult Abbreviations",
           "link": "https://www.mentalfloss.com/from-pos-to-gtfo-breaking-down-the-meaning-of-insult-abbreviations-01khy3qn1n0m?utm_source=RSS",
           "date": "2026-02-22T01:00:00",
@@ -822,7 +822,7 @@
           "has_image": true
         },
         {
-          "id": 2126092476,
+          "id": 2087873167,
           "title": "NASA Report Reveals the Failures That Left Two Astronauts 'Stranded' on the International Space Station",
           "link": "https://www.smithsonianmag.com/smart-news/nasa-report-reveals-the-failures-that-left-two-astronauts-stranded-on-the-international-space-station-180988233/",
           "date": "2026-02-20T22:03:58",
@@ -837,7 +837,7 @@
           "has_image": true
         },
         {
-          "id": 158790245,
+          "id": 1983968677,
           "title": "Investigators Unravel $12 Million Ticket Fraud Scheme at the Louvre",
           "link": "https://www.smithsonianmag.com/smart-news/louvre-hit-with-12-million-ticket-fraud-scheme-180988236/",
           "date": "2026-02-20T21:32:07",
@@ -852,7 +852,7 @@
           "has_image": true
         },
         {
-          "id": 1205768275,
+          "id": 3479501188,
           "title": "Scientists Still Have So Much to Learn About Archaeopteryx, the Dinosaur That May Have Flown Like a Bird",
           "link": "https://www.smithsonianmag.com/smart-news/this-early-bird-had-a-mouth-that-helped-it-fly-180988234/",
           "date": "2026-02-20T21:00:12",
@@ -867,7 +867,7 @@
           "has_image": true
         },
         {
-          "id": 1600717013,
+          "id": 1887278301,
           "title": "The ‘Union County Giant’ House in Marysville, Ohio",
           "link": "https://www.atlasobscura.com/places/the-union-county-giant-house",
           "date": "2026-02-20T21:00:00",
@@ -882,7 +882,7 @@
           "has_image": false
         },
         {
-          "id": 1622422684,
+          "id": 1142228912,
           "title": "This Massive, Meat-Eating Dinosaur Was a 'Hell Heron' That Waded Into Shallow Waters to Nab Slippery Fish",
           "link": "https://www.smithsonianmag.com/smart-news/this-massive-meat-eating-dinosaur-was-a-hell-heron-that-waded-into-shallow-waters-to-nab-slippery-fish-180988232/",
           "date": "2026-02-20T19:50:05",
@@ -897,7 +897,7 @@
           "has_image": true
         },
         {
-          "id": 1704508637,
+          "id": 1760276713,
           "title": "Madonna of the Trail in Richmond, Indiana",
           "link": "https://www.atlasobscura.com/places/madonna-of-the-trail-richmond-indiana",
           "date": "2026-02-20T19:00:00",
@@ -912,7 +912,7 @@
           "has_image": false
         },
         {
-          "id": 1408647113,
+          "id": 3151966067,
           "title": "How La Mexicana Became a Kissimmee Institution",
           "link": "https://www.atlasobscura.com/articles/odilia-alvarado-kissimmee",
           "date": "2026-02-20T17:36:00",
@@ -927,7 +927,7 @@
           "has_image": false
         },
         {
-          "id": 728514427,
+          "id": 4165252091,
           "title": "Hope Cathedral in Fredrikstad, Norway",
           "link": "https://www.atlasobscura.com/places/hope-cathedral",
           "date": "2026-02-20T15:00:00",
@@ -942,7 +942,7 @@
           "has_image": false
         },
         {
-          "id": 3693060586,
+          "id": 372256963,
           "title": "The Trip That Changed Me: How Antarctica Shattered Daniela Hernandez’s Sense of Self",
           "link": "https://www.atlasobscura.com/articles/the-trip-that-changed-me-how-antarctica-shattered-daniela-hernandez-s-sense-of-self",
           "date": "2026-02-19T21:07:00",
@@ -961,9 +961,9 @@
     }
   },
   "metadata": {
-    "generated_at": "2026-02-22T08:23:24.595410",
+    "generated_at": "2026-02-22T10:18:10.018312",
     "total_articles": 55,
-    "crawl_duration_seconds": 55.13,
+    "crawl_duration_seconds": 54.09,
     "version": "1.1.0"
   }
 }
