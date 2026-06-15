@@ -15,6 +15,13 @@ from crawler import crawl_all_feeds, save_json
 
 def main():
     """Main entry point."""
+    # Configure stdout to use UTF-8 to prevent UnicodeEncodeError on Windows
+    if hasattr(sys.stdout, 'reconfigure'):
+        try:
+            sys.stdout.reconfigure(encoding='utf-8')
+        except Exception:
+            pass
+            
     # Determine output path
     script_dir = os.path.dirname(os.path.abspath(__file__))
     project_root = os.path.dirname(script_dir)
