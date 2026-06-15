@@ -8,14 +8,46 @@
         content="Notícias que você talvez vai se importar - Um agregador de notícias com estética de jornal dos anos 1920">
     <title>Notícias que você talvez vai se importar</title>
 
-    <!-- Google Fonts -->
+    <!-- Google Fonts (Fallback) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Lora:ital,wght@0,400;0,600;1,400&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 
     <style>
+        /* ============================================
+           FONTS (DOTA 2 REAVER & RADIANCE CDN)
+           ============================================ */
+        @font-face {
+            font-family: 'Reaver';
+            src: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/fonts/Reaver-Regular.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'Reaver';
+            src: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/fonts/Reaver-Bold.woff') format('woff');
+            font-weight: bold;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'Radiance';
+            src: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/fonts/radiance.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'Radiance';
+            src: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/fonts/radiance-semibold.woff') format('woff');
+            font-weight: 600;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'Radiance';
+            src: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/fonts/radiance-bold.woff') format('woff');
+            font-weight: bold;
+            font-style: normal;
+        }
+
         /* ============================================
            CSS RESET & BASE
            ============================================ */
@@ -41,9 +73,9 @@
             --accent-gold: #c9a227;
 
             /* Typography */
-            --font-logo: 'UnifrakturMaguntia', cursive;
-            --font-headline: 'Playfair Display', Georgia, serif;
-            --font-body: 'Lora', 'Times New Roman', serif;
+            --font-logo: 'Reaver', 'UnifrakturMaguntia', cursive;
+            --font-headline: 'Reaver', 'Playfair Display', Georgia, serif;
+            --font-body: 'Radiance', 'Lora', 'Times New Roman', serif;
 
             /* Spacing */
             --spacing-xs: 0.25rem;
@@ -570,11 +602,223 @@
             color: var(--ink-brown);
             opacity: 0.5;
         }
+
+        /* ============================================
+           NIGHT MODE (À LUZ DE LAMPIÃO)
+           ============================================ */
+        body.night-mode {
+            --paper-cream: #221d18;
+            --paper-aged: #2f2720;
+            --paper-dark: #40342a;
+            --ink-black: #e6dac8;
+            --ink-brown: #cfc1b0;
+            --accent-red: #d96f27; /* Glowing amber flame color */
+            --accent-gold: #e6b83c;
+            color: var(--ink-black);
+            background: linear-gradient(135deg, #0e0a07 0%, #17110c 50%, #0e0a07 100%);
+        }
+
+        body.night-mode .table-surface {
+            background:
+                repeating-linear-gradient(90deg,
+                    transparent,
+                    transparent 2px,
+                    rgba(0, 0, 0, 0.15) 2px,
+                    rgba(0, 0, 0, 0.15) 4px),
+                linear-gradient(180deg,
+                    #0e0a07 0%,
+                    #17110c 20%,
+                    #241b12 50%,
+                    #17110c 80%,
+                    #0e0a07 100%);
+        }
+
+        /* Lantern Vignette Overlay */
+        .lantern-vignette {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 9999;
+            background: radial-gradient(
+                circle 250px at var(--mouse-x, 50%) var(--mouse-y, 50%),
+                transparent 0%,
+                rgba(12, 9, 7, 0.4) 60%,
+                rgba(12, 9, 7, 0.85) 90%,
+                rgba(12, 9, 7, 0.95) 100%
+            );
+        }
+
+        body.night-mode .lantern-vignette {
+            display: block;
+        }
+
+        /* Subtle glowing elements in night mode */
+        body.night-mode .newspaper-card:hover {
+            box-shadow: 
+                0 0 15px rgba(217, 111, 39, 0.15),
+                0 12px 24px rgba(0, 0, 0, 0.6);
+        }
+
+        body.night-mode .control-btn {
+            background: var(--paper-cream);
+            border-color: var(--ink-brown);
+        }
+
+        /* ============================================
+           TOP BAR CONTROLS
+           ============================================ */
+        .top-bar-controls {
+            position: absolute;
+            top: var(--spacing-md);
+            right: var(--spacing-md);
+            display: flex;
+            gap: var(--spacing-sm);
+            z-index: 1001;
+        }
+        .control-btn {
+            background: var(--paper-cream);
+            border: 2px solid var(--ink-brown);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 1.2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s ease;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+        }
+        .control-btn:hover {
+            background: var(--ink-black);
+            color: var(--paper-cream);
+            transform: scale(1.05);
+        }
+
+        /* ============================================
+           CROSSWORD STYLING
+           ============================================ */
+        .crossword-modal {
+            max-width: 900px;
+        }
+        .crossword-container {
+            display: grid;
+            grid-template-columns: 1fr 1.2fr;
+            gap: var(--spacing-xl);
+            margin-top: var(--spacing-md);
+        }
+        @media (max-width: 768px) {
+            .crossword-container {
+                grid-template-columns: 1fr;
+                gap: var(--spacing-md);
+            }
+        }
+        .crossword-grid-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .crossword-table {
+            border-collapse: collapse;
+            background: var(--ink-black);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+            border: 3px solid var(--ink-black);
+        }
+        .crossword-cell {
+            width: 40px;
+            height: 40px;
+            position: relative;
+            background: var(--paper-cream);
+            border: 1px solid var(--paper-dark);
+            padding: 0;
+            margin: 0;
+        }
+        .crossword-cell.blocked {
+            background: var(--ink-black);
+        }
+        .crossword-cell .cell-number {
+            position: absolute;
+            top: 2px;
+            left: 2px;
+            font-size: 0.6rem;
+            font-weight: bold;
+            color: var(--ink-brown);
+            line-height: 1;
+        }
+        .crossword-cell input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            background: transparent;
+            text-align: center;
+            font-family: var(--font-headline);
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: var(--ink-black);
+            padding-top: 6px;
+        }
+        .crossword-cell input:focus {
+            outline: none;
+            background: var(--paper-aged);
+        }
+        .crossword-cell.correct input {
+            color: #1b5e20;
+            background: rgba(27, 94, 32, 0.08);
+        }
+        body.night-mode .crossword-cell.correct input {
+            color: #81c784;
+            background: rgba(129, 199, 132, 0.1);
+        }
+        .crossword-cell.incorrect input {
+            color: var(--accent-red);
+            background: rgba(139, 35, 35, 0.08);
+        }
+        .crossword-clues {
+            font-size: 0.9rem;
+            max-height: 400px;
+            overflow-y: auto;
+            text-align: left;
+            border-left: 1px solid var(--paper-dark);
+            padding-left: var(--spacing-md);
+        }
+        .clue-section {
+            margin-bottom: var(--spacing-lg);
+        }
+        .clue-section h3 {
+            font-family: var(--font-headline);
+            font-size: 1.1rem;
+            border-bottom: 2px solid var(--ink-black);
+            margin-bottom: var(--spacing-sm);
+            padding-bottom: 2px;
+        }
+        .clue-section ul {
+            list-style: none;
+        }
+        .clue-section li {
+            margin-bottom: var(--spacing-xs);
+            line-height: 1.4;
+        }
+        .clue-section li strong {
+            font-family: var(--font-headline);
+            color: var(--accent-red);
+        }
     </style>
 </head>
 
 <body>
+    <div class="lantern-vignette"></div>
     <div class="table-surface">
+        <!-- Top Bar Controls -->
+        <div class="top-bar-controls">
+            <button class="control-btn" id="muteToggle" title="Silenciar Sons">🔊</button>
+            <button class="control-btn" id="lampToggle" title="À Luz de Lampião">🕯️</button>
+        </div>
+
         <!-- Masthead -->
         <header class="masthead">
             <h1 class="logo">Notícias que você talvez vai se importar</h1>
@@ -590,11 +834,17 @@
                 <button class="category-tab active" data-category="all">Todas</button>
             </nav>
 
-            <!-- Sort Toggle -->
-            <button class="sort-toggle" id="sortToggle" title="Inverter ordem das notícias">
-                <span class="sort-icon">⬇</span>
-                <span class="sort-label">Recentes</span>
-            </button>
+            <!-- Sort Toggle & Passatempos -->
+            <div style="display: flex; gap: var(--spacing-sm);">
+                <button class="sort-toggle" id="sortToggle" title="Inverter ordem das notícias">
+                    <span class="sort-icon">⬇</span>
+                    <span class="sort-label">Recentes</span>
+                </button>
+                <button class="sort-toggle" id="crosswordBtn" title="Jogar Palavras Cruzadas">
+                    <span class="sort-icon">🧩</span>
+                    <span class="sort-label">Passatempos</span>
+                </button>
+            </div>
         </div>
 
         <!-- Loading State -->
@@ -637,6 +887,54 @@
         </article>
     </div>
 
+    <!-- Crossword Modal -->
+    <div class="modal-overlay" id="crosswordOverlay">
+        <article class="modal-content crossword-modal" id="crosswordContent">
+            <button class="modal-close" id="crosswordClose" aria-label="Fechar">✕</button>
+            <p class="modal-category">Passatempo de Hoje</p>
+            <h2 class="modal-headline">Palavras Cruzadas</h2>
+            <div class="ornament">❧ ❦ ❧</div>
+            
+            <div class="crossword-container">
+                <!-- Crossword Grid -->
+                <div class="crossword-grid-wrapper">
+                    <table class="crossword-table" id="crosswordTable"></table>
+                </div>
+                
+                <!-- Clues -->
+                <div class="crossword-clues">
+                    <div class="clue-section">
+                        <h3>Horizontais</h3>
+                        <ul id="cluesHorizontal"></ul>
+                    </div>
+                    <div class="clue-section">
+                        <h3>Verticais</h3>
+                        <ul id="cluesVertical"></ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div style="margin-top: var(--spacing-lg); display: flex; flex-wrap: wrap; gap: var(--spacing-md); justify-content: center;">
+                <button class="modal-link" id="checkCrosswordBtn" style="margin-top: 0; cursor: pointer; border: none;">
+                    Verificar Respostas
+                </button>
+                <button class="modal-link" id="hintCrosswordBtn" style="margin-top: 0; background: var(--paper-aged); color: var(--ink-black); border: 2px solid var(--ink-brown); cursor: pointer;">
+                    Dica
+                </button>
+                <button class="modal-link" id="revealWordBtn" style="margin-top: 0; background: var(--paper-aged); color: var(--ink-black); border: 2px solid var(--ink-brown); cursor: pointer;">
+                    Revelar Palavra
+                </button>
+                <button class="modal-link" id="resetCrosswordBtn" style="margin-top: 0; background: var(--paper-aged); color: var(--ink-black); border: 2px solid var(--ink-brown); cursor: pointer;">
+                    Reiniciar
+                </button>
+            </div>
+            
+            <div id="crosswordSuccessMessage" style="display: none; text-align: center; margin-top: var(--spacing-md); color: var(--accent-red); font-family: var(--font-headline); font-weight: bold; font-size: 1.2rem;">
+                🎉 Parabéns! Você desvendou as palavras cruzadas com sucesso!
+            </div>
+        </article>
+    </div>
+
     <script>
         // ============================================
         // CONSTANTS & STATE
@@ -644,6 +942,7 @@
         const FALLBACK_IMAGE = 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMjAwIiB2aWV3Qm94PSIwIDAgMzAwIDIwMCI+PHJlY3QgZmlsbD0iI2U4ZTBkMCIgd2lkdGg9IjMwMCIgaGVpZ2h0PSIyMDAiLz48dGV4dCBmaWxsPSIjMmQyNDFjIiBmb250LWZhbWlseT0ic2VyaWYiIGZvbnQtc2l6ZT0iNDAiIHg9IjUwJSIgeT0iNTAlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj7wn5OEPC90ZXh0Pjwvc3ZnPg==';
 
         let newsData = null;
+        let crosswordData = null;
         let currentCategory = 'all';
         let sortAscending = false; // false = most recent first, true = oldest first
 
@@ -839,6 +1138,8 @@
             const article = findArticleById(articleId);
             if (!article) return;
 
+            AudioSynth.playPaperRustle();
+
             elements.modalCategory.textContent = article.category_name || article.category;
             elements.modalHeadline.textContent = article.title;
             elements.modalAuthor.textContent = `Por ${article.author || 'Redação'}`;
@@ -868,6 +1169,7 @@
         }
 
         function closeModal() {
+            AudioSynth.playPaperRustle();
             elements.modalOverlay.classList.remove('active');
             document.body.style.overflow = '';
         }
@@ -881,6 +1183,8 @@
                 if (!response.ok) throw new Error('Failed to load news');
 
                 newsData = await response.json();
+
+                // NOTE: crossword is now generated procedurally (daily seed) — no longer loaded from JSON
 
                 elements.loadingState.style.display = 'none';
                 renderCategoryTabs(newsData.categories);
@@ -898,6 +1202,898 @@
         }
 
         // ============================================
+        // RETRO AUDIO SYNTH (Web Audio API)
+        // ============================================
+        const AudioSynth = {
+            ctx: null,
+            muted: localStorage.getItem('mute_sounds') === 'true',
+            typewriterBuffer: null,
+            paperBuffer: null,
+            
+            init() {
+                if (this.ctx) return;
+                this.ctx = new (window.AudioContext || window.webkitAudioContext)();
+                
+                // Preload real sound files
+                this.loadAudioFile('./paper.mp3', (buf) => this.paperBuffer = buf);
+                this.loadAudioFile('./typewriter.mp3', (buf) => this.typewriterBuffer = buf);
+            },
+            
+            resume() {
+                if (this.ctx && this.ctx.state === 'suspended') {
+                    this.ctx.resume();
+                }
+            },
+            
+            loadAudioFile(url, callback) {
+                fetch(url)
+                    .then(response => response.arrayBuffer())
+                    .then(arrayBuffer => {
+                        if (this.ctx) {
+                            this.ctx.decodeAudioData(arrayBuffer, callback, err => console.error("Error decoding audio:", err));
+                        }
+                    })
+                    .catch(err => console.error("Error loading audio file:", err));
+            },
+            
+            playClick() {
+                if (this.muted) return;
+                this.init();
+                this.resume();
+                const ctx = this.ctx;
+                if (!ctx) return;
+                
+                if (this.typewriterBuffer) {
+                    try {
+                        const source = ctx.createBufferSource();
+                        source.buffer = this.typewriterBuffer;
+                        
+                        // Select a random short slice of typewriter key sounds
+                        const bufferDuration = this.typewriterBuffer.duration;
+                        const startOffset = Math.random() * Math.max(0, bufferDuration - 0.2);
+                        
+                        const gain = ctx.createGain();
+                        gain.gain.setValueAtTime(0.3, ctx.currentTime);
+                        gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.12);
+                        
+                        source.connect(gain);
+                        gain.connect(ctx.destination);
+                        
+                        source.start(0, startOffset, 0.12);
+                        return;
+                    } catch (e) {
+                        console.warn("Failed to play typewriter MP3, falling back to synthetic", e);
+                    }
+                }
+                
+                // Fallback click synth (original)
+                const osc = ctx.createOscillator();
+                const gainNode = ctx.createGain();
+                osc.type = 'sine';
+                osc.frequency.setValueAtTime(600, ctx.currentTime);
+                osc.frequency.exponentialRampToValueAtTime(150, ctx.currentTime + 0.04);
+                gainNode.gain.setValueAtTime(0.04, ctx.currentTime);
+                gainNode.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.04);
+                osc.connect(gainNode);
+                gainNode.connect(ctx.destination);
+                osc.start();
+                osc.stop(ctx.currentTime + 0.04);
+            },
+            
+            playPaperRustle() {
+                if (this.muted) return;
+                this.init();
+                this.resume();
+                const ctx = this.ctx;
+                if (!ctx) return;
+                
+                if (this.paperBuffer) {
+                    try {
+                        const source = ctx.createBufferSource();
+                        source.buffer = this.paperBuffer;
+                        
+                        // Select a random short slice of paper sound
+                        const bufferDuration = this.paperBuffer.duration;
+                        const startOffset = Math.random() * Math.max(0, bufferDuration - 1.2);
+                        
+                        const gain = ctx.createGain();
+                        gain.gain.setValueAtTime(0.5, ctx.currentTime);
+                        gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 1.2);
+                        
+                        source.connect(gain);
+                        gain.connect(ctx.destination);
+                        
+                        source.start(0, startOffset, 1.2);
+                        return;
+                    } catch (e) {
+                        console.warn("Failed to play paper MP3, falling back to synthetic", e);
+                    }
+                }
+                
+                // Fallback paper rustle synth (original)
+                const bufferSize = ctx.sampleRate * 0.35;
+                const buffer = ctx.createBuffer(1, bufferSize, ctx.sampleRate);
+                const data = buffer.getChannelData(0);
+                let lastOut = 0.0;
+                for (let i = 0; i < bufferSize; i++) {
+                    const white = Math.random() * 2 - 1;
+                    data[i] = (lastOut + (0.015 * white)) / 1.015;
+                    lastOut = data[i];
+                    if (Math.random() < 0.004) {
+                        data[i] += (Math.random() * 2 - 1) * 0.15;
+                    }
+                }
+                const source = ctx.createBufferSource();
+                source.buffer = buffer;
+                const filter = ctx.createBiquadFilter();
+                filter.type = 'bandpass';
+                filter.frequency.setValueAtTime(400, ctx.currentTime);
+                filter.Q.setValueAtTime(0.7, ctx.currentTime);
+                const gainNode = ctx.createGain();
+                gainNode.gain.setValueAtTime(0.0, ctx.currentTime);
+                gainNode.gain.linearRampToValueAtTime(0.2, ctx.currentTime + 0.05);
+                gainNode.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.35);
+                source.connect(filter);
+                filter.connect(gainNode);
+                gainNode.connect(ctx.destination);
+                source.start();
+            }
+        };
+
+        // ============================================
+        // CROSSWORD GENERATOR — PALAVRAS CRUZADAS DIÁRIAS
+        // ============================================
+
+        // Seeded Pseudo-Random Number Generator (Mulberry32)
+        function seedRNG(seed) {
+            return function() {
+                seed |= 0; seed = seed + 0x6D2B79F5 | 0;
+                var t = Math.imul(seed ^ seed >>> 15, 1 | seed);
+                t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t;
+                return ((t ^ t >>> 14) >>> 0) / 4294967296;
+            };
+        }
+
+        function getDailySeed() {
+            const now = new Date();
+            return now.getFullYear() * 10000 + (now.getMonth() + 1) * 100 + now.getDate();
+        }
+
+        // Large bank of Portuguese words with real clues
+        const WORD_BANK = [
+            { word: "ABACAXI",    clue: "Fruta tropical espinhosa, símbolo do Brasil" },
+            { word: "ACADEMIA",   clue: "Lugar onde se pratica exercícios físicos" },
+            { word: "ACOMODADO",  clue: "Que se conformou com a situação; acomodado" },
+            { word: "ACUSADO",    clue: "Réu; aquele contra quem se move um processo" },
+            { word: "AFETO",      clue: "Sentimento de carinho e amor" },
+            { word: "AGONIA",     clue: "Sofrimento extremo; angústia intensa" },
+            { word: "AGUIA",      clue: "Ave de rapina majestosa, símbolo de poder" },
+            { word: "ALDEIA",     clue: "Pequena comunidade rural; vilarejo" },
+            { word: "ALEGRIA",    clue: "Sentimento de felicidade e contentamento" },
+            { word: "ALFACE",     clue: "Hortaliça de folhas verdes, comum em saladas" },
+            { word: "ALFORJE",    clue: "Bolsa dupla usada em viagens a cavalo" },
+            { word: "ALICERCE",   clue: "Base de uma construção; fundação" },
+            { word: "ALMOCO",     clue: "Refeição do meio do dia" },
+            { word: "ALUNO",      clue: "Estudante; aquele que recebe instrução" },
+            { word: "AMANHA",     clue: "O dia seguinte ao de hoje" },
+            { word: "AMIZADE",    clue: "Laço de afeto entre pessoas; camaradagem" },
+            { word: "ANCORA",     clue: "Peça de ferro que fixa navios ao fundo do mar" },
+            { word: "ANEL",       clue: "Arco que se usa nos dedos como adorno" },
+            { word: "ANGULO",     clue: "Abertura entre duas retas com origem comum" },
+            { word: "ANIMAL",     clue: "Ser vivo dotado de movimento voluntário" },
+            { word: "ANIVERSARIO",clue: "Data comemorativa do nascimento de alguém" },
+            { word: "ANTENA",     clue: "Dispositivo para captar sinais de rádio ou TV" },
+            { word: "ANZOL",      clue: "Gancho metálico usado para pescar" },
+            { word: "APITO",      clue: "Instrumento que produz som agudo ao soprar" },
+            { word: "AQUARIO",    clue: "Recipiente com água para peixes ornamentais" },
+            { word: "ARAUTO",     clue: "Mensageiro oficial; aquele que anuncia" },
+            { word: "AREIA",      clue: "Partículas finas de rocha, comuns nas praias" },
+            { word: "ARVORE",     clue: "Planta lenhosa de grande porte com tronco" },
+            { word: "ASNO",       clue: "Animal doméstico; burro; jumento" },
+            { word: "ASTRO",      clue: "Corpo celeste; estrela ou planeta" },
+            { word: "ATLAS",      clue: "Livro ou coleção de mapas geográficos" },
+            { word: "ATRIZ",      clue: "Mulher que atua em peças, filmes ou séries" },
+            { word: "AUDACIA",    clue: "Ousadia; coragem para enfrentar perigos" },
+            { word: "AURORA",     clue: "Claridade que precede o nascer do sol; alvorada" },
+            { word: "AVESSO",     clue: "O lado contrário; o oposto de algo" },
+            { word: "AVIAO",      clue: "Veículo aéreo movido por motores" },
+            { word: "AZULEJO",    clue: "Peça de cerâmica usada para revestir paredes" },
+            { word: "BAILE",      clue: "Festa onde as pessoas dançam" },
+            { word: "BALAO",      clue: "Bexiga inflada com ar ou gás que flutua" },
+            { word: "BAMBU",      clue: "Planta de caule oco e resistente" },
+            { word: "BANANA",     clue: "Fruta amarela e curva, rica em potássio" },
+            { word: "BARCO",      clue: "Embarcação pequena para navegar em rios ou mares" },
+            { word: "BARRO",      clue: "Argila úmida usada na fabricação de cerâmicas" },
+            { word: "BATALHA",    clue: "Combate entre forças inimigas; luta" },
+            { word: "BEIJA",      clue: "Terceira pessoa do verbo beijar no presente" },
+            { word: "BESOURO",    clue: "Inseto com asas duras e corpo robusto" },
+            { word: "BIBLIOTECA", clue: "Local onde livros são guardados e emprestados" },
+            { word: "BICHO",      clue: "Animal, especialmente inseto ou bichinho" },
+            { word: "BICICLETA",  clue: "Veículo de duas rodas movido a pedal" },
+            { word: "BOLO",       clue: "Massa assada, geralmente doce, de festa" },
+            { word: "BOLSO",      clue: "Abertura em roupas para guardar objetos" },
+            { word: "BORRACHA",   clue: "Material elástico derivado da seringueira" },
+            { word: "BRANCO",     clue: "Cor da neve; ausência de cor pigmentada" },
+            { word: "BRAVO",      clue: "Corajoso; também exclamação de aprovação" },
+            { word: "BRUXA",      clue: "Figura folclórica que pratica feitiçaria" },
+            { word: "BURACO",     clue: "Abertura; orifício em uma superfície" },
+            { word: "BUZINA",     clue: "Instrumento sonoro de veículos para alertar" },
+            { word: "CABELO",     clue: "Filamentos que crescem na cabeça humana" },
+            { word: "CACAU",      clue: "Semente usada para fazer chocolate" },
+            { word: "CACHOEIRA",  clue: "Queda d'água natural em rios ou riachos" },
+            { word: "CADERNO",    clue: "Livro de folhas em branco para anotações" },
+            { word: "CAFE",       clue: "Bebida quente feita com grãos torrados e moídos" },
+            { word: "CAMELO",     clue: "Animal do deserto com uma ou duas corcovas" },
+            { word: "CAMPO",      clue: "Área extensa de terra plana; zona rural" },
+            { word: "CANARIO",    clue: "Pássaro cantor de plumagem amarela" },
+            { word: "CANETA",     clue: "Instrumento usado para escrever com tinta" },
+            { word: "CANOA",      clue: "Embarcação estreita e leve movida a remo" },
+            { word: "CANTO",      clue: "Arte de produzir sons musicais com a voz" },
+            { word: "CAPITAO",    clue: "Oficial militar; líder de um navio ou time" },
+            { word: "CAPIVARA",   clue: "Maior roedor do mundo, nativo da América do Sul" },
+            { word: "CARTAO",     clue: "Pedaço de papel rígido com informações ou mensagem" },
+            { word: "CASA",       clue: "Construção onde as pessoas habitam" },
+            { word: "CASTELO",    clue: "Grande edificação medieval, geralmente amuralhada" },
+            { word: "CAVALO",     clue: "Animal de grande porte usado para montaria" },
+            { word: "CEBOLA",     clue: "Hortaliça de bulbo que faz chorar ao cortar" },
+            { word: "CENOURA",    clue: "Raiz alaranjada rica em vitamina A" },
+            { word: "CEREBRO",    clue: "Órgão principal do sistema nervoso central" },
+            { word: "CERVEJA",    clue: "Bebida alcoólica fermentada de cevada e lúpulo" },
+            { word: "CHAVE",      clue: "Peça de metal usada para abrir fechaduras" },
+            { word: "CHOCOLATE",  clue: "Doce feito de cacau, açúcar e leite" },
+            { word: "CIDADE",     clue: "Grande centro urbano habitado" },
+            { word: "CIGARRA",    clue: "Inseto que emite sons altos no verão" },
+            { word: "CIRCO",      clue: "Espetáculo com acrobatas, palhaços e animais" },
+            { word: "COBRA",      clue: "Réptil serpente; ofídio peçonhento ou não" },
+            { word: "COELHO",     clue: "Mamífero com longas orelhas e rabo curto" },
+            { word: "COGUMELO",   clue: "Fungo comestível de formato característico" },
+            { word: "COLMEIA",    clue: "Habitação das abelhas onde o mel é produzido" },
+            { word: "COMETA",     clue: "Corpo celeste com núcleo gelado e cauda luminosa" },
+            { word: "COMPUTADOR", clue: "Máquina eletrônica que processa dados" },
+            { word: "CONCHA",     clue: "Exoesqueleto calcário de moluscos marinhos" },
+            { word: "CONSTELACAO",clue: "Agrupamento de estrelas que formam figura no céu" },
+            { word: "COPA",       clue: "Competição esportiva de nível mundial" },
+            { word: "CORACAO",    clue: "Órgão que bombeia o sangue pelo corpo" },
+            { word: "CORUJA",     clue: "Ave noturna com olhos grandes e voo silencioso" },
+            { word: "COZINHA",    clue: "Cômodo da casa onde se preparam os alimentos" },
+            { word: "CRATERA",    clue: "Abertura circular no topo de um vulcão" },
+            { word: "CRIANCA",    clue: "Ser humano em fase da infância" },
+            { word: "CRUZEIRO",   clue: "Viagem de navio; antiga moeda brasileira" },
+            { word: "CULTURA",    clue: "Conjunto de costumes e saberes de um povo" },
+            { word: "CUPULA",     clue: "Teto em forma de meia esfera; abóbada" },
+            { word: "DADO",       clue: "Cubo com números de um a seis para jogos" },
+            { word: "DANÇA",      clue: "Arte de mover o corpo ao ritmo da música" },
+            { word: "DEDAL",      clue: "Capinha usada no dedo para costurar" },
+            { word: "DESERTO",    clue: "Região árida com pouca chuva e vegetação escassa" },
+            { word: "DIAMANTE",   clue: "Pedra preciosa mais dura da natureza" },
+            { word: "DINOSSAURO", clue: "Réptil pré-histórico extinto há milhões de anos" },
+            { word: "DITADO",     clue: "Provérbio popular; exercício escolar de ortografia" },
+            { word: "DOLFIM",     clue: "Mamífero marinho inteligente e sociável" },
+            { word: "DRAGAO",     clue: "Criatura mítica que cospe fogo" },
+            { word: "ECLIPSE",    clue: "Fenômeno em que um astro encobre outro" },
+            { word: "ELEFANTE",   clue: "O maior animal terrestre, com tromba e presas" },
+            { word: "EMBARGO",    clue: "Proibição de comércio ou comunicação com país" },
+            { word: "ENIGMA",     clue: "Mistério; charada de difícil solução" },
+            { word: "ERVILHA",    clue: "Pequena leguminosa verde e redonda" },
+            { word: "ESCOLA",     clue: "Instituição de ensino e aprendizagem" },
+            { word: "ESCORPIAO",  clue: "Artrópode com ferrão venenoso na cauda" },
+            { word: "ESPELHO",    clue: "Superfície polida que reflete imagens" },
+            { word: "ESTRELA",    clue: "Corpo celeste que emite luz própria" },
+            { word: "ETIQUETA",   clue: "Rótulo; conjunto de regras de boa educação" },
+            { word: "EVANDRO",    clue: "Nome masculino de origem latina" },
+            { word: "FABRICA",    clue: "Estabelecimento onde produtos são fabricados" },
+            { word: "FANTASMA",   clue: "Espírito de morto; aparição sobrenatural" },
+            { word: "FARINHA",    clue: "Pó obtido pela moagem de grãos ou raízes" },
+            { word: "FAROL",      clue: "Torre com luz que guia navios à noite" },
+            { word: "FAZENDA",    clue: "Grande propriedade rural; rancho" },
+            { word: "FEIJAO",     clue: "Leguminosa muito consumida no Brasil, base do prato nacional" },
+            { word: "FERREIRO",   clue: "Artesão que trabalha com ferro e metal" },
+            { word: "FESTA",      clue: "Celebração com reunião de pessoas" },
+            { word: "FIGUEIRA",   clue: "Árvore que produz o figo" },
+            { word: "FILME",      clue: "Obra audiovisual projetada no cinema" },
+            { word: "FLORESTA",   clue: "Grande extensão de terreno com árvores densas" },
+            { word: "FLUTE",      clue: "Instrumento musical de sopro" },
+            { word: "FOLHA",      clue: "Parte plana e verde das plantas" },
+            { word: "FORMIGA",    clue: "Inseto social que vive em colônias numerosas" },
+            { word: "FORTALEZA",  clue: "Edificação militar; capital do Ceará" },
+            { word: "FORNO",      clue: "Equipamento para cozinhar ou assar alimentos" },
+            { word: "FOTOGRAFIA", clue: "Imagem obtida por meio de câmera e luz" },
+            { word: "FRANGO",     clue: "Ave doméstica; sua carne é muito consumida" },
+            { word: "FUTEBOL",    clue: "Esporte mais popular do Brasil, com 11 jogadores por time" },
+            { word: "GAFANHOTO",  clue: "Inseto saltador que causa pragas em plantações" },
+            { word: "GALINHA",    clue: "Fêmea do galo; ave doméstica que põe ovos" },
+            { word: "GARFO",      clue: "Talher com dentes usado para comer" },
+            { word: "GAVETA",     clue: "Compartimento deslizante em móveis" },
+            { word: "GELEIRA",    clue: "Grande massa de gelo que se move lentamente" },
+            { word: "GESSO",      clue: "Material branco usado em construção e medicina" },
+            { word: "GIRASSOL",   clue: "Flor que volta sua face em direção ao sol" },
+            { word: "GLOBO",      clue: "Esfera que representa o planeta Terra" },
+            { word: "GORILA",     clue: "O maior primata vivo, nativo da África" },
+            { word: "GRILO",      clue: "Inseto que canta à noite esfregando as asas" },
+            { word: "GUARDA",     clue: "Agente que protege ou vigia um local" },
+            { word: "GUITARRA",   clue: "Instrumento musical elétrico de seis cordas" },
+            { word: "HAMBURGER",  clue: "Sanduíche com carne moída grelhada" },
+            { word: "HARPA",      clue: "Instrumento musical de cordas em forma triangular" },
+            { word: "HISTORIA",   clue: "Ciência que estuda o passado; narrativa de eventos" },
+            { word: "HORIZONTE",  clue: "Linha onde céu e terra parecem se encontrar" },
+            { word: "HOSPITAL",   clue: "Estabelecimento de saúde para tratar doentes" },
+            { word: "HOTEL",      clue: "Estabelecimento que oferece hospedagem" },
+            { word: "HUMANO",     clue: "Relativo ao ser humano; homem ou mulher" },
+            { word: "IGLOO",      clue: "Habitação esquimó construída com blocos de gelo" },
+            { word: "ILHA",       clue: "Porção de terra cercada de água por todos os lados" },
+            { word: "IMAGEM",     clue: "Representação visual de algo ou alguém" },
+            { word: "IMPERADOR",  clue: "Governante supremo de um império" },
+            { word: "INDIA",      clue: "País asiático com maior população do mundo" },
+            { word: "INSETO",     clue: "Animal invertebrado com seis pernas" },
+            { word: "INVERNO",    clue: "Estação mais fria do ano" },
+            { word: "JACARE",     clue: "Réptil semelhante ao crocodilo, nativo das Américas" },
+            { word: "JANELA",     clue: "Abertura na parede para entrada de luz e ar" },
+            { word: "JANGADA",    clue: "Embarcação rústica de toras amarradas, usada no Nordeste" },
+            { word: "JARDIM",     clue: "Espaço cultivado com flores e plantas ornamentais" },
+            { word: "JOGO",       clue: "Atividade recreativa com regras definidas" },
+            { word: "JORNAL",     clue: "Publicação periódica com notícias" },
+            { word: "JUIZ",       clue: "Magistrado que aplica as leis em tribunais" },
+            { word: "JUMENTO",    clue: "Animal de carga; asno; burro" },
+            { word: "LAGARTO",    clue: "Réptil de quatro patas e rabo comprido" },
+            { word: "LAGO",       clue: "Corpo de água cercado de terra por todos os lados" },
+            { word: "LAMINA",     clue: "Peça fina e plana de metal; faca ou corte" },
+            { word: "LAMPIAO",    clue: "Luminária a querosene; famoso cangaceiro nordestino" },
+            { word: "LAPIS",      clue: "Instrumento de escrever com grafite" },
+            { word: "LARANJA",    clue: "Fruta cítrica e alaranjada, rica em vitamina C" },
+            { word: "LEAO",       clue: "Felino selvagem chamado rei da selva" },
+            { word: "LEGUME",     clue: "Planta comestível cultivada em hortas" },
+            { word: "LENHA",      clue: "Madeira cortada usada como combustível" },
+            { word: "LEQUE",      clue: "Objeto dobrável usado para abanar o rosto" },
+            { word: "LETRA",      clue: "Símbolo gráfico de um alfabeto" },
+            { word: "LEITE",      clue: "Líquido branco produzido por mamíferos" },
+            { word: "LINCE",      clue: "Felino de orelhas pontudas e visão aguçada" },
+            { word: "LIVRO",      clue: "Conjunto de folhas encadernadas com texto" },
+            { word: "LOBO",       clue: "Animal carnívoro da família dos canídeos" },
+            { word: "LODEIRO",    clue: "Lugar cheio de lama e barro" },
+            { word: "LONA",       clue: "Tecido resistente e impermeável" },
+            { word: "LOTERIA",    clue: "Jogo de sorte com prêmios em dinheiro" },
+            { word: "LUVA",       clue: "Proteção usada nas mãos, de couro ou lã" },
+            { word: "MACACO",     clue: "Primata; também ferramenta para levantar carros" },
+            { word: "MADEIRA",    clue: "Material obtido do tronco das árvores" },
+            { word: "MAGICA",     clue: "Truque de ilusão; arte de produzir fenômenos misteriosos" },
+            { word: "MAPA",       clue: "Representação gráfica de uma região ou território" },
+            { word: "MARACUJA",   clue: "Fruta tropical de aroma intenso e sabor ácido" },
+            { word: "MARIPOSA",   clue: "Borboleta noturna atraída por fontes de luz" },
+            { word: "MARMORE",    clue: "Rocha metamórfica usada em construções e esculturas" },
+            { word: "MARTELO",    clue: "Ferramenta para pregar pregos e golpear" },
+            { word: "MASCARA",    clue: "Artefato usado para cobrir o rosto" },
+            { word: "MEDICO",     clue: "Profissional de saúde que trata doenças" },
+            { word: "MERCADO",    clue: "Local de compra e venda de produtos" },
+            { word: "MESA",       clue: "Móvel de superfície plana sobre pernas" },
+            { word: "SABIA",      clue: "Ave canora brasileira, símbolo nacional" },
+            { word: "MOSQUITO",   clue: "Inseto responsável pela transmissão da dengue" },
+            { word: "MOTOR",      clue: "Máquina que converte energia em movimento" },
+            { word: "MONTANHA",   clue: "Elevação de terreno; pico; serra" },
+            { word: "MUSEU",      clue: "Local que guarda e expõe obras de arte e artefatos" },
+            { word: "MUSICA",     clue: "Arte de combinar sons de forma harmoniosa" },
+            { word: "NAVIO",      clue: "Grande embarcação marítima" },
+            { word: "NERVO",      clue: "Fibra que conduz impulsos do sistema nervoso" },
+            { word: "NINHO",      clue: "Abrigo construído por aves para chocar ovos" },
+            { word: "NOVELA",     clue: "Obra de ficção em televisão exibida em capítulos" },
+            { word: "OCEANO",     clue: "Grande massa de água salgada que cobre parte da Terra" },
+            { word: "ONCA",       clue: "Felino mais poderoso das Américas; pintada" },
+            { word: "ORQUESTRA",  clue: "Conjunto de músicos que tocam instrumentos juntos" },
+            { word: "OSSADA",     clue: "Conjunto dos ossos de um ser vivo" },
+            { word: "OURICO",     clue: "Mamífero coberto de espinhos afiados" },
+            { word: "OVELHA",     clue: "Animal doméstico produtor de lã e leite" },
+            { word: "OURO",       clue: "Metal precioso de cor amarela" },
+            { word: "PALMEIRA",   clue: "Árvore tropical com caule alto e folhas no topo" },
+            { word: "PANELA",     clue: "Recipiente de metal para cozinhar alimentos" },
+            { word: "PANTANO",    clue: "Terreno alagadiço; brejo; charco" },
+            { word: "PAPAGAIO",   clue: "Ave tropical que imita a voz humana" },
+            { word: "PARANA",     clue: "Estado brasileiro famoso por suas cataratas" },
+            { word: "PATO",       clue: "Ave aquática de bico chato e penas impermeáveis" },
+            { word: "PEDRA",      clue: "Rocha de tamanho variado; mineral sólido" },
+            { word: "PEIXE",      clue: "Animal aquático vertebrado com nadadeiras" },
+            { word: "PENA",       clue: "Pluma de ave; instrumento antigo de escrita" },
+            { word: "PLANETA",    clue: "Astro que orbita ao redor de uma estrela" },
+            { word: "PLANTA",     clue: "Organismo vivo com clorofila que faz fotossíntese" },
+            { word: "POLVOS",     clue: "Plural do cefalópode com oito tentáculos" },
+            { word: "POMBO",      clue: "Ave urbana cinza usada historicamente como mensageiro" },
+            { word: "PONTE",      clue: "Estrutura que une dois lados sobre um vão" },
+            { word: "PORCO",      clue: "Mamífero doméstico criado para carne" },
+            { word: "PRATO",      clue: "Utensílio raso para servir alimentos" },
+            { word: "PRAIA",      clue: "Faixa de areia à beira do mar ou rio" },
+            { word: "PULGA",      clue: "Inseto parasita que salta muito" },
+            { word: "QUEIJO",     clue: "Alimento derivado do leite coalhado" },
+            { word: "RABO",       clue: "Cauda dos animais; extremidade posterior" },
+            { word: "RADAR",      clue: "Sistema de detecção por ondas de rádio" },
+            { word: "RADIO",      clue: "Meio de comunicação por ondas eletromagnéticas" },
+            { word: "RAINHA",     clue: "Mulher que reina; peça mais poderosa do xadrez" },
+            { word: "RAPOSA",     clue: "Mamífero astuto da família dos canídeos" },
+            { word: "RATO",       clue: "Pequeno roedor doméstico" },
+            { word: "REBELDE",    clue: "Aquele que se recusa a obedecer a autoridade" },
+            { word: "REGIME",     clue: "Sistema de governo; dieta alimentar" },
+            { word: "RELEVO",     clue: "Conjunto das formas do terreno; elevação ou depressão" },
+            { word: "RELOGIO",    clue: "Instrumento para medir e marcar as horas" },
+            { word: "REMO",       clue: "Peça para impulsionar barcos manualmente" },
+            { word: "REPRESA",    clue: "Estrutura que retém água de rios para reservatório" },
+            { word: "RIO",        clue: "Corrente contínua de água doce" },
+            { word: "RITUAL",     clue: "Cerimônia com atos simbólicos e sequência definida" },
+            { word: "ROCHA",      clue: "Massa mineral sólida que forma a crosta terrestre" },
+            { word: "ROSA",       clue: "Flor com pétalas perfumadas e espinhos" },
+            { word: "SABIA",      clue: "Ave canora brasileira, símbolo nacional" },
+            { word: "SACOLA",     clue: "Bolsa de papel, plástico ou tecido para carregar compras" },
+            { word: "SALMAO",     clue: "Peixe de carne rosada muito apreciado na culinária" },
+            { word: "SAPO",       clue: "Anfíbio que vive em ambientes úmidos" },
+            { word: "SATELITE",   clue: "Objeto que orbita um planeta; também veículo espacial" },
+            { word: "SELVA",      clue: "Floresta tropical densa; mata virgem" },
+            { word: "SEMENTE",    clue: "Estrutura vegetal da qual nasce uma nova planta" },
+            { word: "SEREIA",     clue: "Criatura mítica com corpo de mulher e cauda de peixe" },
+            { word: "SERPENTE",   clue: "Animal réptil sem patas; cobra" },
+            { word: "SETA",       clue: "Sinal gráfico indicador de direção; flecha" },
+            { word: "SINO",       clue: "Instrumento metálico que produz som ao ser batido" },
+            { word: "SISTEMA",    clue: "Conjunto organizado de partes que funcionam juntas" },
+            { word: "SORVETE",    clue: "Doce gelado feito de leite ou frutas" },
+            { word: "SUBMARINO",  clue: "Embarcação capaz de navegar sob a água" },
+            { word: "TARTARUGA",  clue: "Réptil com carapaça rígida que protege seu corpo" },
+            { word: "TEATRO",     clue: "Arte dramática; local onde se apresentam peças" },
+            { word: "TESOURA",    clue: "Ferramenta com duas lâminas para cortar" },
+            { word: "TIGRE",      clue: "Felino rajado nativo da Ásia, o maior do mundo" },
+            { word: "TOMATE",     clue: "Fruto vermelho usado como vegetal na culinária" },
+            { word: "TORNADO",    clue: "Vento giratório violento em forma de funil" },
+            { word: "TROVAO",     clue: "Barulho causado pela descarga elétrica de um raio" },
+            { word: "TUCANO",     clue: "Ave tropical com bico grande e colorido" },
+            { word: "TUMULO",     clue: "Sepultura; local onde os mortos são enterrados" },
+            { word: "TUNEL",      clue: "Passagem subterrânea escavada em montanha ou solo" },
+            { word: "UIVO",       clue: "Som emitido por lobos e cães; grito lamentoso" },
+            { word: "UVAS",       clue: "Plural da fruta usada para fazer vinho" },
+            { word: "VACA",       clue: "Fêmea do boi; animal produtor de leite" },
+            { word: "VALE",       clue: "Depressão entre montanhas percorrida por rio" },
+            { word: "VELEIRO",    clue: "Embarcação movida pela força do vento" },
+            { word: "VENENO",     clue: "Substância tóxica que causa dano ao organismo" },
+            { word: "VENTO",      clue: "Movimento de ar na atmosfera" },
+            { word: "VERAO",      clue: "Estação mais quente do ano" },
+            { word: "VIAGEM",     clue: "Deslocamento para lugares distantes" },
+            { word: "VIDRO",      clue: "Material transparente frágil feito de sílica" },
+            { word: "VIOLA",      clue: "Instrumento musical de cordas, típico do sertão" },
+            { word: "VULCAO",     clue: "Monte que expele lava, cinzas e gases" },
+            { word: "XADREZ",     clue: "Jogo de tabuleiro com peças de duas cores" },
+            { word: "ZEBRA",      clue: "Equídeo africano listrado de preto e branco" },
+            { word: "ZERO",       clue: "Número nulo; ausência de quantidade" },
+            { word: "ZINCO",      clue: "Metal branco-azulado usado em galvanização" },
+        ];
+
+        // ============================================
+        // CROSSWORD PLACEMENT ENGINE
+        // ============================================
+        const GRID_SIZE = 13; // 13x13 grid
+
+        function normalizeWord(word) {
+            // Remove accents for grid comparison
+            return word.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toUpperCase();
+        }
+
+        function generateDailyCrossword() {
+            const seed = getDailySeed();
+            const rng = seedRNG(seed);
+
+            // Filter and shuffle words
+            const eligible = WORD_BANK.filter(w => w.word.length >= 4 && w.word.length <= 11);
+            const shuffled = [...eligible].sort(() => rng() - 0.5);
+
+            // Try to build a crossword with up to 10 words
+            return buildCrossword(shuffled, rng);
+        }
+
+        function buildCrossword(wordList, rng) {
+            const size = GRID_SIZE;
+            // grid[r][c] = letter string or null
+            const grid = Array.from({length: size}, () => Array(size).fill(null));
+            const placements = []; // {word, clue, row, col, dir, num}
+
+            // Place first word horizontally in the middle
+            const firstEntry = wordList[0];
+            const firstWord = normalizeWord(firstEntry.word);
+            const startCol = Math.floor((size - firstWord.length) / 2);
+            const midRow = Math.floor(size / 2);
+
+            for (let i = 0; i < firstWord.length; i++) {
+                grid[midRow][startCol + i] = firstWord[i];
+            }
+            placements.push({
+                word: firstWord,
+                clue: firstEntry.clue,
+                row: midRow, col: startCol,
+                dir: 'H', num: 1
+            });
+
+            let clueNum = 2;
+            let attempts = 0;
+            let wi = 1;
+
+            while (placements.length < 10 && wi < wordList.length && attempts < 500) {
+                attempts++;
+                const entry = wordList[wi % wordList.length];
+                wi++;
+                const word = normalizeWord(entry.word);
+
+                // Try to intersect with each placed word
+                let placed = false;
+                const shuffledPlacements = [...placements].sort(() => rng() - 0.5);
+
+                for (const p of shuffledPlacements) {
+                    if (placed) break;
+                    const targetDir = p.dir === 'H' ? 'V' : 'H';
+
+                    // Find common letters between word and p.word
+                    for (let wi2 = 0; wi2 < word.length && !placed; wi2++) {
+                        for (let pi = 0; pi < p.word.length && !placed; pi++) {
+                            if (word[wi2] !== p.word[pi]) continue;
+
+                            let nr, nc;
+                            if (targetDir === 'H') {
+                                // New word is horizontal, crossing p (vertical) at p's column
+                                nr = p.row + pi;
+                                nc = p.col - wi2;
+                            } else {
+                                // New word is vertical, crossing p (horizontal) at p's row
+                                nr = p.row - wi2;
+                                nc = p.col + pi;
+                            }
+
+                            if (canPlace(grid, word, nr, nc, targetDir, size)) {
+                                placeWord(grid, word, nr, nc, targetDir);
+                                placements.push({
+                                    word, clue: entry.clue,
+                                    row: nr, col: nc,
+                                    dir: targetDir, num: clueNum++
+                                });
+                                placed = true;
+                            }
+                        }
+                    }
+                }
+            }
+
+            return { grid, placements };
+        }
+
+        function canPlace(grid, word, row, col, dir, size) {
+            const dr = dir === 'V' ? 1 : 0;
+            const dc = dir === 'H' ? 1 : 0;
+            const len = word.length;
+
+            // Check boundaries
+            const endRow = row + dr * (len - 1);
+            const endCol = col + dc * (len - 1);
+            if (row < 0 || col < 0 || endRow >= size || endCol >= size) return false;
+
+            // Check cell before start (must be null or boundary)
+            const preRow = row - dr;
+            const preCol = col - dc;
+            if (preRow >= 0 && preCol >= 0 && grid[preRow][preCol] !== null) return false;
+
+            // Check cell after end (must be null or boundary)
+            const postRow = endRow + dr;
+            const postCol = endCol + dc;
+            if (postRow < size && postCol < size && grid[postRow][postCol] !== null) return false;
+
+            let intersections = 0;
+            for (let i = 0; i < len; i++) {
+                const r = row + dr * i;
+                const c = col + dc * i;
+                const existing = grid[r][c];
+
+                if (existing === null) {
+                    // Check perpendicular adjacency — can't be adjacent to other letters
+                    // unless we're placing a new cell (not crossing)
+                    const adjR1 = r - dc, adjC1 = c - dr; // perpendicular side 1
+                    const adjR2 = r + dc, adjC2 = c + dr; // perpendicular side 2
+                    const hasAdj1 = adjR1 >= 0 && adjC1 >= 0 && adjR1 < size && adjC1 < size && grid[adjR1][adjC1] !== null;
+                    const hasAdj2 = adjR2 >= 0 && adjC2 >= 0 && adjR2 < size && adjC2 < size && grid[adjR2][adjC2] !== null;
+                    if (hasAdj1 || hasAdj2) return false;
+                } else if (existing === word[i]) {
+                    intersections++;
+                } else {
+                    return false; // Conflict
+                }
+            }
+
+            return intersections > 0; // Must cross at least one existing letter
+        }
+
+        function placeWord(grid, word, row, col, dir) {
+            const dr = dir === 'V' ? 1 : 0;
+            const dc = dir === 'H' ? 1 : 0;
+            for (let i = 0; i < word.length; i++) {
+                grid[row + dr * i][col + dc * i] = word[i];
+            }
+        }
+
+        function crosswordToGridData(placements, rawGrid) {
+            // Build CROSSWORD_GRID format from raw grid and placements
+            const size = GRID_SIZE;
+
+            // Find bounding box of used cells
+            let minR = size, maxR = 0, minC = size, maxC = 0;
+            for (let r = 0; r < size; r++) {
+                for (let c = 0; c < size; c++) {
+                    if (rawGrid[r][c] !== null) {
+                        minR = Math.min(minR, r);
+                        maxR = Math.max(maxR, r);
+                        minC = Math.min(minC, c);
+                        maxC = Math.max(maxC, c);
+                    }
+                }
+            }
+
+            // Build numbered cells
+            const startCells = new Map(); // "r,c" -> clueNum
+            for (const p of placements) {
+                startCells.set(`${p.row},${p.col}`, p.num);
+            }
+
+            const gridData = [];
+            for (let r = minR; r <= maxR; r++) {
+                const row = [];
+                for (let c = minC; c <= maxC; c++) {
+                    const letter = rawGrid[r][c];
+                    if (letter === null) {
+                        row.push(null);
+                    } else {
+                        const num = startCells.get(`${r},${c}`) || 0;
+                        row.push({ letter, num });
+                    }
+                }
+                gridData.push(row);
+            }
+
+            return gridData;
+        }
+
+        // Generate the daily puzzle
+        const dailyPuzzle = generateDailyCrossword();
+        let CROSSWORD_GRID = crosswordToGridData(dailyPuzzle.placements, dailyPuzzle.grid);
+
+        let CROSSWORD_CLUES = {
+            horizontal: dailyPuzzle.placements
+                .filter(p => p.dir === 'H')
+                .sort((a,b) => a.num - b.num)
+                .map(p => ({ num: p.num, text: `${p.clue} (${p.word.length} letras)` })),
+            vertical: dailyPuzzle.placements
+                .filter(p => p.dir === 'V')
+                .sort((a,b) => a.num - b.num)
+                .map(p => ({ num: p.num, text: `${p.clue} (${p.word.length} letras)` }))
+        };
+
+        let lastFocusedInput = null;
+
+        function renderCrossword() {
+            const table = document.getElementById('crosswordTable');
+            const cluesH = document.getElementById('cluesHorizontal');
+            const cluesV = document.getElementById('cluesVertical');
+            
+            table.innerHTML = '';
+            cluesH.innerHTML = '';
+            cluesV.innerHTML = '';
+            
+            // Build Grid Table
+            for (let r = 0; r < CROSSWORD_GRID.length; r++) {
+                const tr = document.createElement('tr');
+                for (let c = 0; c < CROSSWORD_GRID[r].length; c++) {
+                    const td = document.createElement('td');
+                    const cellData = CROSSWORD_GRID[r][c];
+                    
+                    if (cellData === null) {
+                        td.className = 'crossword-cell blocked';
+                    } else {
+                        td.className = 'crossword-cell';
+                        td.dataset.row = r;
+                        td.dataset.col = c;
+                        
+                        if (cellData.num > 0) {
+                            const numSpan = document.createElement('span');
+                            numSpan.className = 'cell-number';
+                            numSpan.textContent = cellData.num;
+                            td.appendChild(numSpan);
+                        }
+                        
+                        const input = document.createElement('input');
+                        input.type = 'text';
+                        input.maxLength = 1;
+                        input.dataset.row = r;
+                        input.dataset.col = c;
+                        
+                        // Sound on typing
+                        input.addEventListener('input', () => {
+                            AudioSynth.playClick();
+                            // Simple auto-focus next cell
+                            if (input.value.length === 1) {
+                                focusNextCell(r, c);
+                            }
+                            checkCrossword(false);
+                        });
+
+                        input.addEventListener('focus', () => {
+                            lastFocusedInput = input;
+                        });
+                        
+                        td.appendChild(input);
+                    }
+                    tr.appendChild(td);
+                }
+                table.appendChild(tr);
+            }
+            
+            // Render Clues
+            CROSSWORD_CLUES.horizontal.forEach(c => {
+                cluesH.innerHTML += `<li><strong>${c.num}.</strong> ${c.text}</li>`;
+            });
+            CROSSWORD_CLUES.vertical.forEach(c => {
+                cluesV.innerHTML += `<li><strong>${c.num}.</strong> ${c.text}</li>`;
+            });
+        }
+
+        function focusNextCell(row, col) {
+            // Check right cell first (horizontal search)
+            const rightInput = document.querySelector(`input[data-row="${row}"][data-col="${col + 1}"]`);
+            if (rightInput) {
+                rightInput.focus();
+                return;
+            }
+            // Otherwise down cell (vertical search)
+            const downInput = document.querySelector(`input[data-row="${row + 1}"][data-col="${col}"]`);
+            if (downInput) {
+                downInput.focus();
+            }
+        }
+
+        function checkCrossword(playAudio = true) {
+            if (playAudio) AudioSynth.playClick();
+            let allCorrect = true;
+            const inputs = document.querySelectorAll('#crosswordTable input');
+            
+            inputs.forEach(input => {
+                const r = parseInt(input.dataset.row);
+                const c = parseInt(input.dataset.col);
+                const cellData = CROSSWORD_GRID[r][c];
+                const cellTd = input.parentElement;
+                
+                const val = input.value.trim().toUpperCase();
+                cellTd.classList.remove('correct', 'incorrect');
+                
+                if (val === '') {
+                    allCorrect = false;
+                } else if (val === cellData.letter) {
+                    cellTd.classList.add('correct');
+                } else {
+                    cellTd.classList.add('incorrect');
+                    allCorrect = false;
+                }
+            });
+            
+            const successMsg = document.getElementById('crosswordSuccessMessage');
+            if (allCorrect && inputs.length > 0) {
+                successMsg.style.display = 'block';
+            } else {
+                successMsg.style.display = 'none';
+            }
+        }
+
+        function giveCrosswordHint() {
+            AudioSynth.playClick();
+            let inputToReveal = lastFocusedInput;
+            
+            // If nothing is focused or if it's already filled correctly, try to find an unfilled/incorrect cell
+            if (!inputToReveal || inputToReveal.parentElement.classList.contains('correct')) {
+                const inputs = Array.from(document.querySelectorAll('#crosswordTable input'));
+                const candidates = inputs.filter(inp => {
+                    const r = parseInt(inp.dataset.row);
+                    const c = parseInt(inp.dataset.col);
+                    const cellData = CROSSWORD_GRID[r][c];
+                    return inp.value.trim().toUpperCase() !== cellData.letter;
+                });
+                
+                if (candidates.length === 0) {
+                    return; // All correct
+                }
+                // Pick a random candidate
+                inputToReveal = candidates[Math.floor(Math.random() * candidates.length)];
+            }
+            
+            if (inputToReveal) {
+                const r = parseInt(inputToReveal.dataset.row);
+                const c = parseInt(inputToReveal.dataset.col);
+                const cellData = CROSSWORD_GRID[r][c];
+                inputToReveal.value = cellData.letter;
+                inputToReveal.parentElement.classList.remove('incorrect');
+                inputToReveal.parentElement.classList.add('correct');
+                inputToReveal.focus();
+                
+                checkCrossword(false);
+            }
+        }
+
+        function revealFocusedWord() {
+            AudioSynth.playClick();
+            if (!lastFocusedInput) {
+                alert("Selecione uma célula na grade primeiro para revelar a palavra correspondente!");
+                return;
+            }
+            
+            const r = parseInt(lastFocusedInput.dataset.row);
+            const c = parseInt(lastFocusedInput.dataset.col);
+            
+            // Find horizontal cells
+            let hCells = [];
+            let cStart = c;
+            while (cStart > 0 && CROSSWORD_GRID[r][cStart - 1] !== null) {
+                cStart--;
+            }
+            let cEnd = c;
+            while (cEnd < CROSSWORD_GRID[r].length - 1 && CROSSWORD_GRID[r][cEnd + 1] !== null) {
+                cEnd++;
+            }
+            if (cEnd - cStart >= 1) {
+                for (let i = cStart; i <= cEnd; i++) {
+                    hCells.push({ r: r, c: i });
+                }
+            }
+            
+            // Find vertical cells
+            let vCells = [];
+            let rStart = r;
+            while (rStart > 0 && CROSSWORD_GRID[rStart - 1][c] !== null) {
+                rStart--;
+            }
+            let rEnd = r;
+            while (rEnd < CROSSWORD_GRID.length - 1 && CROSSWORD_GRID[rEnd + 1][c] !== null) {
+                rEnd++;
+            }
+            if (rEnd - rStart >= 1) {
+                for (let j = rStart; j <= rEnd; j++) {
+                    vCells.push({ r: j, c: c });
+                }
+            }
+            
+            // Combine and reveal
+            const cellsToReveal = [...hCells, ...vCells];
+            cellsToReveal.forEach(cell => {
+                const input = document.querySelector(`input[data-row="${cell.r}"][data-col="${cell.c}"]`);
+                if (input) {
+                    const cellData = CROSSWORD_GRID[cell.r][cell.c];
+                    input.value = cellData.letter;
+                    input.parentElement.classList.remove('incorrect');
+                    input.parentElement.classList.add('correct');
+                }
+            });
+            
+            checkCrossword(false);
+        }
+
+        function resetCrossword() {
+            AudioSynth.playClick();
+            const inputs = document.querySelectorAll('#crosswordTable input');
+            inputs.forEach(input => {
+                input.value = '';
+                input.parentElement.classList.remove('correct', 'incorrect');
+            });
+            lastFocusedInput = null;
+            document.getElementById('crosswordSuccessMessage').style.display = 'none';
+        }
+
+        function openCrossword() {
+            AudioSynth.playPaperRustle();
+            lastFocusedInput = null;
+            renderCrossword();
+            document.getElementById('crosswordOverlay').classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeCrossword() {
+            AudioSynth.playPaperRustle();
+            lastFocusedInput = null;
+            document.getElementById('crosswordOverlay').classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        // ============================================
         // EVENT LISTENERS
         // ============================================
         elements.modalClose.addEventListener('click', closeModal);
@@ -905,9 +2101,26 @@
             if (e.target === elements.modalOverlay) closeModal();
         });
         document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape') closeModal();
+            if (e.key === 'Escape') {
+                closeModal();
+                closeCrossword();
+            }
         });
-        elements.sortToggle.addEventListener('click', toggleSortOrder);
+        elements.sortToggle.addEventListener('click', () => {
+            AudioSynth.playClick();
+            toggleSortOrder();
+        });
+
+        // Crossword Events
+        document.getElementById('crosswordBtn').addEventListener('click', openCrossword);
+        document.getElementById('crosswordClose').addEventListener('click', closeCrossword);
+        document.getElementById('crosswordOverlay').addEventListener('click', (e) => {
+            if (e.target === document.getElementById('crosswordOverlay')) closeCrossword();
+        });
+        document.getElementById('checkCrosswordBtn').addEventListener('click', () => checkCrossword(true));
+        document.getElementById('hintCrosswordBtn').addEventListener('click', giveCrosswordHint);
+        document.getElementById('revealWordBtn').addEventListener('click', revealFocusedWord);
+        document.getElementById('resetCrosswordBtn').addEventListener('click', resetCrossword);
 
         // ============================================
         // INITIALIZATION
@@ -919,6 +2132,50 @@
 
             // Load news data
             loadNews();
+
+            // Track Mouse for Lantern Vignette
+            document.addEventListener('mousemove', (e) => {
+                document.documentElement.style.setProperty('--mouse-x', `${e.clientX}px`);
+                document.documentElement.style.setProperty('--mouse-y', `${e.clientY}px`);
+            });
+
+            // Night Mode Toggle
+            const lampToggle = document.getElementById('lampToggle');
+            if (localStorage.getItem('night_mode') === 'true') {
+                document.body.classList.add('night-mode');
+                lampToggle.textContent = '🔥';
+            }
+            lampToggle.addEventListener('click', () => {
+                AudioSynth.playClick();
+                const isNight = document.body.classList.toggle('night-mode');
+                localStorage.setItem('night_mode', isNight);
+                lampToggle.textContent = isNight ? '🔥' : '🕯️';
+            });
+
+            // Mute Toggle
+            const muteToggle = document.getElementById('muteToggle');
+            if (localStorage.getItem('mute_sounds') === 'true') {
+                AudioSynth.muted = true;
+                muteToggle.textContent = '🔇';
+            }
+            muteToggle.addEventListener('click', () => {
+                AudioSynth.muted = !AudioSynth.muted;
+                localStorage.setItem('mute_sounds', AudioSynth.muted);
+                muteToggle.textContent = AudioSynth.muted ? '🔇' : '🔊';
+                if (!AudioSynth.muted) {
+                    AudioSynth.playClick();
+                }
+            });
+
+            // Typewriter click sound on UI elements clicks
+            document.addEventListener('click', (e) => {
+                const target = e.target;
+                if (target.classList.contains('category-tab') || target.tagName === 'BUTTON' || target.closest('a')) {
+                    if (target.id !== 'lampToggle' && target.id !== 'muteToggle' && target.id !== 'sortToggle' && !target.closest('.modal-link') && !target.closest('#crosswordContent')) {
+                        AudioSynth.playClick();
+                    }
+                }
+            });
         })();
     </script>
 </body>
