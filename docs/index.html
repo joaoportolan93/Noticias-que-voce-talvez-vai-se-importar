@@ -1065,21 +1065,46 @@
             let articles = [];
 
             if (currentCategory === 'all') {
-                // Show capa articles first, then others
-                articles = [...newsData.capa];
-                for (const [id, data] of Object.entries(newsData.categories)) {
-                    articles.push(...data.articles.filter(a =>
-                        !newsData.capa.find(c => c.id === a.id)
-                    ));
+                // Get all unique articles
+                const seenIds = new Set();
+                const allArticles = [];
+
+                // Add Capa articles
+                for (const article of newsData.capa) {
+                    if (!seenIds.has(article.id)) {
+                        seenIds.add(article.id);
+                        allArticles.push(article);
+                    }
+                }
+
+                // Add category articles
+                for (const category of Object.values(newsData.categories)) {
+                    for (const article of category.articles) {
+                        if (!seenIds.has(article.id)) {
+                            seenIds.add(article.id);
+                            allArticles.push(article);
+                        }
+                    }
+                }
+
+                if (sortAscending) {
+                    // Sort EVERYTHING by date ascending (oldest first)
+                    articles = allArticles.sort((a, b) => new Date(a.date) - new Date(b.date));
+                } else {
+                    // Show Capa first, then others sorted by date descending (newest first)
+                    const capaArticles = newsData.capa;
+                    const capaIds = new Set(capaArticles.map(c => c.id));
+                    const otherArticles = allArticles.filter(a => !capaIds.has(a.id))
+                        .sort((a, b) => new Date(b.date) - new Date(a.date));
+                    articles = [...capaArticles, ...otherArticles];
                 }
             } else {
-                articles = newsData.categories[currentCategory]?.articles || [];
-            }
-
-            // Apply sort order
-            if (sortAscending) {
-                // Reverse the array for oldest first
-                articles = [...articles].reverse();
+                articles = [...(newsData.categories[currentCategory]?.articles || [])];
+                if (sortAscending) {
+                    articles.sort((a, b) => new Date(a.date) - new Date(b.date));
+                } else {
+                    articles.sort((a, b) => new Date(b.date) - new Date(a.date));
+                }
             }
 
             if (articles.length === 0) {

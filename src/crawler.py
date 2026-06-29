@@ -29,7 +29,11 @@ def allowed_gai_family():
 connection.allowed_gai_family = allowed_gai_family
 
 # Gemini API Configuration for search grounding fallback
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyDzuXKvFjIybKRz1TbdeW_pjGMVkxTO_jo")
+# IMPORTANT: Never hardcode API keys! Use environment variables or GitHub Secrets.
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
+if not GEMINI_API_KEY:
+    print("⚠️  WARNING: GEMINI_API_KEY not set. Gemini features (search fallback, crossword) will be disabled.")
+    print("   Set it via: export GEMINI_API_KEY=your_key  (or add to .env file)")
 GEMINI_API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GEMINI_API_KEY}"
 MAX_GEMINI_CALLS_PER_RUN = 4
 gemini_calls_made = 0
@@ -46,6 +50,7 @@ logger = logging.getLogger(__name__)
 REQUEST_TIMEOUT = 15
 MAX_ARTICLES_PER_FEED = 5
 MAX_ARTICLES_PER_CATEGORY = 10
+MAX_ARTICLE_AGE_DAYS = 30
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 HEADERS = {
     "User-Agent": USER_AGENT,
@@ -151,12 +156,29 @@ def fetch_feed(feed_url: str) -> list:
         for entry in feed.entries[:MAX_ARTICLES_PER_FEED]:
             # Parse publication date
             pub_date = None
+            pub_datetime = None
             if hasattr(entry, 'published_parsed') and entry.published_parsed:
-                pub_date = datetime(*entry.published_parsed[:6]).isoformat()
+                try:
+                    pub_datetime = datetime(*entry.published_parsed[:6])
+                    pub_date = pub_datetime.isoformat()
+                except Exception:
+                    pass
             elif hasattr(entry, 'updated_parsed') and entry.updated_parsed:
-                pub_date = datetime(*entry.updated_parsed[:6]).isoformat()
-            else:
-                pub_date = datetime.now().isoformat()
+                try:
+                    pub_datetime = datetime(*entry.updated_parsed[:6])
+                    pub_date = pub_datetime.isoformat()
+                except Exception:
+                    pass
+            
+            if not pub_date:
+                pub_datetime = datetime.now()
+                pub_date = pub_datetime.isoformat()
+            
+            # Filter out articles older than MAX_ARTICLE_AGE_DAYS days
+            age_days = (datetime.now() - pub_datetime).days
+            if age_days > MAX_ARTICLE_AGE_DAYS:
+                logger.info(f"  ⚠ Skipped old article ({age_days} days old): '{entry.get('title', '')[:50]}...'")
+                continue
             
             title = entry.get("title", "Sem título")
             summary = clean_html(entry.get("summary", ""))
@@ -304,6 +326,10 @@ def sort_articles_by_date(articles: list, descending: bool = True) -> list:
 
 
 def fetch_news_via_gemini(category_id: str, category_name: str, keywords: str) -> list:
+    if not GEMINI_API_KEY:
+        logger.warning("GEMINI_API_KEY environment variable is not set. Skipping Gemini Search Grounding.")
+        return []
+        
     global gemini_calls_made
     if gemini_calls_made >= MAX_GEMINI_CALLS_PER_RUN:
         logger.warning("Gemini API call limit reached for this run. Skipping search.")
@@ -364,6 +390,23 @@ def fetch_news_via_gemini(category_id: str, category_name: str, keywords: str) -
             
             # Apply blacklist filter
             if contains_blacklisted_content(title, entry.get("content", "")):
+                continue
+                
+            # Filter out articles older than MAX_ARTICLE_AGE_DAYS days
+            date_str = entry.get("date", "")
+            is_old = False
+            age_days = 0
+            try:
+                # Attempt to parse YYYY-MM-DD
+                entry_date = datetime.strptime(date_str[:10], "%Y-%m-%d")
+                age_days = (datetime.now() - entry_date).days
+                if age_days > MAX_ARTICLE_AGE_DAYS:
+                    is_old = True
+            except Exception:
+                pass
+                
+            if is_old:
+                logger.info(f"  ⚠ Skipped old Gemini article ({age_days} days old): '{title[:50]}...'")
                 continue
                 
             article = {
@@ -584,6 +627,10 @@ def generate_crossword_with_gemini(all_articles: list) -> dict:
         }
     }
     
+    if not GEMINI_API_KEY:
+        logger.info("GEMINI_API_KEY environment variable is not set. Using fallback crossword.")
+        return fallback_crossword
+
     if not all_articles:
         logger.info("No articles available to generate crossword. Using fallback.")
         return fallback_crossword
